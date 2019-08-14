@@ -1,4 +1,4 @@
-baseURL = "http://biotop.co/biotop-new"
+baseURL = "http://biotop.co/"
 languageCode = "en-us"
 theme = "bulma-base"
 publishDir = "docs"
@@ -10,6 +10,8 @@ DefaultContentLanguage = "en"
     title = "Biotop Science Collective"
     description = "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
     weight = 1
+    [language.en.newsletter]
+      title = "Subscribe"
 
 
     [[languages.en.menu.main]]

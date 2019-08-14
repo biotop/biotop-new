@@ -3,6 +3,8 @@ title: "Home"
 subtitle: "Subtitle"
 date: 2019-08-10T17:07:36+02:00
 draft: false
+timeline: "landingpage"
+
 ---
 
 ### Science? - Not my cup of tea!

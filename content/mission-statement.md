@@ -7,6 +7,7 @@ description: "Our manifesto"
 references: "about"
 weight: 2
 type: "index"
+
 ---
 
 ## What?

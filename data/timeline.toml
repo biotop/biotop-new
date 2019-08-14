@@ -1,58 +1,59 @@
-[2017]
-  name = "2017"
-  [[2017.events]]
-    month = "July"
-    location = "Villach"
-    title = "Biotop Kickoff Meeting"
-    type = "Meeting"
-  [[2017.events]]
-    month = "November"
-    location = "Vienna"
-    title = "Second Biotop Meeting"
-    type = "Meeting"
-  [[2017.events]]
-    month = "December"
-    location = "Villach"
-    title = "See the Invisible"
-    type = "Exhibition"
+[landingpage]
+  [landingpage.2017]
+    name = "2017"
+    [[landingpage.2017.events]]
+      month = "July"
+      location = "Villach"
+      title = "Biotop Kickoff Meeting"
+      type = "Meeting"
+    [[landingpage.2017.events]]
+      month = "November"
+      location = "Vienna"
+      title = "Second Biotop Meeting"
+      type = "Meeting"
+    [[landingpage.2017.events]]
+      month = "December"
+      location = "Villach"
+      title = "See the Invisible"
+      type = "Exhibition"
 
-[2018]
-  name = "2018"
-  [[2018.events]]
-    month = "May"
-    location = "London"
-    title = "Biotop x OpenCell"
-    type = "Collaboration"
-  [[2018.events]]
-    month = "September"
-    location = "London"
-    title = "Biotop @ London Design Festival"
-    type = "Exhibition"
-  [[2018.events]]
-    month = "October"
-    location = "Villach"
-    title = "EFRE/KWF Funding: Containerlab"
-    type = "Project"
-  [[2018.events]]
-    month = "December"
-    location = "Villach"
-    title = "Biotop Christmascalendar"
-    type = "Exhibition"
+  [landingpage.2018]
+    name = "2018"
+    [[landingpage.2018.events]]
+      month = "May"
+      location = "London"
+      title = "Biotop x OpenCell"
+      type = "Collaboration"
+    [[landingpage.2018.events]]
+      month = "September"
+      location = "London"
+      title = "Biotop @ London Design Festival"
+      type = "Exhibition"
+    [[landingpage.2018.events]]
+      month = "October"
+      location = "Villach"
+      title = "EFRE/KWF Funding: Containerlab"
+      type = "Project"
+    [[landingpage.2018.events]]
+      month = "December"
+      location = "Villach"
+      title = "Biotop Christmascalendar"
+      type = "Exhibition"
 
-[2019]
-  name = "2019"
-  [[2019.events]]
-    month = "February"
-    location = "Marseille"
-    title = "Biotop x YesWeCamp"
-    type = "Collaboration"
-  [[2019.events]]
-    month = "March"
-    location = "Vienna"
-    title = "Science Comic"
-    type = "Project"
-  [[2019.events]]
-    month = "June"
-    location = "Villach"
-    title = "DNA Barcoding Project w/ BOKU"
-    type = "Project"
+  [landingpage.2019]
+    name = "2019"
+    [[landingpage.2019.events]]
+      month = "February"
+      location = "Marseille"
+      title = "Biotop x YesWeCamp"
+      type = "Collaboration"
+    [[landingpage.2019.events]]
+      month = "March"
+      location = "Vienna"
+      title = "Science Comic"
+      type = "Project"
+    [[landingpage.2019.events]]
+      month = "June"
+      location = "Villach"
+      title = "DNA Barcoding Project w/ BOKU"
+      type = "Project"

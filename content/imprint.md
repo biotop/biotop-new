@@ -5,7 +5,7 @@ date: 2019-08-13T09:17:28+02:00
 draft: false
 description: "Who is responsible for the content on this website?"
 weight: 5
-type: "index"
+type: "footer"
 ---
 <center>
 
