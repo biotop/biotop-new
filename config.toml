@@ -1,6 +1,7 @@
 baseURL = "http://biotop.co/"
 languageCode = "en-us"
 theme = "bulma-base"
+publishDir = "docs"
 
 DefaultContentLanguage = "en"
 [languages]

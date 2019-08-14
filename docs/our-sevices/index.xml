@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Sevices on Biotop Science Collective</title>
+    <link>http://biotop.co/our-sevices/</link>
+    <description>Recent content in Our Sevices on Biotop Science Collective</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Aug 2019 09:24:34 +0200</lastBuildDate>
+    
+	<atom:link href="http://biotop.co/our-sevices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
