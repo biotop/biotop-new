@@ -1,0 +1,3 @@
+[submodule "bulma/base"]
+	path = bulma/base
+	url = https://github.com/el-uhu/bulma-base.git

@@ -1,0 +1,70 @@
+baseURL = "http://biotop.co/"
+languageCode = "en-us"
+theme = "bulma-base"
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Biotop Science Collective"
+    description = "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
+    weight = 1
+
+
+    [[languages.en.menu.main]]
+    name = "Projects"
+    pre = "fa fa-flask"
+    url = "projects/"
+    weight = 3
+
+    [[languages.en.menu.main]]
+    name = "Events"
+    pre = "fa fa-calendar-alt"
+    url = "events/"
+    weight = 4
+
+    [[languages.en.menu.main]]
+    name = "Blog"
+    pre = "far fa-newspaper"
+    url = "blog/"
+    weight = 5
+
+
+  [languages.de]
+    languageName = "Deutsch"
+    title = "Biotop Wissenschaftskollektiv"
+    description = "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
+    weight = 2
+
+
+    [[languages.de.menu.main]]
+    name = "Projekte"
+    pre = "fa fa-flask"
+    url = "projects/"
+    weight = 3
+
+    [[languages.de.menu.main]]
+    name = "Veranstaltungen"
+    pre = "fa fa-calendar-alt"
+    url = "events/"
+    weight = 4
+
+    [[languages.de.menu.main]]
+    name = "Blog"
+    pre = "far fa-newspaper"
+    url = "blog/"
+    weight = 5
+
+
+[params.logo]
+    mobile = "/img/biotoptext.svg"
+    standard  = "/img/biotoptext.svg"
+    notext = "/img/logo.svg"
+
+[[params.asideix]]
+    title = "Mission Statement"
+    headericon= "fa fa-rocket has-text-primary"
+
+[[params.asideix]]
+    title = "Mission Statement"
+    headericon= "fa fa-rocket has-text-primary"

@@ -1,0 +1,22 @@
++++
+bio = "Wolfgang Schütz ist seit seinem Bachelorstudium in Mediendesign an der FH Salzburg Illustrator und Spieleentwickler und leidenschaftlich interessiert an Geschichte, Psychologie, Gesellschaft, Kultur, Astronomie, Dinosauriern und fiktionalen Medien."
+date = "2016-06-01T11:00:02+01:00"
+featured = "wolfi-schuetz.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Wolfgang Schütz"
+position = "Graphikdesigner"
+role = "cofounder(m)"
+title = "Wolfgang Schütz"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
