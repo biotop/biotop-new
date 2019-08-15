@@ -1,2 +1,0 @@
-var calendars=bulmaCalendar.attach('[type="date"]');for(var i=0;i<calendars.length;i++){calendars[i].on('select',date=>{console.log(date);});}
-var element=document.querySelector('#my-element');if(element){element.bulmaCalendar.on('select',function(datepicker){console.log(datepicker.data.value());});}
