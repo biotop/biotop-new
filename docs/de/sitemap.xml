@@ -18,70 +18,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/blog/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/categories/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/categories/biotop/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/categories/biotop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/categories/biotop/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/biotop-new/de/blog/meeting-october-2018/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -187,22 +123,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/projects/</loc>
-    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/projects/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/biotop-new/de/blog/meeting-november-2017/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -233,27 +153,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/lukas-hutter/</loc>
-    <lastmod>2017-05-31T20:38:16+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/</loc>
-    <lastmod>2017-05-31T20:38:16+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/biotop-new/de/projects/science-comic/color-quest/</loc>
     <lastmod>2017-02-23T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -265,356 +164,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/projects/science-comic/color-quest/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/sebastian-vasquezlopez/</loc>
-    <lastmod>2016-06-01T11:00:15+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/sebastian-vasquezlopez/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/sebastian-vasquezlopez/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/alexander-erlich/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/alexander-erlich/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/alexander-erlich/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/anna-resch/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/anna-resch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/anna-resch/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/anna-waechter/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/anna-waechter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/anna-waechter/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/christine-marizzi/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/christine-marizzi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/christine-marizzi/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/danai-dimitropoulou/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/danai-dimitropoulou/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/danai-dimitropoulou/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/herwig-scherabon/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/herwig-scherabon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/herwig-scherabon/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/jacob-almagro-garcia/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/jacob-almagro-garcia/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/jacob-almagro-garcia/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/martin-fera/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/martin-fera/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/martin-fera/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/martin-schnabl/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/martin-schnabl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/martin-schnabl/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/michael-tatschl/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/michael-tatschl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/michael-tatschl/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/ursula-smole/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/ursula-smole/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/ursula-smole/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/wolfi-schuetz/</loc>
-    <lastmod>2016-06-01T11:00:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/wolfi-schuetz/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/wolfi-schuetz/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/ha-thi-hoang/</loc>
-    <lastmod>2016-06-01T10:59:31+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/ha-thi-hoang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/ha-thi-hoang/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/georg-fattinger/</loc>
-    <lastmod>2016-06-01T10:59:11+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/georg-fattinger/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/georg-fattinger/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/ylli-qerkini/</loc>
-    <lastmod>2016-06-01T10:59:01+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/ylli-qerkini/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/ylli-qerkini/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/korab-qerkini/</loc>
-    <lastmod>2016-06-01T10:58:53+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/korab-qerkini/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/korab-qerkini/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/josef-ehgarter/</loc>
-    <lastmod>2016-06-01T10:58:42+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/josef-ehgarter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/josef-ehgarter/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/mariangela-panniello/</loc>
-    <lastmod>2016-06-01T10:58:42+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/mariangela-panniello/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/mariangela-panniello/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/roberto-maffulli/</loc>
-    <lastmod>2016-06-01T10:58:42+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/roberto-maffulli/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/roberto-maffulli/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/acme/</loc>
-    <lastmod>2016-05-31T20:38:16+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/acme/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/acme/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/ralf-bliem/</loc>
-    <lastmod>2015-06-01T11:00:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/niko-popitsch/</loc>
-    <lastmod>2015-05-03T09:35:42+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/niko-popitsch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/niko-popitsch/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/peoples/kilian-rieder/</loc>
-    <lastmod>2015-04-01T10:59:31+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/peoples/kilian-rieder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/peoples/kilian-rieder/"
                 />
   </url>
   
@@ -675,17 +224,82 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/people/</loc>
+    <loc>http://biotop.co/biotop-new/de/categories/biotop/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://biotop.co/biotop-new/people/"
+                href="http://biotop.co/biotop-new/categories/biotop/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/"
+                href="http://biotop.co/biotop-new/de/categories/biotop/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/blog/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/categories/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/projects/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/projects/"
                 />
   </url>
   
@@ -701,6 +315,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/people/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/"
                 />
   </url>
   

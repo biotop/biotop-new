@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Timeline</title>
-      <link>http://biotop.co/biotop-new/timeline/</link>
-      <pubDate>Tue, 13 Aug 2019 09:17:28 +0200</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/timeline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mission Statement</title>
       <link>http://biotop.co/biotop-new/mission-statement/</link>
       <pubDate>Tue, 13 Aug 2019 09:17:28 +0200</pubDate>
@@ -31,23 +22,13 @@ Why? Science and research are endeavours that should be abound with idealism and
     </item>
     
     <item>
-      <title>Participate</title>
-      <link>http://biotop.co/biotop-new/participate/</link>
-      <pubDate>Tue, 13 Aug 2019 09:17:28 +0200</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/participate/</guid>
-      <description>How can I participate? Locally Regular Programme Stay informed about our regular programme encompassing talks, evening events and meet-and-greets, by visiting the events section of our site.
-Workshops Never before has it been easier to playfully engage in research. At the same time, science is primarily a process, most accessible if one engages in the scientific method. Bringing the two together, we plan to offer workshops addressed at a variety of focus groups, such as school kids and interested members of the public, on a regular basis that provide a barrier-free and playful approach to complex and relevant scientific problems.</description>
-    </item>
-    
-    <item>
-      <title>Support Us</title>
+      <title>Participate &amp; Support</title>
       <link>http://biotop.co/biotop-new/support/</link>
       <pubDate>Tue, 13 Aug 2019 09:17:28 +0200</pubDate>
       
       <guid>http://biotop.co/biotop-new/support/</guid>
-      <description>Micropayments We want to keep our website ad-free, yet we believe that you should be able as user of this website to support creators of content directly. Therefore, we support the micropayment system flattr which allows you to send little donations directly to the content-creators. To do so, click on the little icon at the bottom of posts.
-Private Sponsors We&amp;rsquo;re currently looking for sponsors and sources of funding to fund research projects and setup a space in Villach/Austria.</description>
+      <description>How can I participate? Locally Regular Programme Stay informed about our regular programme encompassing talks, evening events and meet-and-greets, by visiting the events section of our site.
+Workshops Never before has it been easier to playfully engage in research. At the same time, science is primarily a process, most accessible if one engages in the scientific method. Bringing the two together, we plan to offer workshops addressed at a variety of focus groups, such as school kids and interested members of the public, on a regular basis that provide a barrier-free and playful approach to complex and relevant scientific problems.</description>
     </item>
     
     <item>
@@ -58,6 +39,45 @@ Private Sponsors We&amp;rsquo;re currently looking for sponsors and sources of f
       <guid>http://biotop.co/biotop-new/imprint/</guid>
       <description>Biotop Wissenschaftskollektiv  ZVR: 1849241330 Eisenhammer Weg 2 / 58  A-9500 Villach  AUSTRIA
  +43 664 455 60 76  info@biotop.co</description>
+    </item>
+    
+    <item>
+      <title>Testevent</title>
+      <link>http://biotop.co/biotop-new/blog/testevent/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/blog/testevent/</guid>
+      <description>We recently had the chance to be a part of the London Design Festival, by contributing to the &amp;ldquo;Biodesign Here Now&amp;rdquo; exhibition at the OpenCell campus in Shepherd&amp;rsquo;s Bush. We installed our exhibition &amp;ldquo;See the invisible&amp;rdquo;, which we already had on display in Villach last Christmas.
+  In addition, we conducted workshops in the Open Cell container lab that we designed the interior layout for and helped build back in May.</description>
+    </item>
+    
+    <item>
+      <title>Our Services</title>
+      <link>http://biotop.co/biotop-new/projects/our-services/</link>
+      <pubDate>Tue, 13 Aug 2019 09:22:55 +0200</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/projects/our-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testevent2</title>
+      <link>http://biotop.co/biotop-new/blog/testevent2/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/blog/testevent2/</guid>
+      <description>We recently had the chance to be a part of the London Design Festival, by contributing to the &amp;ldquo;Biodesign Here Now&amp;rdquo; exhibition at the OpenCell campus in Shepherd&amp;rsquo;s Bush. We installed our exhibition &amp;ldquo;See the invisible&amp;rdquo;, which we already had on display in Villach last Christmas.
+  In addition, we conducted workshops in the Open Cell container lab that we designed the interior layout for and helped build back in May.</description>
+    </item>
+    
+    <item>
+      <title>Testevent3</title>
+      <link>http://biotop.co/biotop-new/blog/testevent3/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/blog/testevent3/</guid>
+      <description>We recently had the chance to be a part of the London Design Festival, by contributing to the &amp;ldquo;Biodesign Here Now&amp;rdquo; exhibition at the OpenCell campus in Shepherd&amp;rsquo;s Bush. We installed our exhibition &amp;ldquo;See the invisible&amp;rdquo;, which we already had on display in Villach last Christmas.
+  In addition, we conducted workshops in the Open Cell container lab that we designed the interior layout for and helped build back in May.</description>
     </item>
     
     <item>
@@ -120,7 +140,7 @@ Given that we all live in separate places, we had to find a good way of orangisi
       <description>We are in the process of putting together a catalogue for our exhibition &amp;ldquo;See the invisible&amp;rdquo;, which was on display in Villach from 22/12/2017 until 3/2/2018.
 Watch this space.
 Meanwhile, here are some pictures of the exhibits:
-                  Photos: Andreas Körner &amp;amp; Anna Köferle</description>
+                   Photos: Andreas Körner &amp;amp; Anna Köferle</description>
     </item>
     
     <item>
@@ -166,213 +186,6 @@ Meanwhile, here are some pictures of the exhibits:
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://biotop.co/biotop-new/projects/science-comic/color-quest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sebastian Vasquez-Lopez</title>
-      <link>http://biotop.co/biotop-new/peoples/sebastian-vasquezlopez/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:15 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/sebastian-vasquezlopez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexander Erlich</title>
-      <link>http://biotop.co/biotop-new/peoples/alexander-erlich/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/alexander-erlich/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anna Resch</title>
-      <link>http://biotop.co/biotop-new/peoples/anna-resch/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/anna-resch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anna Wächter-Mittersteiner</title>
-      <link>http://biotop.co/biotop-new/peoples/anna-waechter/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/anna-waechter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Christine Marizzi</title>
-      <link>http://biotop.co/biotop-new/peoples/christine-marizzi/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/christine-marizzi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Danai Dimitropoulou</title>
-      <link>http://biotop.co/biotop-new/peoples/danai-dimitropoulou/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/danai-dimitropoulou/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Herwig Scherabon</title>
-      <link>http://biotop.co/biotop-new/peoples/herwig-scherabon/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/herwig-scherabon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jacob Almagro-Garcia</title>
-      <link>http://biotop.co/biotop-new/peoples/jacob-almagro-garcia/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/jacob-almagro-garcia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Martin Fera</title>
-      <link>http://biotop.co/biotop-new/peoples/martin-fera/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/martin-fera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Martin Schnabl</title>
-      <link>http://biotop.co/biotop-new/peoples/martin-schnabl/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/martin-schnabl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Michael Tatschl</title>
-      <link>http://biotop.co/biotop-new/peoples/michael-tatschl/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/michael-tatschl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ursula Smole</title>
-      <link>http://biotop.co/biotop-new/peoples/ursula-smole/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/ursula-smole/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wolfgang Schütz</title>
-      <link>http://biotop.co/biotop-new/peoples/wolfi-schuetz/</link>
-      <pubDate>Wed, 01 Jun 2016 11:00:02 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/wolfi-schuetz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ha Thi Hoang</title>
-      <link>http://biotop.co/biotop-new/peoples/ha-thi-hoang/</link>
-      <pubDate>Wed, 01 Jun 2016 10:59:31 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/ha-thi-hoang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Georg Fattinger</title>
-      <link>http://biotop.co/biotop-new/peoples/georg-fattinger/</link>
-      <pubDate>Wed, 01 Jun 2016 10:59:11 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/georg-fattinger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ylli Qerkini</title>
-      <link>http://biotop.co/biotop-new/peoples/ylli-qerkini/</link>
-      <pubDate>Wed, 01 Jun 2016 10:59:01 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/ylli-qerkini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Korab Qerkini</title>
-      <link>http://biotop.co/biotop-new/peoples/korab-qerkini/</link>
-      <pubDate>Wed, 01 Jun 2016 10:58:53 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/korab-qerkini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Josef Ehgarter</title>
-      <link>http://biotop.co/biotop-new/peoples/josef-ehgarter/</link>
-      <pubDate>Wed, 01 Jun 2016 10:58:42 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/josef-ehgarter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mariangela Panniello</title>
-      <link>http://biotop.co/biotop-new/peoples/mariangela-panniello/</link>
-      <pubDate>Wed, 01 Jun 2016 10:58:42 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/mariangela-panniello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roberto Maffulli</title>
-      <link>http://biotop.co/biotop-new/peoples/roberto-maffulli/</link>
-      <pubDate>Wed, 01 Jun 2016 10:58:42 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/roberto-maffulli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>a.c.m.e,- (aek:mi)</title>
-      <link>http://biotop.co/biotop-new/peoples/acme/</link>
-      <pubDate>Tue, 31 May 2016 20:38:16 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/acme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Niko Popitsch</title>
-      <link>http://biotop.co/biotop-new/peoples/niko-popitsch/</link>
-      <pubDate>Sun, 03 May 2015 09:35:42 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/niko-popitsch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kilian Rieder</title>
-      <link>http://biotop.co/biotop-new/peoples/kilian-rieder/</link>
-      <pubDate>Wed, 01 Apr 2015 10:59:31 +0100</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/peoples/kilian-rieder/</guid>
       <description></description>
     </item>
     
