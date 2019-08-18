@@ -6,16 +6,22 @@
       location = "Villach"
       title = "Biotop Kickoff Meeting"
       type = "Meeting"
+      link = "/blog/meeting-july-2017/"
+      featured = "/img/blog/meeting-july-2017/group.jpg"
     [[landingpage.2017.events]]
       month = "November"
       location = "Vienna"
       title = "Second Biotop Meeting"
       type = "Meeting"
+      link = ""
+      featured = ""
     [[landingpage.2017.events]]
       month = "December"
       location = "Villach"
       title = "See the Invisible"
       type = "Exhibition"
+      link = ""
+      featured = ""
 
   [landingpage.2018]
     name = "2018"
@@ -24,11 +30,15 @@
       location = "London"
       title = "Biotop x OpenCell"
       type = "Collaboration"
+      link = ""
+      featured = ""
     [[landingpage.2018.events]]
       month = "September"
       location = "London"
       title = "Biotop @ London Design Festival"
       type = "Exhibition"
+      link = ""
+      featured = ""
     [[landingpage.2018.events]]
       month = "October"
       location = "Villach"
@@ -39,6 +49,8 @@
       location = "Villach"
       title = "Biotop Christmascalendar"
       type = "Exhibition"
+      link = ""
+      featured = ""
 
   [landingpage.2019]
     name = "2019"
@@ -47,13 +59,19 @@
       location = "Marseille"
       title = "Biotop x YesWeCamp"
       type = "Collaboration"
+      link = ""
+      featured = ""
     [[landingpage.2019.events]]
       month = "March"
       location = "Vienna"
       title = "Science Comic"
       type = "Project"
+      link = ""
+      featured = ""
     [[landingpage.2019.events]]
       month = "June"
       location = "Villach"
       title = "DNA Barcoding Project w/ BOKU"
       type = "Project"
+      link = ""
+      featured = ""
