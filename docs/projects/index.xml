@@ -20,32 +20,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Container lab</title>
-      <link>http://biotop.co/biotop-new/projects/containerlab/container-lab/</link>
-      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/projects/containerlab/container-lab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DNA barcoding</title>
-      <link>http://biotop.co/biotop-new/projects/barcoding/dna-barcoding/</link>
-      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/projects/barcoding/dna-barcoding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dummy</title>
-      <link>http://biotop.co/biotop-new/projects/science-comic/color-quest/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/projects/science-comic/color-quest/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

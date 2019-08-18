@@ -18,6 +18,66 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/de/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/categories/biotop/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/categories/biotop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/categories/biotop/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/blog/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/categories/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/categories/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/de/blog/meeting-october-2018/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -123,6 +183,21 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/de/projects/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/projects/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/de/blog/meeting-november-2017/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -224,103 +299,7 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/categories/biotop/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/categories/biotop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/categories/biotop/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/blog/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/categories/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/projects/</loc>
-    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/projects/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/tags/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/biotop-new/de/people/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -330,6 +309,20 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/people/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/"
                 />
   </url>
   

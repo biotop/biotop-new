@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barcoding on Biotop Science Collective</title>
+    <link>http://biotop.co/biotop-new/projects/barcoding/</link>
+    <description>Recent content in Barcoding on Biotop Science Collective</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Aug 2019 09:23:16 +0200</lastBuildDate>
+    
+	<atom:link href="http://biotop.co/biotop-new/projects/barcoding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNA barcoding</title>
+      <link>http://biotop.co/biotop-new/projects/barcoding/dna-barcoding/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/projects/barcoding/dna-barcoding/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
