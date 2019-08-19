@@ -17,14 +17,14 @@ Watch this space.
 
 Meanwhile, here are some pictures of the exhibits:
 
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/2-infostand.jpg">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/3-brain.jpg">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/4-listen.jpg">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/6-fluids3.png">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/7-garden.jpg">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/8-display.png">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/9-biophile.jpg">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/11-coloso2.jpg">}}
-{{< figure src="/img/blog/see-the-invisible-catalogue-post/12-crowd.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/2-infostand.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/3-brain.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/4-listen.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/6-fluids3.png">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/7-garden.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/8-display.png">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/9-biophile.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/11-coloso2.jpg">}}
+{{< rel-figure src="/img/blog/see-the-invisible-catalogue-post/12-crowd.jpg">}}
 
 Photos: Andreas Körner & Anna Köferle

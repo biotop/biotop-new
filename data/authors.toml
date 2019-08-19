@@ -107,3 +107,92 @@
   slideshare = ""
   xing = ""
   linkedin = ""
+
+  [ martin-fera ]
+    name = "Martin Fera"
+    featured = "/img/person/martin-fera.jpg"
+    [martin-fera.trained]
+      en = "Archaeologist"
+      de = "Archäologe"
+    [martin-fera.role]
+      en = "Co-founder"
+      de = "Mitgründer"
+    [ martin-fera.bio]
+      en= "Martin studied Prehistoric and Historic Archaeology at the University of Vienna. He went into additional specialisation in Remote Sensing for Past Landscapes at the University of Ljubljana, utilising aerial and satellite imagery and laserscans. In his doctoral studies at the Initiative College for Archaeological Prospection in Vienna he investigates settlement structures and dynamics in the first Millenium BC in Estern Austria, applying spatial analysis in a geographic information system. At the LMU Munich he was engaged as a deputy field director at the archaeological project on Sai Island in Sudan, applying cutting edge technology for excavating, documenting and analysing a pharaonic town and cemetery within its landscape in Nubia. His involvement in many international research projects in Austria, Italy, Croatia, Norway, Germany etc. and the interdisiplinary nature of archaeological research fire his interest for new methods, technologies and developments in other disciplines."
+      de="Martin studierte prähistorische und historische Archäologie an der Universität Wien, und spezialisierte sich an der Universität Ljubljana auf die Untersuchung vergangener Landschaften mittels Luft- und Satellitenbildern und Laserscans. Im Rahmen seiner Doktorarbeit am Initiative College for Archaeological Prospection in Wien untersucht er die Struktur un Dynamik ostösterreichischer Siedlungen aus dem ersten Jahrtausend v.Chr. mittels räumlicher Analyse und Geoinformationssystemen. An der LMU in München arbeitete er als stellvertretender Felddirektor eines archäologischen Projekts auf der Insel Sai im Sudan. Im Rahmen dieses Projektes setzte er modernste Technologie für Aurgabungen, Dokumentation und Datenanalyse ein, um eine pharaonische Siedlung mit Friedhof in der Landschaft in Nubien zu untersuchen. Sein Mitwirken an vielen internationalen Forschunsprojekten in Österreich, Italien, Kroatien, Norwegen, Deutschland etc. und der interdisziplinäre Charakter archäologischer Forschung befeuern sein Interesse für neue Methoden, Technologien und Entwicklung in anderen Wissenschaftsdiziplinen."
+    website = "https://univie.academia.edu/MartinFera"
+    email = ""
+    github = ""
+    twitter = ""
+    facebook = ""
+    instagram =""
+    slideshare = ""
+    xing = ""
+    linkedin = ""
+
+
+[mariangela-panniello]
+  name = "Mariangela Panniello"
+  featured = "/img/person/mariangela.jpg"
+  [mariangela-panniello.trained]
+    en = "Neuroscientist"
+    de = "Neurowissenschaftlerin"
+  [mariangela-panniello.role]
+    en = "Co-founder"
+    de = "Mitgründerin"
+  [mariangela-panniello.bio]
+    en = "Mariangela studied Neuroscience in Pisa (Italy) before moving to Oxford for her PhD. She’s currently working as a postdoctoral researcher, studying learning and memory in the cerebral cortex, the evolutionary most recent area of the mammalian brain. She’s in love with the cortex because its networks of cells are what ultimately makes us humans, and because much about it is still mysterious. She’s interested in telling everyone how cool the brain is, in finding out new ways to make scientists from different disciplines work together, and in making science more approachable and fascinating for the general public."
+    de = "Mariangela studierte Neurowissenschaften in Pisa (Italien), bevor sie für ihr Doktorat nach Oxford zog. Derzeit arbeitet sie als Post-Doc in Oxford und untersucht das Erinnerungsvermögen und Lernen in der Großhirnrinde, dem evolutionär gesehen jüngsten Teil des Säugetiergehirns. Sie liebt ihre Arbeit, weil die Netwerke von Nervenzellen in der Großhirnrinde letztlich das sind was uns zu Menschen macht, und viele Aspekte davon derzeit noch im Dunklen liegen. Mariangela liebt es ihre Begeisterung für das Gehirn weiterzugeben, neue Wege zu finden wie WissenschafterInnen aus verschiedenen Disziplinen miteinander arbeiten können, und Wissenschaft für eine breitere Öffentlichkeit zugänglich und faszinierend zu machen."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ wolfi-schuetz ]
+  name = "Wolfgang Schütz"
+  featured = "/img/person/wolfi-schuetz.jpg"
+  [wolfi-schuetz.trained]
+    en = "Graphic Designer"
+    de = "Graphiker"
+  [wolfi-schuetz.role]
+    en = "Co-founder"
+    de = "Mitgründer"
+  [ wolfi-schuetz.bio]
+    en= "Wolfgang Schütz studied media design at the University of Applied Science in Salzburg. He is an illustrator and game developer, and has a passion for history, psychology, society, culture, astronomy, dinosaurs, and fictional media."
+    de="Wolfgang Schütz ist seit seinem Bachelorstudium in Mediendesign an der FH Salzburg Illustrator und Spieleentwickler und leidenschaftlich interessiert an Geschichte, Psychologie, Gesellschaft, Kultur, Astronomie, Dinosauriern und fiktionalen Medien."
+  website = "https://stulowitz.at"
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ roberto-maffulli ]
+  name = "Roberto Maffulli"
+  featured = "/img/person/roberto.jpg"
+  [roberto-maffulli.trained]
+    en = "Mechanical Engineer"
+    de = "Maschinenbau Ingenieur"
+  [roberto-maffulli.role]
+    en = "Co-founder"
+    de = "Mitgründer"
+  [ roberto-maffulli.bio]
+    en= "Roberto studied as a mechanical engineer in Florence where he fell in love with fluid dynamics. While there, he worked on vertical axis wind turbines and aeroacoustics of airplane engines. During his DPhil at Oxford University he studied the coupling between aerodynamics and heat transfer in the hottest components of gas turbines using numerical modelling. He has worked at von Karman Institute for Fluid Dynamics on machine learning tools for automated optimization systems and is now a post-doctoral researcher at Oxford University working on multi-scale modelling of unsteady conjugate heat transfer. His research interests include: optimization algorithms, machine learning, computational modeling of turbomachinery flows, conjugate heat transfer."
+    de="Roberto studierte Maschinenbau in Florenz und verliebte sich dort in die Strömungslehre. Während seiner Zeit in Florenz arbeitete er an der Entwicklung vertikalachsiger Windturbinen und befasste sich mit der Akustik von Flugzeugturbinen, bevor er sich für multidisziplinäre Optimierungssysteme zu interessieren begann. Als er als Doktorand an die University of Oxford wechselte setzte er sich mittels computergestützter Methoden mit der Wechselwirkung von Aerodynamik und Wärmetransfer in Hochdruckturbinen auseinander. Derzeit ist er als Forschungsingenieur am von-Karman Institut für Strömungslehre tätig und forscht an Optimierungssystemen für das Design von Flugzeugturbinen. Robertos Forschungsinteressen umfassen: Optimierungsalgorithmen, Machine Learning, sowie das Modellieren von Wechselwirkungen zwischen Wärmetransfer und Strömungen in Turbomaschinen."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""

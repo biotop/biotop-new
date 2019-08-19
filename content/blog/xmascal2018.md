@@ -1,7 +1,7 @@
 +++
 authors = ["anna-koeferle", "anna-ritscher"]
 categories = ["biotop*"]
-date = "2018-12-01"
+date = "2018-11-30"
 description = "A scientific christmas calendar"
 featured = "/img/blog/xmascal/Logo_xmas.jpg"
 linktitle = ""

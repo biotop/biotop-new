@@ -1,11 +1,10 @@
 +++
+title = "Biodesign Here Now"
 authors = ["anna-koeferle"]
-categories = ["biotop*"]
 date = "2018-10-06"
 description = "Biotop am London Design Festival 2018"
 featured = "/img/blog/biodesign_here_now/2_biodesign_garden.png"
 linktitle = ""
-title = "Biodesign Here Now"
 type = "blog"
 tags = ["exhibition", "london"]
 
@@ -13,16 +12,16 @@ tags = ["exhibition", "london"]
 
 Im Rahmen der ["Biodesign Here Now"](https://www.londondesignfestival.com/event/biodesign-here-now) Ausstellung am [OpenCell] (http://opencell.webflow.io/) Campus konnten wir am [London Design Festival 2018](https://www.londondesignfestival.com/) teilnehmen. Wir stellten unsere Ausstellung ["See the invisible"](http://biotop.co/en/blog/invisible-catalogue/) zur Schau.
 
-{{< figure src="/img/blog/biodesign_here_now/1_biodesign_container.png">}}
+{{< rel-figure src="/img/blog/biodesign_here_now/1_biodesign_container.png">}}
 
 Zusätzlich führten wir einige Workshops im Container Labor von Open Cell, [für das wir ja die Raumplanung gemacht und Labormöbel gebaut haben](http://biotop.co/en/blog/opencell/), durch. Zusammen mit den Besuchern wurde Käse hergestellt und DNA aus Erdbeeren extrahiert, beides Aktivitäten, die einfach und ohne Spezialausstattung machbar sind, allerdings als wunderbarer Ausgangspunkt für Diskussionen zum Thema Gentechnik und ihre Methoden, gentechnisch veränderte Lebensmittel, sowie Ethik in der Forschung dienten. An dieser Stelle herzlichen Dank allen Teilnehmern, die so enthusiastisch und engagiert mitgewirkt haben!
 
-{{< figure src="/img/blog/biodesign_here_now/3_dna_workshop1.png">}}
-{{< figure src="/img/blog/biodesign_here_now/4_dna_workshop2.png">}}
+{{< rel-figure src="/img/blog/biodesign_here_now/3_dna_workshop1.png">}}
+{{< rel-figure src="/img/blog/biodesign_here_now/4_dna_workshop2.png">}}
 
 Überhaupt hatten wir eine tolle Woche am London Design Festival. Es war schön zu hören, dass "unser" Container Labor am OpenCell-Campus nun ständig in Verwendung ist. Ein seit kurzem bei OpenCell ansässiges Projekt finden wir besonders spannend: [Chip[s] Board](https://www.chipsboard.com/) wollen Abfall aus der Kartoffelchipsherstellung in nützliche (Bau-)Materialien für verschiedene Verwendugnszwecke umwandeln. Falls Sie mehr über OpenCell und die dort stattfindenden Aktivitäten erfahren möchten, hier die [Website](http://opencell.webflow.io/) sowie ein spannender [Artikel, der in der Zeitung "Observer" erschienen ist](https://www.theguardian.com/science/2018/aug/25/buildings-made-from-fungi-open-cell-pop-up-bio-lab-innovators-london).
 
-{{< figure src="/img/blog/biodesign_here_now/5_biodesign_cheese.png">}}
+{{< rel-figure src="/img/blog/biodesign_here_now/5_biodesign_cheese.png">}}
 
 Unter den über 50 Ausstellern, die mit uns Teil von "Biodesign Here Now" waren,  fanden sich natürlich noch einige sehr spannende Projekte. Besonders erwähnen möchten wir hier:
 
