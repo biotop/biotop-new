@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>containerlab on Biotop Wissenschaftskollektiv</title>
+    <link>http://biotop.co/biotop-new/de/tags/containerlab/</link>
+    <description>Recent content in containerlab on Biotop Wissenschaftskollektiv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://biotop.co/biotop-new/de/tags/containerlab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Biotop X OpenCell</title>
+      <link>http://biotop.co/biotop-new/de/blog/opencell/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/de/blog/opencell/</guid>
+      <description>Wir sind gerade aus London zurückgekehrt, wo wir der Initiative OpenCell geholfen haben, ihr erstes Container-Labor einzurichten.
+Wie kam es dazu? Ungefähr vor einem Monat wurden wir von Helene Steiner kontaktiert, die gemeinsam mit Thomas Meany im Herzen von London Container-Infrastruktur für kleine Biotech-Startup-Unternehmen bereitstellen will. Geplant sind 10 Molekularbiologie-Labore, 20 Büros, 10 Studios, 4 Werkstätten, sowie 1 Lager.
+&amp;ldquo;Ich hab gesehen, dass ihr Container-Labore bauen wollt. Wir hätten 10 Container hier in London, die wir zu Laboren umbauen wollen.</description>
+    </item>
+    
+  </channel>
+</rss>
