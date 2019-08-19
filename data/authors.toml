@@ -1,8 +1,12 @@
 [ anna-koeferle ]
   name = "Anna Köferle"
   featured = "/img/person/anna-koeferle.png"
-  position = "Biochemist"
-  role = "cofounder(f)"
+  [anna-koeferle.trained]
+    en = "Biochemist"
+    de = "Biochemikerin"
+  [anna-koeferle.role]
+    en = "Co-founder"
+    de = "Mitgründerin"
   [anna-koeferle.bio]
     en = "Anna studied Biochemistry at the University of Oxford and completed a PhD in Molecular Biology at Universty College London. She is continuing her work as a post-doctoral researcher at the Ludwig-Maximilians-University in Munich where she is using CRISPR/Cas9 technology to study the regulation of transcription in human cells. Her research interests include:  **regulation of transcription**, **chromatin architecture**, **high-throughput screening methods**,  non-canonical applications of **CRISPR/Cas9 technology**, **bioinformatics & data analysis**."
     de = "Anna studierte Biochemie and der University of Oxford und schloss 2016 ihr Doktorat am University College London ab, wo sie CRISPR/Cas9 einsetzt um die Regulierung von Transkription in menschlichen Zellen zu untersuchen. Derzeit führt sie ihre Forschungsarbeiten an der Ludwig-Maximilians-Universität in München fort. Ihre Forschungsinteressen beinhalten: Regulierung von Transkription und Anwendung von Genome-Editing-Techniken."
@@ -19,8 +23,12 @@
 [anna-ritscher]
   name = "Anna Ritscher"
   featured = "/img/person/anna-ritscher.jpg"
-  position = "Chemist"
-  role = "cofounder(f)"
+  [anna-ritscher.trained]
+    en = "Chemist"
+    de = "Chemikerin"
+  [anna-ritscher.role]
+    en = "Co-founder"
+    de = "Mitgründerin"
   [anna-ritscher.bio]
     en = "Anna studied chemistry at the University of Vienna. She went to Berlin for her PhD and joined the Gaduate School MatSEC (Materials for Solar Energy Conversion) at the Helmholtz Zentrum Berlin, where she worked on *Kesterites* and their application in photovoltaic cells. Her interests include: solid state chemistry, material science, renewable energy, crystallography, digital and analogue photography and the process of analogue film development."
     de = "Anna studierte Chemie an der Universität Wien. Im Rahmen ihres Doktorats ging sie nach Berlin und wurde Mitglied der Graduiertenschule MatSEC (Materials for Solar Energy Conversion) des Helmholtz Zentrums Berlin. Sie promovierte an der Technischen Universität Berlin zum Thema Kesterite, ein aussichtsreiches Material für Absorberschichten in zukünftige Photovoltaikzellen. Ihre Forschungsinteressen beinhalten: Festkörperchemie, Materialchemie/-physik, erneuerbare Energiequellen, Kristallographie Abseits ihres Forschungsbereichs: digitale und analoge Fotografie, Filmentwicklungslabor"
@@ -37,13 +45,15 @@
 [ lukas-hutter ]
   name = "Lukas Hutter"
   featured = "/img/person/luki.jpg"
-  position = "Systems Biologist, Teacher"
-  role = "founder(m)"
+  [lukas-hutter.trained]
+    en = "Systems biologist, Teacher"
+    de = "Systembiologe, Lehrer"
+  [lukas-hutter.role]
+    en = "Founder"
+    de = "Gründer"
   [ lukas-hutter.bio ]
     en = "Lukas first trained as a chemist at Graz University of Technology and conducted research on optical chemical  sensors, nanoparticles and functional ceramics. He then switched to systems biology and recently finished his PhD at University of Oxford. His research interests include: **bits and atoms**, **self-organisation and the origin of life**, **functional chemical interfaces**, and **principles of regulation in biological systems**."
-    de = """
-    Lukas studierte zunächst Chemie an der TU Graz, und forschte in diesem Rahmen an optischen Chemosensoren, Nanopartikeln und funktionalen Keramiken. Im Anschluß daran wechselte er zur Biologie, und schloß Ende 2016 sein Doktorat im Bereich Systembiologie an der University of Oxford ab. Seine Forschungsinteressen beinhalten: Bits und Atome, Selbstorganisation und die Entstehung des Lebens, funktionale chemische Schnittstellen und die Grundlagen von biologischer Regelungsprozesse.Lukas studierte zunächst Chemie an der TU Graz, und forschte in diesem Rahmen an optischen Chemosensoren, Nanopartikeln und funktionalen Keramiken. Im Anschluß daran wechselte er zur Biologie, und schloss 2016 sein Doktorat im Bereich Systembiologie an der University of Oxford ab. Seine Forschungsinteressen beinhalten: Bits und Atome, Selbstorganisation und die Entstehung des Lebens, funktionale chemische Schnittstellen und die Grundlagen von biologischer Regelungsprozesse.
-    """
+    de = "Lukas studierte zunächst Chemie an der TU Graz, und forschte in diesem Rahmen an optischen Chemosensoren, Nanopartikeln und funktionalen Keramiken. Im Anschluß daran wechselte er zur Biologie, und schloß Ende 2016 sein Doktorat im Bereich Systembiologie an der University of Oxford ab. Seine Forschungsinteressen beinhalten: Bits und Atome, Selbstorganisation und die Entstehung des Lebens, funktionale chemische Schnittstellen und die Grundlagen von biologischer Regelungsprozesse."
   website = "https://www.researchgate.net/profile/Lukas_Hutter2"
   email = "luki@biotop.co"
   github = "el-uhu"
@@ -57,8 +67,12 @@
 [ andreas-koerner ]
   name = "Andreas Körner"
   featured = "/img/person/andreas-koerner.jpg"
-  position = "Architect"
-  role = "cofounder(m)"
+  [andreas-koerner.trained]
+    en = "Architect"
+    de = "Architekt"
+  [andreas-koerner.role]
+    en = "Co-founder"
+    de = "Mitgründer"
   [andreas-koerner.bio]
     en = "Andreas is an architectural designer, researcher and teacher. He has studied at TU Vienna, die Angewandte and UCL. After graduating  from the Bartlett School of Architecture, he has joined the platform Biophile and taught at Oxford Brookes University while working in practice in London. Andreas has been involved with GrAB at the IoA in Vienna and is collaborating with Max:R+I and others in the field of environmental digital design in architecture. His research covers: Integration of CFD in architectural design processes, communication of invisible factors in thermal comfort for spatial experiences and new forms of sustainable ornament. Andreas' work has a strong focus on digital design and fabrication. As part of his PhD research, Andreas is currently working at the Institute of Experimental Architecture at the University of Innsbruck."
     de = "Andreas ist Architekt, Forscher und Lehrer. Er studierte an der TU Wien, der Angewandten und am University College London. Nach Abschluss seines Studiums in London trat er der Platform Biophile bei und unterrichtete an der Oxford Brookes University. Andreas arbeitete an Projekten wie GrAB, dem IoA in Wien und arbeitet gemeinsam mit Max:R+I und anderen in den Bereichen Umweltarchitektur und digitalem Design in der Architektur. Im Rahmen seiner Forschung beschäftigt er sich mit der Kopplung von computergestützter Flüssigkeitsdynamik mit Designprozessen, Umweltstrategien im Bereich der Architektur und der Nutzung von Biomimetik um das Raumempfinden zu verbessern. Als Teil seiner Doktoratsarbeit, arbeitet Andreas derzeit am Institut für experimentelle Architektur der Universität Innsbruck."
@@ -75,8 +89,12 @@
 [ ralf-bliem ]
   name = "Ralf Bliem"
   featured = "/img/person/ralf_bliem.jpg"
-  position = "Architect"
-  role = "cofounder(m)"
+  [ralf-bliem.trained]
+    en = "Architect"
+    de = "Architekt"
+  [ralf-bliem.role]
+    en = "Co-founder"
+    de = "Mitgründer"
   [ ralf-bliem.bio]
     en= "Ralf studied architecture at TU Vienna and TU Berlin. His main interest during his studies was the interface between computational design, additive manufacturing and automated design, with a particular focus on the implementation of digital design processes in the development of architectural concepts. Currently, Ralf works as an architect in an international architecture studio, manages the translation of parametric designs, and conducts research at the interface of computer science and architecture in the course of his PhD studies. His particular research interest lies in the synthesis of natural processes with architecture."
     de="Ralf studierte an der TU Wien und TU Berlin Architektur. Schwerpunkt seines Studiums war die Schnittstelle Computational Design, additive Herstellungsmethoden und automatisierte Entwurfsprozesse. Besonderen Fokus legte er auf das Implementieren digitaler Abläufe während der Bearbeitung von architektonischen Konzepten. Derzeit arbeitet Ralf als Architekt in einem internationalen Architekturbüro und projektiert die Umsetzung parametrischer Entwürfe. Weiters forscht er im Zuge seines Doktorates an der Verknüpfung von Computerwissenschaften mit der Architektur. Sein Forschungsinteresse liegt auch in der Verflechtung von naturwissenschaftlichen Abläufen mit der Architektur."

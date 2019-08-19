@@ -7,7 +7,7 @@ featured = "/img/blog/meeting-october-2018/1_Group.jpg"
 linktitle = ""
 title = "Drittes Biotop Meeting"
 type = "blog"
-
+tags = ["meeting", "groppenstein"]
 +++
 
 An einem sonnigen Wochenende Anfang Oktober trafen wir uns auf der Burg Groppenstein im Kärntner Mölltal für unser drittes Biotop-Treffen.

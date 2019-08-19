@@ -7,7 +7,7 @@ featured = "/img/blog/see-the-invisible-catalogue-post/1-outside.jpg"
 linktitle = ""
 title = "See the invisible"
 type = "blog"
-
+tags = ["exhibition", "villach"]
 +++
 
 We are in the process of putting together a catalogue for our exhibition "See the invisible", which was on display in Villach from 22/12/2017 until 3/2/2018.

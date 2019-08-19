@@ -49,28 +49,3 @@ In setting up a reasearch lab, the acquisition of lab-equipment is a major contr
 Since these acquisitions are directly linked to the site in Villach, and enable us to offer workshops and open our lab as a *fablab*, we want to offer sponsorhips linked to individual pieces of equipment as attractive and transparent funding opportunity, especially for local supporters, who will be acknowledged with a plaque locally, as well as online.
 
 Should you be interested in becoming a sponsor, [do get in touch with us via email](mailto:info@biotop.co).
-
-
-## Sponsors
-
-Concept development is generously supported by the city of Villach.
-
-{{< figure src="/img/logos/villach.png">}}
-
-The first meeting in July was generously supported by
-
-[Il Gusto](http://il-gusto.info) - Italian Deli / Rosegg</br>
-[Weingut Machherndl](http://www.machherndl.com) - Winery / Wachau AT
-
----------------------------
-
-We're currently actively looking for sponsors.
-
-If you're interested in becoming an **sponsor**, please [get in touch with us](mailto:info@biotop.co)!
-
----------------------------
-## Equipment Sponsors
-
-Through equipment sponsorships, private sponsors can support biotop through helping us finance individual pieces of lab equipent.
-
-If you're interested in becoming an **equipment sponsor**, please [get in touch with us](mailto:info@biotop.co)

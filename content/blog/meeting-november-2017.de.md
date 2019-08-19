@@ -7,6 +7,7 @@ featured = "/img/blog/meeting-november-2017/0-group-nov.jpg"
 linktitle = ""
 title = "Zweites Biotop Treffen"
 type = "blog"
+tags = ["meeting", "vienna"]
 +++
 
 Das zweite Biotop-Treffen fand von 17. bis 19. November 2017 in den Ausstellungsräumen der Galerie [Spazio Pulpo](http://www.spaziopulpo.com) in Wien statt. Freitag Abend trafen die einzelnen Biotop-Mitglieder nach und nach ein - viele leben ja in Wien, andere reisten extra aus London, Oxford, München oder Villach an. Der erste Abend war dem informellen Austausch gewidmet, insbesondere weil es sich für einige, die es im Juli leider nicht nach Villach zum allerersten Biotop-Treffen geschafft hatten, um ihr erstes Zusammentreffen mit den anderen Biotop-Mitgliedern handelte. Ein Plan für das Treffen wurde schon im Vorlauf über unser Megabiotop Forum erstellt.

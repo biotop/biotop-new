@@ -2,7 +2,7 @@
   [landingpage.2017]
     name = "2017"
     [[landingpage.2017.events]]
-      month = "July"
+      month = "july"
       location = "Villach"
       title = "Biotop Kickoff Meeting"
       type = "Meeting"
@@ -13,14 +13,14 @@
       location = "Vienna"
       title = "Second Biotop Meeting"
       type = "Meeting"
-      link = ""
+      link = "/blog/meeting-november-2017/"
       featured = ""
     [[landingpage.2017.events]]
       month = "December"
       location = "Villach"
       title = "See the Invisible"
       type = "Exhibition"
-      link = ""
+      link = "blog/invisible-catalogue/"
       featured = ""
 
   [landingpage.2018]
@@ -30,26 +30,35 @@
       location = "London"
       title = "Biotop x OpenCell"
       type = "Collaboration"
-      link = ""
+      link = "blog/opencell/"
       featured = ""
     [[landingpage.2018.events]]
       month = "September"
       location = "London"
       title = "Biotop @ London Design Festival"
       type = "Exhibition"
-      link = ""
+      link = "blog/biodesign_here_now/"
       featured = ""
     [[landingpage.2018.events]]
       month = "October"
       location = "Villach"
       title = "EFRE/KWF Funding: Containerlab"
       type = "Project"
+      link = "projects/containerlab"
+      featured = ""
+    [[landingpage.2018.events]]
+      month = "November"
+      location = "Groppenstein"
+      title = "Third Biotop Meeting"
+      type = "Meeting"
+      link = "/blog/meeting-october-2018/"
+      featured = ""
     [[landingpage.2018.events]]
       month = "December"
       location = "Villach"
       title = "Biotop Christmascalendar"
       type = "Exhibition"
-      link = ""
+      link = "/blog/xmascal2018/"
       featured = ""
 
   [landingpage.2019]

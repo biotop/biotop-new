@@ -7,6 +7,7 @@ featured = "/img/blog/see-the-invisible-catalogue-post/1-outside.jpg"
 linktitle = ""
 title = "(Un)Sichtbares"
 type = "blog"
+tags = ["exhibition", "villach"]
 +++
 
 

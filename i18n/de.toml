@@ -1,0 +1,176 @@
+[header]
+  other = "biotop*"
+
+[lang]
+  other = "de"
+
+[translations]
+  other = "Übersetzungen"
+
+[menu]
+  other = "Menü"
+
+[calendar]
+  other = "Kalender"
+
+[about-biotop]
+  other = "Über Biotop"
+
+[more-about-biotop]
+  other = "Mehr über Biotop"
+
+[recent-blogposts]
+  other = "Kürzlich veröffentlicht"
+
+[subtitle]
+  other = "WISSENSCHAFTSKOLLEKTIV"
+
+[imprint]
+  other = "Impressum"
+
+[participant]
+  other = "Teilnehmer"
+
+[location]
+  other = "Ort"
+
+[locations]
+  other = "Orte"
+
+[blob]
+  other = "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
+
+[learnmore]
+  other = "Mehr über uns erfahren"
+
+[continuereading]
+  other = "Weiterlesen"
+
+[coreteam]
+  other = "Kernteam"
+
+[founder-m]
+  other = "Gründer"
+
+[founder-f]
+  other = "Gründerin"
+
+[cofounder-m]
+  other = "Mitgründer"
+
+[cofounder-f]
+  other = "Mitgründerin"
+
+[scientific-associates]
+  other = "Wiss. Partner"
+
+[scientific-associate-m]
+  other = "Wissenschaftlicher Partner"
+
+[scientific-associate-f]
+  other = "Wissenschaftliche Partnerin"
+
+[projectpartners]
+  other = "Projektpartner"
+
+[projectpartner-m]
+  other = "Projektpartner"
+
+[projectpartner-f]
+  other = "Projektpartnerin"
+
+[recentposts]
+  other = "Kürzlich gepostet"
+
+[category]
+  other = "Kategorie"
+
+[categories]
+  other = "Kategorien"
+
+[shortbio]
+  other = "Kurzbiographie"
+
+[projects]
+  other = "Projekte"
+
+[events]
+  other = "Veranstaltungen"
+
+[publications]
+  other = "Publikationen"
+
+[blogposts]
+  other = "Blog Posts"
+
+[404sorry]
+  other = "404: Es tut uns Leid, aber wir können diese Seite nicht finden"
+
+[readingtime]
+  other = "Minuten Lesezeit"
+
+[by]
+  other = "von"
+
+[authors]
+  other = "Autoren"
+
+[contributors]
+  other = "Beitragende"
+
+[projecttypes]
+  other = "Projektarten"
+
+[participants]
+  other = "Teilnehmer"
+
+[eventtypes]
+  other = "Veranstaltungsarten"
+
+[eventplaces]
+  other = "Veranstaltungsorte"
+
+[unfortunatelynoprojects]
+  other = "Leider sind vorerst keine Projekte vorhanden."
+
+[unfortunatelynoevents]
+  other = "Leider sind vorerst keine Veranstaltungen vorhanden."
+
+[unfortunatelynopublications]
+  other = "Leider sind vorerst keine Publikationen vorhanden."
+
+[unfortunatelynoblogposts]
+  other = "Leider sind vorerst keine Blogbeiträge vorhanden."
+
+[name_unfortunatelynoprojects]
+  other = "Leider sind vorerst keine Projekte mit {{ .name }} verknüpft."
+
+[name_unfortunatelynoevents]
+  other = "Leider sind vorerst keine Veranstaltungen mit {{ .name }} verknüpft."
+
+[name_unfortunatelynopublications]
+  other = "Leider sind vorerst keine Publikationen mit {{ .name }} verknüpft."
+
+[name_unfortunatelynoblogposts]
+  other = "Leider sind vorerst keine Blogbeiträge mit {{ .name }} verknüpft."
+
+[blog]
+  other = "Blog"
+
+[project]
+  other = "Projekt"
+
+[place]
+  other = "Ort"
+
+[nexpage]
+  other = "Nächste Seite"
+
+[previouspage]
+  other = "Vorherige Seite"
+
+[references]
+  other = "Quellenangaben"
+
+[xmascal_announcement]
+  other = "Hier lang zum Advent-kalender!"

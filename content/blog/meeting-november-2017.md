@@ -7,7 +7,7 @@ featured = "/img/blog/meeting-november-2017/0-group-nov.jpg"
 linktitle = ""
 title = "Second Biotop Meeting"
 type = "blog"
-
+tags = ["meeting", "vienna"]
 +++
 
 The second meeting of Biotopists took place in Vienna from 17th-19th November 2017. Over the course of three days we met at [Spazio Pulpo](http://www.spaziopulpo.com) to discuss progress and plan the Biotop Christmas event. Friday evening was dedicated to catching up. People arrived from various places - quite a few Biotop members live in Vienna, others had to travel from London, Oxford, Munich, and Villach. For those who hadn't been able to attend the first Biotop meeting in July, this was the first time they met the other members of Biotop in person.

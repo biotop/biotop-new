@@ -7,6 +7,7 @@ featured = "/img/blog/meeting-july-2017/group.jpg"
 linktitle = ""
 title = "Biotop Kick-Off Meeting"
 type = "blog"
+tags = ["meeting", "villach"]
 +++
 
 Nun fand es also statt: das allererste Biotop-Treffen ging vergangenes Wochenende in Villach über die Bühne. Rund 20 Leute, die vorab Interesse bekundet hatten, Teil der Biotop-Familie zu werden, aber welche sich (abgesehen von einigen wenigen Ausnahmen) vorher noch nicht persönlich getroffen hatten, kamen nach Villach um sich kennen zu lernen, und den Grundstein für die Zusammenarbeit an gemeinsamen Projekten zu legen.

@@ -7,7 +7,7 @@ featured = "/img/blog/see-the-invisible-behind-the-scenes/0-mockup.png"
 linktitle = ""
 title = "See the invisible"
 type = "blog"
-
+tags = ["exhibition", "villach"]
 +++
 
 Here we would like to give you a peek behind the scenes of how we put together our exhibition "See the invisible". We came up with the concept and gathered together the individual contributions during our November meeting ([read about it in this blog post](http://biotop.co/en/blog/meeting-november-2017/)).

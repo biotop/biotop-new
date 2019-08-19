@@ -7,7 +7,7 @@ featured = "/img/blog/xmascal/Logo_xmas.jpg"
 linktitle = ""
 title = "Biotop Adventkalender"
 type = "blog"
-
+tags = ["exhibition", "villach", "xmascal"]
 +++
 
 Endlich öffnet unser ["Adventkalender"](http://biotop.co/xmascal/de) seine Pforten!

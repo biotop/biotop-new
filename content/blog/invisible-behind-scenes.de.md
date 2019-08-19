@@ -7,6 +7,7 @@ featured = "/img/blog/see-the-invisible-behind-the-scenes/0-mockup.png"
 linktitle = ""
 title = "(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung"
 type = "blog"
+tags = ["exhibition", "villach"]
 +++
 
 Hier geben wir Einblick in die Vorbereitungsarbeiten zu unserer Ausstellung "See the invisible - (Un)Sichtbares". Das Konzept zur Ausstellung hatten wir uns während des letzten Biotop-Treffens im November in Wien erarbeitet ([hier nachzulesen](http://biotop.co/de/blog/meeting-november-2017/)).

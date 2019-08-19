@@ -7,6 +7,7 @@ categories = ["biotop*"]
 featured = "/img/blog/meeting-july-2017/group.jpg"
 linktitle = ""
 type = "blog"
+tags = ["meeting", "villach"]
 +++
 
 So, this happened. The first ever Biotop meeting took place in Villach last weekend  (28th-30th July 2017). Around 20 people who had each individually voiced their interest in joining the Biotop family but had (bar a few exceptions) never met in person descended on our small town to forge new friendships, set up collaborations and get some projects off the ground.

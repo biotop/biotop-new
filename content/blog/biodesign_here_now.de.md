@@ -7,6 +7,7 @@ featured = "/img/blog/biodesign_here_now/2_biodesign_garden.png"
 linktitle = ""
 title = "Biodesign Here Now"
 type = "blog"
+tags = ["exhibition", "london"]
 
 +++
 

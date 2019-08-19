@@ -7,7 +7,7 @@ featured = "/img/blog/open_cell/1_logo.jpg"
 linktitle = ""
 title = "Biotop X OpenCell"
 type = "blog"
-
+tags = ["containerlab", "london"]
 +++
 Wir sind gerade aus London zurückgekehrt, wo wir der Initiative [OpenCell] (http://opencell.webflow.io/) geholfen haben, ihr erstes Container-Labor einzurichten.
 

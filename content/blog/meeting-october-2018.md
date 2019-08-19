@@ -7,7 +7,7 @@ featured = "/img/blog/meeting-october-2018/1_Group.jpg"
 linktitle = ""
 title = "Third Biotop Meeting"
 type = "blog"
-
+tags = ["meeting", "groppenstein"]
 +++
 
 On a sunny weekend at the end of October, we gathered at Groppenstein castle near Mallnitz-Obervellach in Carinthia for our third meeting.
