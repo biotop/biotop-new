@@ -7,7 +7,6 @@ featured = "/img/blog/biodesign_here_now/2_biodesign_garden.png"
 linktitle = ""
 type = "blog"
 tags = ["exhibition", "london"]
-
 +++
 
 Im Rahmen der ["Biodesign Here Now"](https://www.londondesignfestival.com/event/biodesign-here-now) Ausstellung am [OpenCell] (http://opencell.webflow.io/) Campus konnten wir am [London Design Festival 2018](https://www.londondesignfestival.com/) teilnehmen. Wir stellten unsere Ausstellung ["See the invisible"](http://biotop.co/en/blog/invisible-catalogue/) zur Schau.

@@ -13,6 +13,9 @@
 [calendar]
   other = "Calendar"
 
+[tags]
+  other = "Tags"
+
 [about-biotop]
   other = "About Biotop"
 
