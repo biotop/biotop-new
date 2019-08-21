@@ -7235,7 +7235,7 @@ label.panel-block {
             .timeline .timeline-item .timeline-marker.is-danger.is-outlined.is-icon > * {
               color: #ff3860 !important; }
     .timeline .timeline-item .timeline-content {
-      padding: 0 0 0 0; }
+      padding: 1em 0 0 2em; }
       .timeline .timeline-item .timeline-content .heading {
         font-weight: 600; }
     .timeline .timeline-item.is-white::before {

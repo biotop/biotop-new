@@ -63,11 +63,3 @@ DefaultContentLanguage = "en"
     mobile = "/img/biotoptext.svg"
     standard  = "/img/biotoptext.svg"
     notext = "/img/logo.svg"
-
-[[params.asideix]]
-    title = "Mission Statement"
-    headericon= "fa fa-rocket has-text-primary"
-
-[[params.asideix]]
-    title = "Mission Statement"
-    headericon= "fa fa-rocket has-text-primary"
