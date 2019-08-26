@@ -8710,8 +8710,13 @@ html {
     .hero-quote {
       font-size: 1rem; } }
 
-nav > ul > li > ul {
-  display: none; }
+ul.toc > li {
+  font-size: 80%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; }
+
+ul.toc > li > ul > li {
+  font-size: 80%; }
 
 img.no-fit {
   object-fit: cover; }
@@ -8727,3 +8732,11 @@ img.no-fit {
 
 .search-res, .cal-search-res {
   display: block; }
+
+h1::before, h2::before, h3::before {
+  display: block;
+  content: " ";
+  margin-top: -3.25rem;
+  height: 3.25rem;
+  visibility: hidden;
+  pointer-events: none; }
