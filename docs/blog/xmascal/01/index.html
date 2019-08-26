@@ -12,13 +12,139 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+<section class="hero is-fullheight has-background feature-hero">
+  <div class="hero-head">
+    
+  </div>
+  <img class="hero-background" style="object-fit:scale-down" src="/biotop-new/img/blog/xmascal/01/xmaslecture.jpg"  alt="">
+  <div class="hero-foot has-padding">
+    <div class="container section">
+      <div class="columns">
+        <div class="column is-9 has-text-left">
+          
+          <a href="http://biotop.co/biotop-new//tags/exhibition/">
+            <span class="menu-label">
+              #exhibition
+            </span>
+          </a>
+          
+          <a href="http://biotop.co/biotop-new//tags/villach/">
+            <span class="menu-label">
+              #villach
+            </span>
+          </a>
+          
+          <a href="http://biotop.co/biotop-new//tags/xmascal/">
+            <span class="menu-label">
+              #xmascal
+            </span>
+          </a>
+          
+        </div>
+        <div class="column is-3 has-text-right">
+          
+          <span class="menu-label has-text-info">01.12.2018</span>
+          
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8 has-text-left">
+          <h1 class="title">
+            A Christmas Lecture As Wall Newspaper
+          </h1>
+          <h2 class="subtitle">
+            Biotop Christmas Calendar Day 1
+          </h2>
+        </div>
+        <div class="column is-4">
+          <div class="columns is-multiline">
+            
+            
+            
+            <div class="column is-half">
+  <div class="media padded">
+    <div class="media-left">
+      <p class="image is-32x32">
+        <img class="is-rounded" src="/biotop-new/img/person/luki.jpg">
+      </p>
+    </div>
+    <div class="media-content content">
+      
+      <span class="title has-text-weight-bold is-6 has-text-dark"> Lukas Hutter</span><br>
+      
+        <span class="subtitle has-text-grey is-7"> Founder | Systems biologist, Teacher</span><br>
+      
+      
+    </div>
+  </div>
+</div>
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +169,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +180,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -203,7 +329,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -212,7 +338,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -221,7 +347,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -235,7 +361,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/01/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/01/">Deutsch</a>
     </li>
     
   </ul>
@@ -247,15 +373,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
     
-    <li><a href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
     
-    <li><a href="/biotop-new/blog/invisible-catalogue/">See the invisible</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/invisible-catalogue/">See the invisible</a></li>
     
-    <li><a href="/biotop-new/blog/biodesign_here_now/">Biodesign Here Now</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/biodesign_here_now/">Biodesign Here Now</a></li>
     
-    <li><a href="/biotop-new/blog/meeting-july-2017/">Biotop Kick-Off Meeting</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/meeting-july-2017/">Biotop Kick-Off Meeting</a></li>
     
   </ul>
   
@@ -323,7 +449,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -342,7 +468,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -353,7 +479,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -502,7 +628,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -511,7 +637,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -520,7 +646,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -534,7 +660,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/01/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/01/">Deutsch</a>
     </li>
     
   </ul>
@@ -546,15 +672,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
     
-    <li><a href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
     
-    <li><a href="/biotop-new/blog/invisible-catalogue/">See the invisible</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/invisible-catalogue/">See the invisible</a></li>
     
-    <li><a href="/biotop-new/blog/biodesign_here_now/">Biodesign Here Now</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/biodesign_here_now/">Biodesign Here Now</a></li>
     
-    <li><a href="/biotop-new/blog/meeting-july-2017/">Biotop Kick-Off Meeting</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/meeting-july-2017/">Biotop Kick-Off Meeting</a></li>
     
   </ul>
   
@@ -762,10 +888,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -795,44 +921,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">01.12.2018</h5>
-  <h1 class="title">A Christmas Lecture As Wall Newspaper</h1>
-  
-    <h4 class="subtitle has-text-grey"> Biotop Christmas Calendar Day 1</h4>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-      
-      
-      <div class="column">
-  <div class="media padded">
-    <div class="media-left">
-      <p class="image is-64x64">
-        <img class="is-rounded" src="/biotop-new/img/person/luki.jpg">
-      </p>
-    </div>
-    <div class="media-content content">
-      
-      <span class="title has-text-weight-bold is-size-6 has-text-dark"> Lukas Hutter</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Founder | Systems biologist, Teacher</span><br>
-      
-    </div>
-  </div>
-</div>
-
-    
-  </div>
-
-  
-  <figure class="image">
-    <img src="/biotop-new/img/blog/xmascal/01/xmaslecture.jpg" alt="">
-  </figure>
-
-
-  
-  <p><p><em>Picture: The <a href="https://www.thinglink.com/scene/459318726211141635?buttonSource=viewLimits">phycisist Sir Lawrence Bragg at the Royal Institution Christmas lecutre in 1961</a> - Oil on Canvas, Terence Cuneo, 1962</em></p>
+    <div id="contents">
+      <p><p><em>Picture: The <a href="https://www.thinglink.com/scene/459318726211141635?buttonSource=viewLimits">phycisist Sir Lawrence Bragg at the Royal Institution Christmas lecutre in 1961</a> - Oil on Canvas, Terence Cuneo, 1962</em></p>
 
 <p>The weeks leading up to Christmas have always had a special appeal to many students of the natural sciences; mulled wine sold at every corner, an abundance of occasions to socialise, but also a distinct notion that science should not only be taught, but should be actively engaged with. This notion is conveyed by numerous exciting, entertaining, as well as educational Christmas lectures that leave a lasting impression.</p>
 
@@ -847,15 +939,16 @@
 
 <p><strong><a href="http://biotop.co/en/person/lukas-hutter/">Lukas Hutter</a></strong> studied chemistry in Graz and Systems Biology at the University of Oxford. He is a co-founder of Biotop and works as a teacher in Villach.</p>
 </blockquote></p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -997,6 +1090,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>

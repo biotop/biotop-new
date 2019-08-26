@@ -12,13 +12,100 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+<section class="hero is-fullheight has-background feature-hero">
+  <div class="hero-head">
+    
+  </div>
+  <img class="hero-background" style="object-fit:scale-down" src="/biotop-new/img/blog/xmascal/17/penguingift.png"  alt="">
+  <div class="hero-foot has-padding">
+    <div class="container section">
+      <div class="columns">
+        <div class="column is-9 has-text-left">
+          
+        </div>
+        <div class="column is-3 has-text-right">
+          
+          <span class="menu-label has-text-info">08.11.2018</span>
+          
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8 has-text-left">
+          <h1 class="title">
+            Ein Weihnachtsgeschenk für Frau Pinguin
+          </h1>
+          <h2 class="subtitle">
+            
+          </h2>
+        </div>
+        <div class="column is-4">
+          <div class="columns is-multiline">
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +130,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +141,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -185,7 +272,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -194,7 +281,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -203,7 +290,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -217,7 +304,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/blog/xmascal/17/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/blog/xmascal/17/">English</a>
     </li>
     
   </ul>
@@ -290,7 +377,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -309,7 +396,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -320,7 +407,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -451,7 +538,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -460,7 +547,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -469,7 +556,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -483,7 +570,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/blog/xmascal/17/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/blog/xmascal/17/">English</a>
     </li>
     
   </ul>
@@ -696,10 +783,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -729,23 +816,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">08.11.2018</h5>
-  <h1 class="title">Ein Weihnachtsgeschenk für Frau Pinguin</h1>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-  </div>
-
-  
-  <figure class="image">
-    <img src="/biotop-new/img/blog/xmascal/17/penguingift.png" alt="">
-  </figure>
-
-
-  
-  <p><p>Die Tradition von Weihnachtsgeschenken geht bereits auf ein heidnisches Fest mit dem Namen &ldquo;Saturnalia&rdquo; zurück, dass von den alten Römern im Dezember begangen wurde. Dort wurden kleine Keramik- oder Waxfiguren getauscht - wahrscheinlich heute vergleichbar mit dem Schenken von Wollsocken zu Weihnachten. Beim Schenken - also dem willentlichen Abtreten von Resourcen and jemand anderen . handelt es sich aber um eine Verhaltensweise, die schon viel älter ist als das Fest Saturnalia.</p>
+    <div id="contents">
+      <p><p>Die Tradition von Weihnachtsgeschenken geht bereits auf ein heidnisches Fest mit dem Namen &ldquo;Saturnalia&rdquo; zurück, dass von den alten Römern im Dezember begangen wurde. Dort wurden kleine Keramik- oder Waxfiguren getauscht - wahrscheinlich heute vergleichbar mit dem Schenken von Wollsocken zu Weihnachten. Beim Schenken - also dem willentlichen Abtreten von Resourcen and jemand anderen . handelt es sich aber um eine Verhaltensweise, die schon viel älter ist als das Fest Saturnalia.</p>
 
 <p>Der Akt des Schenkens ist in allen modernen Kulturen verbreitet und existiert wahrscheinlich schon so lange wie die Menscheit selbst.</p>
 
@@ -756,15 +830,16 @@
 <p>Viele Besitzer von Katzen kennen das bestimmt aus erster Hand: Wildkatzen lehren ihren Kleinen das Erlegen von Beute, in dem sie ihnen einen kleinen Fang mitbringen. Weibliche Hauskatzen sind deswegen besonders geneigt, ihren Besitzern ein Geschenk vom Beutezug mitzubringen. Raben und Krähen sind auch dafür bekannt, Altruismus zu zeigen. Sie erinnern sich aber auch daran, ob ein Geschenk erwidert wurde und ob der Tausch fair war oder nicht. Laut einer Studie, <a href="https://www.sciencedirect.com/science/article/pii/S0003347217301161">merken sie sich das sogar über den Zeitraum eines Monats</a>. Viele Geschichten berichten von <a href="https://www.bbc.co.uk/news/magazine-31604026">Krähen, die Menschen Geschenke bringen, im Tausch für Futter</a>.</p>
 
 <p>Natürlich ist das Geben von Geschenken im Tierreich besonders im Paarungsverhalten verhaftet. Männliche Pinguine schenken ihren favorisierten Damen kleine Steine. Es handelt sich hierbei aber um ein sehr praktisches Geschenk, denn diese werden gerne zum Nestbau verwendet. Aber auch andere Faktoren werden bei der Auswahl der Geschenke berücksichtigt. <a href="https://www.pnas.org/content/110/10/4123">Eichelhäher schenken ihren Partnern gerne Mottenlarven, wenn diese sonst immer nur Würmer fressen, und umgekehrt</a>. Es gibt noch zahlreiche weiter Beispiele für Geschenksverhalten im Tierreich. Da wie dort gilt es durch das Schenken die soziale Verbindung zu stärken - so auch an Weihnachten.</p></p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -898,6 +973,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>

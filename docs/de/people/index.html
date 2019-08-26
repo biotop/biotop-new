@@ -12,11 +12,58 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
   <nav class="navbar is-fixed-top">
@@ -43,7 +90,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +101,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -185,7 +232,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -194,7 +241,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -203,7 +250,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -217,7 +264,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/people/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/people/">English</a>
     </li>
     
   </ul>
@@ -290,7 +337,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -309,7 +356,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -320,7 +367,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -451,7 +498,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -460,7 +507,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -469,7 +516,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -483,7 +530,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/people/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/people/">English</a>
     </li>
     
   </ul>
@@ -795,9 +842,9 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
+<div class="column is-half has-navbar-fixed-top">
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
@@ -832,7 +879,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -842,7 +889,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Andreas Körner</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründer | Architekt</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründer | Architekt</span><br>
+      
       
         <div class="content">
           <p>Andreas ist Architekt, Forscher und Lehrer. Er studierte an der TU Wien, der Angewandten und am University College London. Nach Abschluss seines Studiums in London trat er der Platform Biophile bei und unterrichtete an der Oxford Brookes University. Andreas arbeitete an Projekten wie GrAB, dem IoA in Wien und arbeitet gemeinsam mit Max:R+I und anderen in den Bereichen Umweltarchitektur und digitalem Design in der Architektur. Im Rahmen seiner Forschung beschäftigt er sich mit der Kopplung von computergestützter Flüssigkeitsdynamik mit Designprozessen, Umweltstrategien im Bereich der Architektur und der Nutzung von Biomimetik um das Raumempfinden zu verbessern. Als Teil seiner Doktoratsarbeit, arbeitet Andreas derzeit am Institut für experimentelle Architektur der Universität Innsbruck.</p>
@@ -859,7 +908,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -869,7 +918,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Anna Köferle</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründerin | Biochemikerin</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründerin | Biochemikerin</span><br>
+      
       
         <div class="content">
           <p>Anna studierte Biochemie and der University of Oxford und schloss 2016 ihr Doktorat am University College London ab, wo sie CRISPR/Cas9 einsetzt um die Regulierung von Transkription in menschlichen Zellen zu untersuchen. Derzeit führt sie ihre Forschungsarbeiten an der Ludwig-Maximilians-Universität in München fort. Ihre Forschungsinteressen beinhalten: Regulierung von Transkription und Anwendung von Genome-Editing-Techniken.</p>
@@ -886,7 +937,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -896,7 +947,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Anna Ritscher</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründerin | Chemikerin</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründerin | Chemikerin</span><br>
+      
       
         <div class="content">
           <p>Anna studierte Chemie an der Universität Wien. Im Rahmen ihres Doktorats ging sie nach Berlin und wurde Mitglied der Graduiertenschule MatSEC (Materials for Solar Energy Conversion) des Helmholtz Zentrums Berlin. Sie promovierte an der Technischen Universität Berlin zum Thema Kesterite, ein aussichtsreiches Material für Absorberschichten in zukünftige Photovoltaikzellen. Ihre Forschungsinteressen beinhalten: Festkörperchemie, Materialchemie/-physik, erneuerbare Energiequellen, Kristallographie Abseits ihres Forschungsbereichs: digitale und analoge Fotografie, Filmentwicklungslabor</p>
@@ -913,7 +966,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -923,7 +976,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Lukas Hutter</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Gründer | Systembiologe, Lehrer</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Gründer | Systembiologe, Lehrer</span><br>
+      
       
         <div class="content">
           <p>Lukas studierte zunächst Chemie an der TU Graz, und forschte in diesem Rahmen an optischen Chemosensoren, Nanopartikeln und funktionalen Keramiken. Im Anschluß daran wechselte er zur Biologie, und schloß Ende 2016 sein Doktorat im Bereich Systembiologie an der University of Oxford ab. Seine Forschungsinteressen beinhalten: Bits und Atome, Selbstorganisation und die Entstehung des Lebens, funktionale chemische Schnittstellen und die Grundlagen von biologischer Regelungsprozesse.</p>
@@ -940,7 +995,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -950,7 +1005,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Mariangela Panniello</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründerin | Neurowissenschaftlerin</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründerin | Neurowissenschaftlerin</span><br>
+      
       
         <div class="content">
           <p>Mariangela studierte Neurowissenschaften in Pisa (Italien), bevor sie für ihr Doktorat nach Oxford zog. Derzeit arbeitet sie als Post-Doc in Oxford und untersucht das Erinnerungsvermögen und Lernen in der Großhirnrinde, dem evolutionär gesehen jüngsten Teil des Säugetiergehirns. Sie liebt ihre Arbeit, weil die Netwerke von Nervenzellen in der Großhirnrinde letztlich das sind was uns zu Menschen macht, und viele Aspekte davon derzeit noch im Dunklen liegen. Mariangela liebt es ihre Begeisterung für das Gehirn weiterzugeben, neue Wege zu finden wie WissenschafterInnen aus verschiedenen Disziplinen miteinander arbeiten können, und Wissenschaft für eine breitere Öffentlichkeit zugänglich und faszinierend zu machen.</p>
@@ -967,7 +1024,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -977,7 +1034,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Martin Fera</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründer | Archäologe</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründer | Archäologe</span><br>
+      
       
         <div class="content">
           <p>Martin studierte prähistorische und historische Archäologie an der Universität Wien, und spezialisierte sich an der Universität Ljubljana auf die Untersuchung vergangener Landschaften mittels Luft- und Satellitenbildern und Laserscans. Im Rahmen seiner Doktorarbeit am Initiative College for Archaeological Prospection in Wien untersucht er die Struktur un Dynamik ostösterreichischer Siedlungen aus dem ersten Jahrtausend v.Chr. mittels räumlicher Analyse und Geoinformationssystemen. An der LMU in München arbeitete er als stellvertretender Felddirektor eines archäologischen Projekts auf der Insel Sai im Sudan. Im Rahmen dieses Projektes setzte er modernste Technologie für Aurgabungen, Dokumentation und Datenanalyse ein, um eine pharaonische Siedlung mit Friedhof in der Landschaft in Nubien zu untersuchen. Sein Mitwirken an vielen internationalen Forschunsprojekten in Österreich, Italien, Kroatien, Norwegen, Deutschland etc. und der interdisziplinäre Charakter archäologischer Forschung befeuern sein Interesse für neue Methoden, Technologien und Entwicklung in anderen Wissenschaftsdiziplinen.</p>
@@ -994,7 +1053,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -1004,7 +1063,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Ralf Bliem</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründer | Architekt</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründer | Architekt</span><br>
+      
       
         <div class="content">
           <p>Ralf studierte an der TU Wien und TU Berlin Architektur. Schwerpunkt seines Studiums war die Schnittstelle Computational Design, additive Herstellungsmethoden und automatisierte Entwurfsprozesse. Besonderen Fokus legte er auf das Implementieren digitaler Abläufe während der Bearbeitung von architektonischen Konzepten. Derzeit arbeitet Ralf als Architekt in einem internationalen Architekturbüro und projektiert die Umsetzung parametrischer Entwürfe. Weiters forscht er im Zuge seines Doktorates an der Verknüpfung von Computerwissenschaften mit der Architektur. Sein Forschungsinteresse liegt auch in der Verflechtung von naturwissenschaftlichen Abläufen mit der Architektur.</p>
@@ -1021,7 +1082,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -1031,7 +1092,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Roberto Maffulli</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründer | Maschinenbau Ingenieur</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründer | Maschinenbau Ingenieur</span><br>
+      
       
         <div class="content">
           <p>Roberto studierte Maschinenbau in Florenz und verliebte sich dort in die Strömungslehre. Während seiner Zeit in Florenz arbeitete er an der Entwicklung vertikalachsiger Windturbinen und befasste sich mit der Akustik von Flugzeugturbinen, bevor er sich für multidisziplinäre Optimierungssysteme zu interessieren begann. Als er als Doktorand an die University of Oxford wechselte setzte er sich mittels computergestützter Methoden mit der Wechselwirkung von Aerodynamik und Wärmetransfer in Hochdruckturbinen auseinander. Derzeit ist er als Forschungsingenieur am von-Karman Institut für Strömungslehre tätig und forscht an Optimierungssystemen für das Design von Flugzeugturbinen. Robertos Forschungsinteressen umfassen: Optimierungsalgorithmen, Machine Learning, sowie das Modellieren von Wechselwirkungen zwischen Wärmetransfer und Strömungen in Turbomaschinen.</p>
@@ -1048,7 +1111,7 @@
       
         
         
-        <div class="column">
+        <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-128x128">
@@ -1058,7 +1121,9 @@
     <div class="media-content content">
       
       <span class="title has-text-weight-bold is-size-5 has-text-dark"> Wolfgang Schütz</span><br>
-      <span class="subtitle has-text-grey is-size-6"> Mitgründer | Graphiker</span><br>
+      
+        <span class="subtitle has-text-grey is-size-6"> Mitgründer | Graphiker</span><br>
+      
       
         <div class="content">
           <p>Wolfgang Schütz ist seit seinem Bachelorstudium in Mediendesign an der FH Salzburg Illustrator und Spieleentwickler und leidenschaftlich interessiert an Geschichte, Psychologie, Gesellschaft, Kultur, Astronomie, Dinosauriern und fiktionalen Medien.</p>
@@ -1073,9 +1138,8 @@
     
   </div>
 </section>
+</div>
 
-
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">

@@ -12,13 +12,69 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+<section class="hero is-small is-primary">
+</section>
+    <video class="hero-background" controls autoplay loop width="100%">
+      <source src="/biotop-new/img/blog/xmascal/04/tastebuds.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +99,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +110,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -203,7 +259,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -212,7 +268,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -221,7 +277,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -235,7 +291,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/04/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/04/">Deutsch</a>
     </li>
     
   </ul>
@@ -247,15 +303,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
     
-    <li><a href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
     
   </ul>
   
@@ -323,7 +379,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -342,7 +398,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -353,7 +409,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -502,7 +558,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -511,7 +567,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -520,7 +576,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -534,7 +590,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/04/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/04/">Deutsch</a>
     </li>
     
   </ul>
@@ -546,15 +602,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal2018/">Biotop Christmas Calendar</a></li>
     
-    <li><a href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/invisible-behind-scenes/">See the invisible</a></li>
     
   </ul>
   
@@ -762,10 +818,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -795,47 +851,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">04.12.2018</h5>
-  <h1 class="title">Do you remember that taste?</h1>
-  
-    <h4 class="subtitle has-text-grey"> Biotop Christmas Calendar Day 4</h4>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-      
-      
-      <div class="column">
-  <div class="media padded">
-    <div class="media-left">
-      <p class="image is-64x64">
-        <img class="is-rounded" src="/biotop-new/img/person/mariangela.jpg">
-      </p>
-    </div>
-    <div class="media-content content">
-      
-      <span class="title has-text-weight-bold is-size-6 has-text-dark"> Mariangela Panniello</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Co-founder | Neuroscientist</span><br>
-      
-    </div>
-  </div>
-</div>
-
-    
-  </div>
-
-  
-  <div class="image">
-    <video controls autoplay loop width="100%">
-      <source src="/biotop-new/img/blog/xmascal/04/tastebuds.m4v" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </div>
-
-
-  
-  <p><p>It&rsquo;s Christmas time! Your eyes are full with winking colourful lights, soft white snow covers the streets and your taste buds awaken when you think about that sweet, fragrant gingerbread you are used to having every year! But wait&hellip; How can you remember it so well?
+    <div id="contents">
+      <p><p>It&rsquo;s Christmas time! Your eyes are full with winking colourful lights, soft white snow covers the streets and your taste buds awaken when you think about that sweet, fragrant gingerbread you are used to having every year! But wait&hellip; How can you remember it so well?
 Scents and flavours are powerful time machines and can, more than images and sounds, throw us back to the past. Neuroscientists have always been fascinated by this phenomenon and tried to understand more about it.</p>
 
 <p>When biting into a gingerbread cookie, its smell travels to the so called <em>glomeruli</em> in our nasal cavity and its sweet taste reaches thousands of taste buds on our tongue. Both these structures contain hundreds of thousands of tiny nerve endings that, once activated by scents and flavours, send messages straight up to the brain. These signals run much faster than your car! At a speed of about 50m/s (180km/h), they travel through two relay stations in the central nervous system, the <em>medulla</em> and <em>thalamus</em>, before reaching their final destination, the gustatory cortex. Here, millions of neurons are ready to receive and process the messages sent by the tongue and assign them an identity. This is when you realise that your cookie is sweet, not too gingery, and has a nice hint of cinnamon! Neuroscientists at the Columbia University in New York, have now demonstrated that the perception of different tastes is mediated by different areas in the gustatory cortex. Using a technique called <em>optogenetics</em>, they were able to artificially activate or shut down what they thought were the bitter and sweet areas in the gustatory cortex of laboratory mice. Then, they trained mice to lick from a water bottle while their cortex was artificially activated. Mice whose bitter area was activated when licking progressively reduced their licking. On the other hand, mice whose sweet cortical area was activated during the task showed a marked increase of the licking behaviour [1].</p>
@@ -882,15 +901,16 @@ Scents and flavours are powerful time machines and can, more than images and sou
 <li>15 to 35 papillae (average taster)</li>
 <li>more than 35 (super taster)</li>
 </ul></p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -1032,6 +1052,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>

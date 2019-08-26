@@ -12,13 +12,69 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+<section class="hero is-small is-primary">
+</section>
+    <video class="hero-background" controls autoplay loop width="100%">
+      <source src="/biotop-new/img/blog/xmascal/02/vid.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +99,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +110,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -185,7 +241,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -194,7 +250,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -203,7 +259,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -217,7 +273,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/blog/xmascal/02/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/blog/xmascal/02/">English</a>
     </li>
     
   </ul>
@@ -229,15 +285,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/de/blog/xmascal/01/">Eine Weihnachtsvorlesung als Wandzeitung</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/xmascal/01/">Eine Weihnachtsvorlesung als Wandzeitung</a></li>
     
-    <li><a href="/biotop-new/de/blog/xmascal2018/">Biotop Adventkalender</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/xmascal2018/">Biotop Adventkalender</a></li>
     
-    <li><a href="/biotop-new/de/blog/invisible-behind-scenes/">(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/invisible-behind-scenes/">(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung</a></li>
     
-    <li><a href="/biotop-new/de/blog/invisible-catalogue/">(Un)Sichtbares</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/invisible-catalogue/">(Un)Sichtbares</a></li>
     
-    <li><a href="/biotop-new/de/blog/biodesign_here_now/">Biodesign Here Now</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/biodesign_here_now/">Biodesign Here Now</a></li>
     
   </ul>
   
@@ -305,7 +361,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -324,7 +380,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -335,7 +391,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -466,7 +522,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -475,7 +531,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -484,7 +540,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -498,7 +554,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/blog/xmascal/02/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/blog/xmascal/02/">English</a>
     </li>
     
   </ul>
@@ -510,15 +566,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/de/blog/xmascal/01/">Eine Weihnachtsvorlesung als Wandzeitung</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/xmascal/01/">Eine Weihnachtsvorlesung als Wandzeitung</a></li>
     
-    <li><a href="/biotop-new/de/blog/xmascal2018/">Biotop Adventkalender</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/xmascal2018/">Biotop Adventkalender</a></li>
     
-    <li><a href="/biotop-new/de/blog/invisible-behind-scenes/">(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/invisible-behind-scenes/">(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung</a></li>
     
-    <li><a href="/biotop-new/de/blog/invisible-catalogue/">(Un)Sichtbares</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/invisible-catalogue/">(Un)Sichtbares</a></li>
     
-    <li><a href="/biotop-new/de/blog/biodesign_here_now/">Biodesign Here Now</a></li>
+    <li><a  class="anchor" href="/biotop-new/de/blog/biodesign_here_now/">Biodesign Here Now</a></li>
     
   </ul>
   
@@ -726,10 +782,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -759,47 +815,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">02.12.2018</h5>
-  <h1 class="title">Ohrwurmologie</h1>
-  
-    <h4 class="subtitle has-text-grey"> Biotop Adventkalender Tag 2</h4>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-      
-      
-      <div class="column">
-  <div class="media padded">
-    <div class="media-left">
-      <p class="image is-64x64">
-        <img class="is-rounded" src="/biotop-new/img/person/anna-koeferle.png">
-      </p>
-    </div>
-    <div class="media-content content">
-      
-      <span class="title has-text-weight-bold is-size-6 has-text-dark"> Anna Köferle</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründerin | Biochemikerin</span><br>
-      
-    </div>
-  </div>
-</div>
-
-    
-  </div>
-
-  
-  <div class="image">
-    <video controls autoplay loop width="100%">
-      <source src="/biotop-new/img/blog/xmascal/02/vid.m4v" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </div>
-
-
-  
-  <p><p>Alle Jahre wieder um die Weihnachtszeit bohrt sich der Song “Last Christmas” der Band Wham! zuverlässig in unser aller Köpfe - es scheint kein Entkommen zu geben. Ohrwürmer oder
+    <div id="contents">
+      <p><p>Alle Jahre wieder um die Weihnachtszeit bohrt sich der Song “Last Christmas” der Band Wham! zuverlässig in unser aller Köpfe - es scheint kein Entkommen zu geben. Ohrwürmer oder
 “Involuntary musical imagery (INMI)”, wie die Forschung sie nennt, sind jedem vertraut. In seinem Buch “Musicophilia”, beschreibt Oliver Sacks Ohrwürmer eher als “Hirnwürmer”, die sich “kognitiv infektiös” verhalten [1]. Ohrwürmer bestehen normalerweise aus 3-4 Takten, also 15-20 Sekunden langen Bruchstücken, die sich immer und immer wieder wiederholen. Sie sind sozusagen Musikfragmente in Endlosschleife.</p>
 
 <p>Die meisten Studien zu diesem Thema haben sich der Frage gewidmet, wer überhaupt Ohrwürmer bekommt und welche Strukturen innerhalb eines Liedes Musik zum Ohrwurm werden lässt. Es scheint, dass so gut wie jeder von uns von Zeit zu Zeit Ohrwürmer bekommt [2]. Manchmal werden sie von Erinnerungen heraufbeschworen, oft entstehen sie aber scheinbar aus dem Nichts und treten spontan auf. Lieder, deren Melodie einfach gestrickt ist, die aber Besonderheiten wie unerwartete Sprünge aufweisen, werden eher zum Ohrwurm. Auch wenn ein Lied oft gehört wird oder viele Wiederholungen beinhaltet tritt das Phänomen häufiger auf. Viel davon scheint offensichtlich. Eine Studie mit 3,000 Teilnehmern konnte einige dieser Thesen bestätigen. Darin wurde die Struktur von 200 Liedern mit Ohrwurmfaktor mit Liedern aus der Kontrollgruppe, die laut den Teilnehmern nie zu Ohrwürmern werden, verglichen [3]. Auch kleine Notenschritte, lange Töne, und ein eher beschwingtes Tempo erhöhen die Chance, dass eine Melodie zum Ohrwurm wird.</p>
@@ -823,15 +842,16 @@
 
 <p><strong><a href="http://biotop.co/de/person/anna-koeferle/">Anna Köferle</a></strong> studierte Biochemie in Oxford und machte danach ihr Doktorat am University College London. Sie interessiert sich ganz besonders für Genregulierung, Epigenetik, und alles was mit der Genschere &ldquo;CRISPR&rdquo; zu tun hat. Seit sie vor zwei Jahren eine PostDoc-Stelle an der Ludwig-Maximilians-Universität München angetreten hat, kommt sie auch öfters mit Themen aus der Neurobiologie in Kontakt.</p>
 </blockquote></p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -965,6 +985,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>

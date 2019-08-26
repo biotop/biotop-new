@@ -12,11 +12,58 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
   <nav class="navbar is-fixed-top">
@@ -43,7 +90,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +101,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -185,7 +232,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -194,7 +241,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -203,7 +250,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -217,7 +264,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/tags/xmascal/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/tags/xmascal/">English</a>
     </li>
     
   </ul>
@@ -290,7 +337,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -309,7 +356,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#leitbild">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#leitbild">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -320,7 +367,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
+    <a class="anchor" href="http://biotop.co/biotop-new//de/#mitmachen-unterst%25C3%25BCtzen">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -451,7 +498,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -460,7 +507,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -469,7 +516,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/de/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -483,7 +530,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/tags/xmascal/">English</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/tags/xmascal/">English</a>
     </li>
     
   </ul>
@@ -576,7 +623,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/blog/xmascal/05/">
               <p class="title is-7 has-text-info">05.12.2018</p>
-              <p class="title is-6 has-text-primary ">Was kann eine beängstigend pelzige Teufelsfigur wie der Krampus mit Romantik zu tun haben?</p>
+              <p class="title is-6 has-text-primary ">Krampus</p>
               <p class="subtitle is-7 has-text-grey">Biotop Adventkalender Tag 5</p>
             </a>
             <hr>
@@ -648,7 +695,7 @@
 <script type="text/javascript">
 
   
-  var eventDates = [  { title: "Die Wunderbare Physik der Schneeflocke", description: "Biotop Adventkalender Tag 6", date : "2018-12-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/06/" }, { title: "Was kann eine beängstigend pelzige Teufelsfigur wie der Krampus mit Romantik zu tun haben?", description: "Biotop Adventkalender Tag 5", date : "2018-12-05", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/05/" }, { title: "Erinnerst du dich noch an diesen Geschmack?", description: "Biotop Adventkalender Tag 4", date : "2018-12-04", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/04/" }, { title: "Ein (ur)alter Keks", description: "Biotop Adventkalender Tag 3", date : "2018-12-03", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/03/" }, { title: "Ohrwurmologie", description: "Biotop Adventkalender Tag 2", date : "2018-12-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/02/" }, { title: "Eine Weihnachtsvorlesung als Wandzeitung", description: "Biotop Adventkalender Tag 1", date : "2018-12-01", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/01/" }, { title: "Biotop Adventkalender", description: "Ein wissenschaftlicher Adventkalender", date : "2018-11-30", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal2018/" },];
+  var eventDates = [  { title: "Die Wunderbare Physik der Schneeflocke", description: "Biotop Adventkalender Tag 6", date : "2018-12-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/06/" }, { title: "Krampus", description: "Biotop Adventkalender Tag 5", date : "2018-12-05", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/05/" }, { title: "Erinnerst du dich noch an diesen Geschmack?", description: "Biotop Adventkalender Tag 4", date : "2018-12-04", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/04/" }, { title: "Ein (ur)alter Keks", description: "Biotop Adventkalender Tag 3", date : "2018-12-03", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/03/" }, { title: "Ohrwurmologie", description: "Biotop Adventkalender Tag 2", date : "2018-12-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/02/" }, { title: "Eine Weihnachtsvorlesung als Wandzeitung", description: "Biotop Adventkalender Tag 1", date : "2018-12-01", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/01/" }, { title: "Biotop Adventkalender", description: "Ein wissenschaftlicher Adventkalender", date : "2018-11-30", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal2018/" },];
 
   var colormap = {"event" : "has-background-warning", "blog" : "has-background-link"}
 
@@ -773,9 +820,9 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
+<div class="column is-half has-navbar-fixed-top">
   <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
@@ -837,7 +884,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/blog/xmascal/05/">
               <p class="title is-7 has-text-info">05.12.2018</p>
-              <p class="title is-6 has-text-primary ">Was kann eine beängstigend pelzige Teufelsfigur wie der Krampus mit Romantik zu tun haben?</p>
+              <p class="title is-6 has-text-primary ">Krampus</p>
               <p class="subtitle is-7 has-text-grey">Biotop Adventkalender Tag 5</p>
             </a>
             <hr>
@@ -909,7 +956,7 @@
 <script type="text/javascript">
 
   
-  var eventDates = [  { title: "Die Wunderbare Physik der Schneeflocke", description: "Biotop Adventkalender Tag 6", date : "2018-12-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/06/" }, { title: "Was kann eine beängstigend pelzige Teufelsfigur wie der Krampus mit Romantik zu tun haben?", description: "Biotop Adventkalender Tag 5", date : "2018-12-05", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/05/" }, { title: "Erinnerst du dich noch an diesen Geschmack?", description: "Biotop Adventkalender Tag 4", date : "2018-12-04", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/04/" }, { title: "Ein (ur)alter Keks", description: "Biotop Adventkalender Tag 3", date : "2018-12-03", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/03/" }, { title: "Ohrwurmologie", description: "Biotop Adventkalender Tag 2", date : "2018-12-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/02/" }, { title: "Eine Weihnachtsvorlesung als Wandzeitung", description: "Biotop Adventkalender Tag 1", date : "2018-12-01", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/01/" }, { title: "Biotop Adventkalender", description: "Ein wissenschaftlicher Adventkalender", date : "2018-11-30", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal2018/" },];
+  var eventDates = [  { title: "Die Wunderbare Physik der Schneeflocke", description: "Biotop Adventkalender Tag 6", date : "2018-12-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/06/" }, { title: "Krampus", description: "Biotop Adventkalender Tag 5", date : "2018-12-05", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/05/" }, { title: "Erinnerst du dich noch an diesen Geschmack?", description: "Biotop Adventkalender Tag 4", date : "2018-12-04", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/04/" }, { title: "Ein (ur)alter Keks", description: "Biotop Adventkalender Tag 3", date : "2018-12-03", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/03/" }, { title: "Ohrwurmologie", description: "Biotop Adventkalender Tag 2", date : "2018-12-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/02/" }, { title: "Eine Weihnachtsvorlesung als Wandzeitung", description: "Biotop Adventkalender Tag 1", date : "2018-12-01", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/01/" }, { title: "Biotop Adventkalender", description: "Ein wissenschaftlicher Adventkalender", date : "2018-11-30", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal2018/" },];
 
   var colormap = {"event" : "has-background-warning", "blog" : "has-background-link"}
 
@@ -984,8 +1031,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-12-06 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1006,7 +1053,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">06.12.2018</span>
         
@@ -1016,19 +1063,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/06/">
-        <figure class="image">
-          
-  <div class="image">
-    <video controls autoplay loop width="100%">
-      <source src="/biotop-new/img/blog/xmascal/06/snowflake_vid.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </div>
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new" style="object-fit:contain" alt="">
+  </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1045,7 +1085,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1054,8 +1094,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Lukas Hutter</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Gründer | Systembiologe, Lehrer</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Lukas Hutter</span><br>
+      
       
     </div>
   </div>
@@ -1064,7 +1104,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1073,8 +1113,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Roberto Maffulli</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründer | Maschinenbau Ingenieur</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Roberto Maffulli</span><br>
+      
       
     </div>
   </div>
@@ -1092,8 +1132,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-12-05 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1114,7 +1154,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">05.12.2018</span>
         
@@ -1124,16 +1164,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/05/">
-        <figure class="image">
-          
-  <figure class="image">
-    <img src="/biotop-new/img/blog/xmascal/05/krampus.png" alt="">
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new/img/blog/xmascal/05/krampus.png" style="object-fit:contain" alt="">
   </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1142,7 +1178,7 @@
   <div class="card-content">
     <div class="content">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/05/">
-        <p class="title is-4 has-text-primary ">Was kann eine beängstigend pelzige Teufelsfigur wie der Krampus mit Romantik zu tun haben?</p>
+        <p class="title is-4 has-text-primary ">Krampus</p>
         <p class="subtitle is-6 has-text-grey">Biotop Adventkalender Tag 5</p>
       </a>
     </div>
@@ -1150,7 +1186,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1159,8 +1195,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Wolfgang Schütz</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründer | Graphiker</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Wolfgang Schütz</span><br>
+      
       
     </div>
   </div>
@@ -1169,7 +1205,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1178,8 +1214,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Martin Fera</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründer | Archäologe</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Martin Fera</span><br>
+      
       
     </div>
   </div>
@@ -1197,8 +1233,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-12-04 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1219,7 +1255,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">04.12.2018</span>
         
@@ -1229,19 +1265,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/04/">
-        <figure class="image">
-          
-  <div class="image">
-    <video controls autoplay loop width="100%">
-      <source src="/biotop-new/img/blog/xmascal/04/tastebuds.m4v" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </div>
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new" style="object-fit:contain" alt="">
+  </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1258,7 +1287,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1267,8 +1296,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Mariangela Panniello</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründerin | Neurowissenschaftlerin</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Mariangela Panniello</span><br>
+      
       
     </div>
   </div>
@@ -1286,8 +1315,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-12-03 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1308,7 +1337,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">03.12.2018</span>
         
@@ -1318,16 +1347,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/03/">
-        <figure class="image">
-          
-  <figure class="image">
-    <img src="/biotop-new/img/blog/xmascal/03/RamsesIIIBakery_Upload.jpg" alt="">
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new/img/blog/xmascal/03/RamsesIIIBakery_Upload.jpg" style="object-fit:contain" alt="">
   </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1344,7 +1369,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1353,8 +1378,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Martin Fera</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründer | Archäologe</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Martin Fera</span><br>
+      
       
     </div>
   </div>
@@ -1363,7 +1388,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1372,8 +1397,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Ralf Bliem</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründer | Architekt</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Ralf Bliem</span><br>
+      
       
     </div>
   </div>
@@ -1391,8 +1416,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-12-02 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1413,7 +1438,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">02.12.2018</span>
         
@@ -1423,19 +1448,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/02/">
-        <figure class="image">
-          
-  <div class="image">
-    <video controls autoplay loop width="100%">
-      <source src="/biotop-new/img/blog/xmascal/02/vid.m4v" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </div>
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new" style="object-fit:contain" alt="">
+  </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1452,7 +1470,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1461,8 +1479,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Anna Köferle</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründerin | Biochemikerin</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Anna Köferle</span><br>
+      
       
     </div>
   </div>
@@ -1480,8 +1498,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-12-01 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1502,7 +1520,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">01.12.2018</span>
         
@@ -1512,16 +1530,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal/01/">
-        <figure class="image">
-          
-  <figure class="image">
-    <img src="/biotop-new/img/blog/xmascal/01/xmaslecture.jpg" alt="">
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new/img/blog/xmascal/01/xmaslecture.jpg" style="object-fit:contain" alt="">
   </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1538,7 +1552,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1547,8 +1561,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Lukas Hutter</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Gründer | Systembiologe, Lehrer</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Lukas Hutter</span><br>
+      
       
     </div>
   </div>
@@ -1566,8 +1580,8 @@
           <div class="card">
             <header class = "card-top">
   <div class="card-content blog" id="2018-11-30 00:00:00 &#43;0000 UTC">
-    <div class="columns is-mobile">
-      <div class="column is-9 is-mobile has-text-left">
+    <div class="columns">
+      <div class="column is-9 has-text-left">
         
         <a href="http://biotop.co/biotop-new//de/tags/exhibition/">
           <span class="menu-label">
@@ -1588,7 +1602,7 @@
         </a>
         
       </div>
-      <div class="column is-3 is-mobile has-text-right">
+      <div class="column is-3 has-text-right">
         
         <span class="menu-label has-text-info">30.11.2018</span>
         
@@ -1598,16 +1612,12 @@
 </header>
 <section class = "card-center">
   <div class="card-content">
-    <div class="card-image is-4by3">
+    <div class="card-image">
       <a href="http://biotop.co/biotop-new/de/blog/xmascal2018/">
-        <figure class="image">
-          
-  <figure class="image">
-    <img src="/biotop-new/img/blog/xmascal/Logo_xmas.jpg" alt="">
+          <figure class="image is-4by3 is-covered" style="object-fit:cover">
+    <img src="/biotop-new/img/blog/xmascal/Logo_xmas.jpg" style="object-fit:contain" alt="">
   </figure>
 
-
-        </figure>
       </a>
     </div>
   </div>
@@ -1624,7 +1634,7 @@
       
       
       
-      <div class="column">
+      <div class="column is-half">
   <div class="media padded">
     <div class="media-left">
       <p class="image is-32x32">
@@ -1633,8 +1643,8 @@
     </div>
     <div class="media-content content">
       
-      <span class="title has-text-weight-bold is-size-7 has-text-dark"> Anna Köferle</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Mitgründerin | Biochemikerin</span><br>
+      <span class="title has-text-weight-bold is-7 has-text-dark"> Anna Köferle</span><br>
+      
       
     </div>
   </div>
@@ -1650,9 +1660,8 @@
       
     </div>
   </section>
+</div>
 
-
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">

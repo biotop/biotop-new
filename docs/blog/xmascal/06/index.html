@@ -12,13 +12,69 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+<section class="hero is-small is-primary">
+</section>
+    <video class="hero-background" controls autoplay loop width="100%">
+      <source src="/biotop-new/img/blog/xmascal/06/snowflake_vid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +99,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +110,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -203,7 +259,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -212,7 +268,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -221,7 +277,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -235,7 +291,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/06/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/06/">Deutsch</a>
     </li>
     
   </ul>
@@ -247,15 +303,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/blog/xmascal/05/">What can a scary furry devil figure like the Krampus have to do with romanticism?</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/05/">Krampus</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/04/">Do you remember that taste?</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/04/">Do you remember that taste?</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
     
   </ul>
   
@@ -323,7 +379,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -342,7 +398,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -353,7 +409,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -502,7 +558,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -511,7 +567,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -520,7 +576,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -534,7 +590,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/06/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/06/">Deutsch</a>
     </li>
     
   </ul>
@@ -546,15 +602,15 @@
   <p class="menu-label">See Also</p>
   <ul class="menu-list">
     
-    <li><a href="/biotop-new/blog/xmascal/05/">What can a scary furry devil figure like the Krampus have to do with romanticism?</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/05/">Krampus</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/04/">Do you remember that taste?</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/04/">Do you remember that taste?</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/03/">The Oldest Cookie Recipe</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/02/">Earwormology</a></li>
     
-    <li><a href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
+    <li><a  class="anchor" href="/biotop-new/blog/xmascal/01/">A Christmas Lecture As Wall Newspaper</a></li>
     
   </ul>
   
@@ -762,10 +818,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -795,66 +851,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">06.12.2018</h5>
-  <h1 class="title">The Wonderful Physics of Snowflakes</h1>
-  
-    <h4 class="subtitle has-text-grey"> Biotop Christmas Calendar Day 6</h4>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-      
-      
-      <div class="column">
-  <div class="media padded">
-    <div class="media-left">
-      <p class="image is-64x64">
-        <img class="is-rounded" src="/biotop-new/img/person/luki.jpg">
-      </p>
-    </div>
-    <div class="media-content content">
-      
-      <span class="title has-text-weight-bold is-size-6 has-text-dark"> Lukas Hutter</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Founder | Systems biologist, Teacher</span><br>
-      
-    </div>
-  </div>
-</div>
-
-    
-      
-      
-      <div class="column">
-  <div class="media padded">
-    <div class="media-left">
-      <p class="image is-64x64">
-        <img class="is-rounded" src="/biotop-new/img/person/roberto.jpg">
-      </p>
-    </div>
-    <div class="media-content content">
-      
-      <span class="title has-text-weight-bold is-size-6 has-text-dark"> Roberto Maffulli</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Co-founder | Mechanical Engineer</span><br>
-      
-    </div>
-  </div>
-</div>
-
-    
-  </div>
-
-  
-  <div class="image">
-    <video controls autoplay loop width="100%">
-      <source src="/biotop-new/img/blog/xmascal/06/snowflake_vid.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </div>
-
-
-  
-  <p><p>This story is about a substance that couldn&rsquo;t be any more contradictory: It is mundane in its omnipresence, while oozing with symbolism. It forms the basis of all life on this planet, while being capable of unleashing destructive forces of unrivalled power.</p>
+    <div id="contents">
+      <p><p>This story is about a substance that couldn&rsquo;t be any more contradictory: It is mundane in its omnipresence, while oozing with symbolism. It forms the basis of all life on this planet, while being capable of unleashing destructive forces of unrivalled power.</p>
 
 <p>In spite of being formed from two of the three most common elements in the universe, pure, liquid water is an incredibly valuable good characterised by physical properties that are unusual to say the least. Water is a small molecule that occurs on earth in solid, liquid and gaseous form. This is remarkable, as most similarly small molecules would only occur in gaseous form under terrestrial conditions. Whether a substance occurs as solid, liquid or gas, is largely determined by temperature and pressure. If temperatures on Earth drop below 0°C the rules of the interplay between water molecules change substantially: Whereas water in liquid form is best described as a dancing frenzy of water molecules that only form connected groups for a short time, the dancing abates as water solidifies, and its molecules form tight formations.</p>
 
@@ -894,15 +894,16 @@
 
 <p><strong><a href="http://biotop.co/en/person/roberto-maffulli/">Roberto Maffulli</a></strong> is a specialist in fluid dynamics and currently works as a lecturer at Balliol College, University of Oxford.</p>
 </blockquote></p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -1044,6 +1045,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>

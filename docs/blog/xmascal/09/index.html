@@ -12,13 +12,62 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +92,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +103,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -203,7 +252,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -212,7 +261,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -221,7 +270,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -235,7 +284,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/09/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/09/">Deutsch</a>
     </li>
     
   </ul>
@@ -308,7 +357,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -327,7 +376,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -338,7 +387,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -487,7 +536,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -496,7 +545,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -505,7 +554,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -519,7 +568,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/xmascal/09/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/xmascal/09/">Deutsch</a>
     </li>
     
   </ul>
@@ -732,10 +781,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -765,19 +814,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">09.11.2018</h5>
-  <h1 class="title">Christmas 1000 Years ago</h1>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-  </div>
-
-  
-
-  
-  <p><p><em>Was Christmas celebrated 1000 years ago?</em></p>
+    <div id="contents">
+      <p><p><em>Was Christmas celebrated 1000 years ago?</em></p>
 
 <p>Christmas as a celebration of the birth of Jesus is one of the most important holidays of Christian communities. While it was already celebrated in Rome in the 4th century A.D., in the early Middle Ages it took a step back in favor of the celebration of the Epiphany of the Lord. With the coronation of Charlemagne as emperor at Christmas 800, it regained popularity.</p>
 
@@ -816,15 +856,16 @@ DOI: <a href="https://doi.org/10.11588/vuf.2014.0.41868">https://doi.org/10.1158
 
 <li><p>Markus Pohlmeyer, Weihnachten: vom antiken Sonnenkult zum globalen Fest, in B. Schmelz (Hg.): Weihnachten in aller Welt, Mitteilungen aus dem Museum für Völkerkunde Hamburg, Hamburg 2016, 12-26.</p></li>
 </ul></p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -966,6 +1007,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>

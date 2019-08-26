@@ -12,13 +12,133 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({
+    TeX: {
+      extensions: ["[mhchem]/mhchem.js"]
+    }
+  });
+</script>
+
+
+  
+  <script type="text/javascript" src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+
+
 
   
   <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/bulma-carousel.min.js"></script>
+  
+  <script type="text/javascript" src="/biotop-new/jquery.toc.min.js"></script>
 </head>
 <body class="">
+  
+<section class="hero is-fullheight has-background feature-hero">
+  <div class="hero-head">
+    
+  </div>
+  <img class="hero-background" style="object-fit:scale-down" src="/biotop-new/img/blog/open_cell/1_logo.jpg"  alt="">
+  <div class="hero-foot has-padding">
+    <div class="container section">
+      <div class="columns">
+        <div class="column is-9 has-text-left">
+          
+          <a href="http://biotop.co/biotop-new//tags/containerlab/">
+            <span class="menu-label">
+              #containerlab
+            </span>
+          </a>
+          
+          <a href="http://biotop.co/biotop-new//tags/london/">
+            <span class="menu-label">
+              #london
+            </span>
+          </a>
+          
+        </div>
+        <div class="column is-3 has-text-right">
+          
+          <span class="menu-label has-text-info">25.05.2018</span>
+          
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8 has-text-left">
+          <h1 class="title">
+            Biotop X OpenCell
+          </h1>
+          <h2 class="subtitle">
+            How to build a biolab in 10 days
+          </h2>
+        </div>
+        <div class="column is-4">
+          <div class="columns is-multiline">
+            
+            
+            
+            <div class="column is-half">
+  <div class="media padded">
+    <div class="media-left">
+      <p class="image is-32x32">
+        <img class="is-rounded" src="/biotop-new/img/person/anna-koeferle.png">
+      </p>
+    </div>
+    <div class="media-content content">
+      
+      <span class="title has-text-weight-bold is-6 has-text-dark"> Anna Köferle</span><br>
+      
+        <span class="subtitle has-text-grey is-7"> Co-founder | Biochemist</span><br>
+      
+      
+    </div>
+  </div>
+</div>
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
   <nav class="navbar is-fixed-top">
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
@@ -43,7 +163,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -54,7 +174,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -203,7 +323,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -212,7 +332,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -221,7 +341,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -235,7 +355,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/opencell/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/opencell/">Deutsch</a>
     </li>
     
   </ul>
@@ -308,7 +428,7 @@
 
         <section class="section">
           <div id="content" class="columns is-centered">
-            <div class="column is-hidden-mobile is-2">
+<div class="column is-hidden-mobile is-2">
   <aside class="menu is-hidden-mobile">
   <div class="tabs">
     <ul>
@@ -327,7 +447,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#mission-statement">
+    <a class="anchor" href="http://biotop.co/biotop-new//#mission-statement">
       
       <i class="fa fa-rocket has-text-primary"></i>
       
@@ -338,7 +458,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new//#participate-support">
+    <a class="anchor" href="http://biotop.co/biotop-new//#participate-support">
       
       <i class="fa fa-heart has-text-danger"></i>
       
@@ -487,7 +607,7 @@
   
   
   <li>
-    <a href="http://biotop.co/biotop-new/people/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/people/">
       
       <i class="fas fa-users has-text-success"></i>
       
@@ -496,7 +616,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/projects/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/projects/">
       
       <i class="fa fa-bolt has-text-warning"></i>
       
@@ -505,7 +625,7 @@
   </li>
   
   <li>
-    <a href="http://biotop.co/biotop-new/blog/">
+    <a  class="anchor" href="http://biotop.co/biotop-new/blog/">
       
       <i class="far fa-newspaper"></i>
       
@@ -519,7 +639,7 @@
   <ul class="menu-list">
     
     <li>
-      <a href="http://biotop.co/biotop-new/de/blog/opencell/">Deutsch</a>
+      <a  class="anchor" href="http://biotop.co/biotop-new/de/blog/opencell/">Deutsch</a>
     </li>
     
   </ul>
@@ -732,10 +852,10 @@
   </div>
 </aside>
 
+</div>
 
-            </div>
-            <div class="column is-half has-navbar-fixed-top">
-<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="column is-half has-navbar-fixed-top">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     
 
@@ -765,44 +885,10 @@
 
 
 
-<div class="content">
-  <h5 class="subtitle has-text-grey is-7 has-text-weight-light">25.05.2018</h5>
-  <h1 class="title">Biotop X OpenCell</h1>
-  
-    <h4 class="subtitle has-text-grey"> How to build a biolab in 10 days</h4>
-  
+  <div class="content">
 
-  <div class="columns">
-    
-      
-      
-      <div class="column">
-  <div class="media padded">
-    <div class="media-left">
-      <p class="image is-64x64">
-        <img class="is-rounded" src="/biotop-new/img/person/anna-koeferle.png">
-      </p>
-    </div>
-    <div class="media-content content">
-      
-      <span class="title has-text-weight-bold is-size-6 has-text-dark"> Anna Köferle</span><br>
-      <span class="subtitle has-text-grey is-size-7"> Co-founder | Biochemist</span><br>
-      
-    </div>
-  </div>
-</div>
-
-    
-  </div>
-
-  
-  <figure class="image">
-    <img src="/biotop-new/img/blog/open_cell/1_logo.jpg" alt="">
-  </figure>
-
-
-  
-  <p><p>We just got back from London, where we helped our friends at <a href="http://opencell.webflow.io/">OpenCell</a> furnish their first container lab.</p>
+    <div id="contents">
+      <p><p>We just got back from London, where we helped our friends at <a href="http://opencell.webflow.io/">OpenCell</a> furnish their first container lab.</p>
 
 <p>How did this happen?
 Well, about a month ago we were contacted by Helene Steiner, who, together with Thomas Meany, is in the process of setting up a container village for small biotech startups in the heart of London. The idea is to provide a professional workspace (10 biolabs, 20 offices, 10 studios for artists and designers, 4 workshop containers, 1 store) to small businesses and startups. She said to us &ldquo;Hey guys, I saw you are interested in building container labs, we have 10 of them. Do you want to design the interior &amp; layout for the first one and help us build it?&ldquo;. Of course we agreed, as this would give us a change to design and test a first prototype of our lab workbench as well as try out different layouts for the container lab. The main challenge here is to fit all the necessary equipment into a small space and still create a nice work environment.</p>
@@ -890,15 +976,16 @@ We built some room dividers out of wood and cavity-plates, then focused our effo
 
 <p>Video: Rhys Votano, Jan Stöckel</p>
 </p>
-</div>
-<div class="references content">
+    </div>
+  </div>
+  <div class="references content">
   <hr>
   
   
 </div>
 
+</div>
 
-            </div>
           </div>
         </section><footer class="footer">
   <div class="content">
@@ -1040,6 +1127,14 @@ AUSTRIA</br></p>
 
 
 <script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad:true,
+    theme:'neutral',
+    fontFamily: 'Source Code Pro'
+  });
+</script>
 
     </body>
 </html>
