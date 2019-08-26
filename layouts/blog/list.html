@@ -6,11 +6,8 @@
   {{ partial "header.html" . }}
 {{ end }}
 
-{{ define "aside" }}
-  {{ partial "aside.html" . }}
-{{ end }}
-
 {{ define "main" }}
+<div class="column is-half has-navbar-fixed-top">
   {{ partial "breadcrumb.html" . }}
   <h1 class="title is-1">{{ .Title }}</h1>
   <div class="content">
@@ -24,7 +21,7 @@
   <section class="section">
     <div class="columns is-multiline">
       {{ range.Pages }}
-        <div class="column is-full">
+        <div class="column is-6">
           <div class="card">
             {{ partial "card.html" . }}
           </div>
@@ -32,7 +29,7 @@
       {{ end }}
     </div>
   </section>
-
+</div>
 {{ end }}
 
 {{ define "custom-js"}}

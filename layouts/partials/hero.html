@@ -1,7 +1,7 @@
 <div id="hero">
-<section class="hero is-medium">
+<section class="hero is-white is-medium override-navbar">
   <div class="hero-body">
-    <div class="container" style="z-index:2">
+    <div class="container" style="z-index:60">
       <figure class="image is-128x128">
         <img class="center" src="{{ .Site.Params.logo.notext | relURL }}">
       </figure>
@@ -11,9 +11,9 @@
   </div>
   <!-- Hero footer: will stick at the bottom -->
 </section>
-<section class="hero is-primary has-text-centered is-medium">
+<section class="hero is-primary has-text-centered is-medium override-navbar">
   <div class="hero-body">
-    <div class="container" style="z-index:2">
+    <div class="container" style="z-index:60">
       <h1 class="title hero-quote">
         {{ .Site.Params.description }}
       </h1>
@@ -25,14 +25,16 @@
 </section>
 </div>
 </section>
-<section class="hero is-info has-text-centered is-medium">
+<section class="hero is-info has-text-centered is-medium override-navbar">
   <div class="hero-body">
     <h1 class="title hero-quote"> {{ i18n "recent-blogposts" }} </h1>
     <div class="container">
-      <div class="columns is-multiline is-5 is-centered">
-        {{ range first 2 (where .Site.RegularPages ".Params.type" "blog") }}
-        <div class="column  is-three-quarters-mobile is-three-quarters-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd has-background-white card-align" style="margin:0.5em;">
-          {{ partial "card.html" . }}
+      <div id="carousel" class="carousel is-5">
+        {{ range $i, $d := (where .Site.RegularPages ".Params.type" "blog") }}
+        <div class="item item-{{ $i }}">
+          <div class="card bm--card-equal-height">
+             {{ partial "card-hero.html" $d}}
+          </div>
         </div>
         {{ end }}
       </div>
@@ -41,7 +43,7 @@
 </section>
 
 </section>
-<section class="hero is-link has-text-centered is-medium">
+<section class="hero is-link has-text-centered is-medium override-navbar">
   <div class="hero-body">
     <div class="container">
       <h1 class="title hero-quote"> {{ i18n "about-biotop" }} </h1>
@@ -65,3 +67,6 @@
     </div>
   </div>
 </section>
+
+{{ $scripts := resources.Get "carousel.js" }}
+<script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>

@@ -1,5 +1,5 @@
 +++
-authors = ["anna-koeferle", "anna-ritscher"]
+authors = ["anna-koeferle", "anna-ritscher", "lukas-hutter"]
 categories = ["biotop*"]
 date = "2018-11-30"
 description = "A scientific christmas calendar"
