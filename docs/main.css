@@ -10,7 +10,7 @@
   letter-spacing: 0.1em; }
   @media (max-width: 1215px) {
     .branding {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem !important; } }
 
 .branding-subtitle {
   font-family: 'Raleway', sans-serif;
@@ -19,7 +19,7 @@
   letter-spacing: 0.12em; }
   @media (max-width: 1215px) {
     .branding-subtitle {
-      font-size: 0.6rem; } }
+      font-size: 0.6rem !important; } }
 
 .hero-quote {
   font-family: 'Raleway', sans-serif;
@@ -29,7 +29,7 @@
   z-index: 2; }
   @media (max-width: 768px) {
     .hero-quote {
-      font-size: 1rem; } }
+      font-size: 1.3rem !important; } }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
@@ -8827,7 +8827,16 @@ html {
   padding: 10px; }
 
 .has-little-margin {
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.1em !important; }
+
+.has-margin-bottom {
+  margin-bottom: 0.75em !important; }
+
+.has-big-margin-bottom {
+  margin-bottom: 3rem !important; }
+
+.has-no-padding {
+  padding: 0px !important; }
 
 .menu {
   position: -webkit-sticky;
@@ -8842,7 +8851,16 @@ html {
   height: 100%; }
 
 .card {
-  height: 100%; }
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.card-bottom {
+  flex-grow: 1; }
+
+.meta {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem; }
 
 ul.toc > li {
   font-size: 80%;
@@ -8899,3 +8917,14 @@ h1::before, h2::before, h3::before {
 .hero-foot {
   z-index: 42;
   background: whitesmoke; }
+
+.prev, .next {
+  position: absolute;
+  z-index: 100; }
+
+.prev {
+  left: auto;
+  right: 20px; }
+
+.next {
+  left: 20px; }
