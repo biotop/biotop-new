@@ -27,13 +27,13 @@
 </section>
 <section class="hero is-info has-text-centered is-medium override-navbar">
   <div class="hero-body">
-    <h1 class="title hero-quote"> {{ i18n "recent-blogposts" }} </h1>
+    <h1 class="title hero-quote has-big-margin-bottom"> {{ i18n "recent-blogposts" }} </h1>
     <div class="container">
-      <div id="carousel" class="carousel is-5">
-        {{ range $i, $d := (where .Site.RegularPages ".Params.type" "blog") }}
-        <div class="item item-{{ $i }}">
-          <div class="card bm--card-equal-height">
-             {{ partial "card-hero.html" $d}}
+      <div class="columns is-4 is-multiline">
+        {{ range first 3 (where .Site.RegularPages ".Params.type" "blog") }}
+        <div class="column has-no-padding">
+          <div class="card has-text-left">
+            {{ partial "card.html" . }}
           </div>
         </div>
         {{ end }}
@@ -67,6 +67,3 @@
     </div>
   </div>
 </section>
-
-{{ $scripts := resources.Get "carousel.js" }}
-<script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
