@@ -108,23 +108,8 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/blog/xmascal/06/</loc>
-    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/blog/xmascal/06/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/blog/xmascal/06/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/biotop-new/de/tags/exhibition/</loc>
-    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -138,8 +123,23 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/de/blog/xmascal/07/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/blog/xmascal/07/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/blog/xmascal/07/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/de/tags/</loc>
-    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -154,7 +154,7 @@
   
   <url>
     <loc>http://biotop.co/biotop-new/de/tags/villach/</loc>
-    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -169,7 +169,7 @@
   
   <url>
     <loc>http://biotop.co/biotop-new/de/tags/xmascal/</loc>
-    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -179,6 +179,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/tags/xmascal/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/blog/xmascal/06/</loc>
+    <lastmod>2018-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/blog/xmascal/06/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/blog/xmascal/06/"
                 />
   </url>
   
@@ -569,21 +584,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/blog/xmascal/24/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/blog/xmascal/07/</loc>
-    <lastmod>2018-11-07T17:02:52+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/blog/xmascal/07/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/blog/xmascal/07/"
                 />
   </url>
   
