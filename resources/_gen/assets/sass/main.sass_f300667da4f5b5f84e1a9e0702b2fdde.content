@@ -8821,6 +8821,7 @@ html {
   scroll-behaviour: smooth; }
 
 .body {
+  position: fixed;
   scroll-snap-type: y mandatory; }
 
 .center {

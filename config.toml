@@ -2,6 +2,7 @@ baseURL = "http://biotop.co/biotop-new"
 languageCode = "en-us"
 theme = "bulma-base"
 publishDir = "docs"
+featuredTags = ["meeting", "containerlab"]
 
 DefaultContentLanguage = "en"
 [languages]
