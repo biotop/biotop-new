@@ -86,6 +86,28 @@
   xing = ""
   linkedin = ""
 
+[ ugne-greivyte ]
+  name = "Ugne Greivyte"
+  featured = "/img/person/avatar-placeholder.jpg"
+  [ugne-greivyte.trained]
+    en = "Architect"
+    de = "Architekt"
+  [ugne-greivyte.role]
+    en = "Co-founder"
+    de = "Mitgründer"
+  [ugne-greivyte.bio]
+    en = ""
+    de = ""
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
 [ ralf-bliem ]
   name = "Ralf Bliem"
   featured = "/img/person/ralf_bliem.jpg"

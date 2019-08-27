@@ -3,29 +3,95 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "header" }}
-  <section class="hero is-small is-light override-navbar">
-    <div class="hero-body">
-      {{ partial "breadcrumb.html" . }}
-    </div>
-  </section>
-  {{ range first 1 .Pages}}
-    <!-- {{ partial "featured-hero.html" . }} -->
-  {{ end }}
   {{ partial "header.html" . }}
 {{ end }}
 
-{{ define "main" }}
-<div class="column has-navbar-fixed-top">
-  {{ range $d := .Params.types }}
-    <section class="hero is-large is-{{ $d.bg }}">
-      <div class="hero-body">
-        <h1 class="hero-quote">{{ $d.type }}</h1>
-        {{ range (where $.Site.RegularPages ".Params.type" $d.type) }}
-        <h2>{{ .Title }}</h2>
+{{ define "non-section-main" }}
+<div class="column has-navbar-fixed-top has-no-padding">
+    <!-- Featured entries -->
+    <section class="section square-3-hero has-no-padding override-navbar">
+      <div class="columns has-no-margin">
+          <div class="has-background-white column square-3 has-no-padding">
+            <div class="is-primary">
+              <div class="hero-body has-padding-1em">
+                <div class="has-big-margin-bottom">
+                  {{ partial "breadcrumb.html" . }}
+                </div>
+                <div class="">
+                  <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
+                  <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ range first 1 (where .Pages ".Params.type" "event")}}
+          <div class="column square-3 has-no-padding">
+            <div class="hero is-large is-primary has-background stretch">
+              <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
+              <div class="hero-body has-padding-1em">
+                <div class="has-big-margin-bottom">
+                  <h2  class="hero-quote is-6 title has-text-right">{{ dateFormat "02.01.2006" .Params.date }}</h2>
+                </div>
+                <div class="container">
+                  <h1  class="hero-quote is-3 title has-little-margin">{{ .Title }}</h1>
+                  <h2  class="hero-quote is-6 title">{{ .Params.description }}</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          {{ range first 1 (where .Pages ".Params.type" "blog")}}
+          <div class="column square-3 has-no-padding">
+            <div class="hero is-large is-link has-background stretch">
+              <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
+              <div class="hero-body has-padding-1em">
+                <div class="has-big-margin-bottom">
+                  <h2  class="hero-quote is-6 title has-text-right">{{ dateFormat "02.01.2006" .Params.date }}</h2>
+                </div>
+                <div class="container">
+                  <h1  class="hero-quote is-3 title has-little-margin">{{ .Title }}</h1>
+                  <h2  class="hero-quote is-6 title">{{ .Params.description }}</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+      </div>
+    </section>
+
+
+    <section class="hero square-6-hero is-grey override-navbar">
+      <div class="columns has-no-margin is-multiline is-mobile">
+        {{ range first 6 (after 1 (where .Pages ".Params.type" "blog"))}}
+        <div class="column has-no-padding square-6">
+          <a href="{{ .Permalink}}">
+          <div class="hero is-large is-light has-background stretch">
+            <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
+            <div class="hero-body has-padding-1em">
+              <div class="container">
+                <h3 class="hero-quote ov has-text-link has-text-right">
+                  {{ with .Params.date }}
+                    {{ dateFormat "02.01.2006" . }}
+                  {{ end }}
+                </h3>
+                <h1  class="hero-quote is-7 has-text-dark has-little-margin">{{ .Title }}</h1>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
         {{ end }}
       </div>
     </section>
-  {{ end }}
+
+    <section class="hero is-small section has-no-padding">
+      <div class="hero-body">
+        <h1 class="hero-quote title has-text-centered">All Blogposts</h1>
+      </div>
+      {{ range .Pages }}
+        {{ partial "content-ov.html" . }}
+      {{ end }}
+    </section>
 </div>
 {{ end }}
 

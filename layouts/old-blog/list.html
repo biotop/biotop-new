@@ -1,0 +1,41 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "header" }}
+  <section class="hero is-small is-light override-navbar">
+    <div class="hero-body">
+      {{ partial "breadcrumb.html" . }}
+    </div>
+  </section>
+  {{ range first 1 .Pages}}
+    <!-- {{ partial "featured-hero.html" . }} -->
+  {{ end }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "non-section-main" }}
+<div class="column has-navbar-fixed-top has-no-padding">
+  {{ range $d := .Params.types }}
+    <section class="hero is-large is-{{ $d.bg }}">
+      <div class="hero-body">
+        <h1 class="hero-quote">{{ $d.type }}</h1>
+        <div class="columns is-multiline">
+        {{ range (where $.Site.RegularPages ".Params.type" $d.type) }}
+          <div class="column is-4">
+            <section class="content-ov">
+              <section class="section has-no-padding">
+                    {{ partial "content-ov-media.html" . }}
+              </section>
+            </section>
+          </div>
+        {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ define "custom-js"}}
+{{ end }}
