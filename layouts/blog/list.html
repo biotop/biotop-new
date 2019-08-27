@@ -5,7 +5,7 @@
 {{ define "header" }}
   <section class="hero is-small is-light override-navbar">
     <div class="hero-body">
-      <h1 class="hero-quote">{{ .Title }}</h1>
+      {{ partial "breadcrumb.html" . }}
     </div>
   </section>
   {{ range first 1 .Pages}}
