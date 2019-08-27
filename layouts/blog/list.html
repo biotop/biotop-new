@@ -9,40 +9,23 @@
     </div>
   </section>
   {{ range first 1 .Pages}}
-  {{ partial "featured-hero.html" . }}
+    <!-- {{ partial "featured-hero.html" . }} -->
   {{ end }}
   {{ partial "header.html" . }}
 {{ end }}
 
 {{ define "main" }}
 <div class="column has-navbar-fixed-top">
-  <div class="container">
-    <section class="section">
-      <div class="columns is-multiline">
-        {{ range first 1 .Pages}}
-          <div class="column is-half">
-            <div class="card">
-              {{ partial "card.html" . }}
-            </div>
-          </div>
-        {{ end }}
-        <div class="column is-half">
-          {{ partial "calendar.html" . }}
-        </div>
-
-      </div>
-
-      <div class="columns is-multiline">
-        {{ range.Pages }}
-        <div class="column is-3">
-          <div class="card">
-            {{ partial "card.html" . }}
-          </div>
-        </div>
+  {{ range $d := .Params.types }}
+    <section class="hero is-large is-{{ $d.bg }}">
+      <div class="hero-body">
+        <h1 class="hero-quote">{{ $d.type }}</h1>
+        {{ range (where $.Site.RegularPages ".Params.type" $d.type) }}
+        <h2>{{ .Title }}</h2>
         {{ end }}
       </div>
     </section>
-  </div>
+  {{ end }}
 </div>
 {{ end }}
 
