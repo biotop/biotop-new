@@ -25,20 +25,15 @@
 </section>
 </div>
 </section>
-<section class="hero is-info has-text-centered is-medium override-navbar">
-  <div class="hero-body">
-    <h1 class="title hero-quote has-big-margin-bottom"> {{ i18n "recent-blogposts" }} </h1>
-    <div class="container">
-      <div class="columns is-4 is-multiline">
-        {{ range first 3 (where .Site.RegularPages ".Params.type" "blog") }}
-        <div class="column ">
-          <div class="card has-text-left">
-            {{ partial "card.html" . }}
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
+
+<section class="section square-3-hero has-no-padding override-navbar">
+  <div class="columns has-no-margin">
+      {{ range first 1 (where .Pages ".Params.type" "event")}}
+         {{ partial "square3.html" .}}
+      {{ end }}
+      {{ range first 2 (where .Pages ".Params.type" "blog")}}
+        {{ partial "square3.html" .}}
+      {{ end }}
   </div>
 </section>
 

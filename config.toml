@@ -2,7 +2,6 @@ baseURL = "http://biotop.co/biotop-new"
 languageCode = "en-us"
 theme = "bulma-base"
 publishDir = "docs"
-featuredTags = ["meeting", "containerlab"]
 
 DefaultContentLanguage = "en"
 [languages]
@@ -11,6 +10,7 @@ DefaultContentLanguage = "en"
     title = "Biotop Science Collective"
     description = "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
     weight = 1
+    announcement = "Test Announcement"
     [language.en.newsletter]
       title = "Subscribe"
 
@@ -39,6 +39,7 @@ DefaultContentLanguage = "en"
     title = "Biotop Wissenschaftskollektiv"
     description = "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
     weight = 2
+    announcement = "Test Announcement"
 
 
     [[languages.de.menu.main]]

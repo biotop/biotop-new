@@ -1,0 +1,17 @@
+<div class="column has-no-padding square-6">
+  <a href="{{ .Permalink}}">
+  <div class="hero is-large is-light has-background stretch">
+    <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
+    <div class="hero-body has-padding-1em">
+      <div class="container">
+        <h3 class="hero-quote ov has-text-link has-text-right">
+          {{ with .Params.date }}
+            {{ dateFormat "02.01.2006" . }}
+          {{ end }}
+        </h3>
+        <h1  class="hero-quote is-7 has-text-dark has-little-margin">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</a>
+</div>

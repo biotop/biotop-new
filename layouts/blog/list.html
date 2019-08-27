@@ -18,43 +18,20 @@
                   {{ partial "breadcrumb.html" . }}
                 </div>
                 <div class="">
-                  <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
-                  <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
+                  <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
+                    <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
+                    <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
+                    <h2 class="hero-quote has-text-success is-5 subtitle"> {{ .Site.Params.announcement | markdownify }}</h2>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           {{ range first 1 (where .Pages ".Params.type" "event")}}
-          <div class="column square-3 has-no-padding">
-            <div class="hero is-large is-primary has-background stretch">
-              <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
-              <div class="hero-body has-padding-1em">
-                <div class="has-big-margin-bottom">
-                  <h2  class="hero-quote is-6 title has-text-right">{{ dateFormat "02.01.2006" .Params.date }}</h2>
-                </div>
-                <div class="container">
-                  <h1  class="hero-quote is-3 title has-little-margin">{{ .Title }}</h1>
-                  <h2  class="hero-quote is-6 title">{{ .Params.description }}</h2>
-                </div>
-              </div>
-            </div>
-          </div>
+             {{ partial "square3.html" .}}
           {{ end }}
           {{ range first 1 (where .Pages ".Params.type" "blog")}}
-          <div class="column square-3 has-no-padding">
-            <div class="hero is-large is-link has-background stretch">
-              <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
-              <div class="hero-body has-padding-1em">
-                <div class="has-big-margin-bottom">
-                  <h2  class="hero-quote is-6 title has-text-right">{{ dateFormat "02.01.2006" .Params.date }}</h2>
-                </div>
-                <div class="container">
-                  <h1  class="hero-quote is-3 title has-little-margin">{{ .Title }}</h1>
-                  <h2  class="hero-quote is-6 title">{{ .Params.description }}</h2>
-                </div>
-              </div>
-            </div>
-          </div>
+            {{ partial "square3.html" .}}
           {{ end }}
       </div>
     </section>
@@ -63,23 +40,7 @@
     <section class="hero square-6-hero is-grey override-navbar">
       <div class="columns has-no-margin is-multiline is-mobile">
         {{ range first 6 (after 1 (where .Pages ".Params.type" "blog"))}}
-        <div class="column has-no-padding square-6">
-          <a href="{{ .Permalink}}">
-          <div class="hero is-large is-light has-background stretch">
-            <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
-            <div class="hero-body has-padding-1em">
-              <div class="container">
-                <h3 class="hero-quote ov has-text-link has-text-right">
-                  {{ with .Params.date }}
-                    {{ dateFormat "02.01.2006" . }}
-                  {{ end }}
-                </h3>
-                <h1  class="hero-quote is-7 has-text-dark has-little-margin">{{ .Title }}</h1>
-              </div>
-            </div>
-          </div>
-        </a>
-        </div>
+          {{ partial "square6.html" . }}
         {{ end }}
       </div>
     </section>
