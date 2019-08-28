@@ -2,7 +2,7 @@
 type="project"
 layout="project-main"
 title= "Workshops"
-description = ""
+description = "Wissenschaft zum Angreifen"
 featured = "/img/project/workshop/workshop.jpg"
 team = "workshops"
 tags = ["workshop"]

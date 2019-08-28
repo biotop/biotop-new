@@ -25,7 +25,7 @@
     <section class="hero is-medium is-info">
       {{ range .Pages }}
         {{ if eq .Params.layout "project-main"}}
-          {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "imgclass" "is-square is-256x256 is-cover" "date" .Params.date "authors" .Params.authors )}}
+          {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "imgclass" "is-square is-256x256 is-cover" "authors" .Params.authors )}}
 
           {{ partial "content-ov.html" $p }}
         {{ end }}

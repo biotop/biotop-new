@@ -2,7 +2,7 @@
 type="projects"
 layout = "project-main"
 title= "Workshops"
-description = ""
+description = "Hands-on Science"
 featured = "/img/project/workshop/workshop.jpg"
 team = "workshops"
 tags = ["workshop"]

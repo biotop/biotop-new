@@ -24,7 +24,7 @@
         </div>
         <div class="container">
           <h1  class="hero-quote is-3 title has-little-margin">{{ with .title }}{{ . }}{{ end }}</h1>
-          <h2  class="hero-quote is-6 title">{{with .text }}{{ . }}{{ end }}</h2>
+          <h2  class="hero-quote is-6 title">{{with .text }}{{ . | markdownify }}{{ end }}</h2>
         </div>
       </div>
     </div>
