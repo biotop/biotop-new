@@ -63,6 +63,51 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/de/tags/exhibition/</loc>
+    <lastmod>2019-08-13T09:23:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/exhibition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/exhibition/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/projects/exhibitions/exhibitions/</loc>
+    <lastmod>2019-08-13T09:23:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/projects/exhibitions/exhibitions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/projects/exhibitions/exhibitions/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/tags/</loc>
+    <lastmod>2019-08-13T09:23:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/de/projects/</loc>
     <lastmod>2019-08-13T09:22:55+02:00</lastmod>
     <xhtml:link
@@ -108,21 +153,6 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/tags/exhibition/</loc>
-    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/tags/exhibition/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/tags/exhibition/"
-                />
-  </url>
-  
-  <url>
     <loc>http://biotop.co/biotop-new/de/blog/xmascal/07/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -134,21 +164,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/blog/xmascal/07/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/tags/</loc>
-    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/tags/"
                 />
   </url>
   
@@ -723,32 +738,47 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/projects/containerlab/container-lab/</loc>
+    <loc>http://biotop.co/biotop-new/de/tags/barcoding/</loc>
     <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://biotop.co/biotop-new/projects/containerlab/container-lab/"
+                href="http://biotop.co/biotop-new/tags/barcoding/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://biotop.co/biotop-new/de/projects/containerlab/container-lab/"
+                href="http://biotop.co/biotop-new/de/tags/barcoding/"
                 />
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/projects/barcoding/dna-barcoding/</loc>
+    <loc>http://biotop.co/biotop-new/de/projects/containerlab/containerlab/</loc>
     <lastmod>2017-12-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://biotop.co/biotop-new/projects/barcoding/dna-barcoding/"
+                href="http://biotop.co/biotop-new/projects/containerlab/containerlab/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://biotop.co/biotop-new/de/projects/barcoding/dna-barcoding/"
+                href="http://biotop.co/biotop-new/de/projects/containerlab/containerlab/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/projects/barcoding/barcoding/</loc>
+    <lastmod>2017-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/projects/barcoding/barcoding/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/projects/barcoding/barcoding/"
                 />
   </url>
   
@@ -798,17 +828,32 @@
   </url>
   
   <url>
-    <loc>http://biotop.co/biotop-new/de/projects/science-comic/color-quest/</loc>
-    <lastmod>2017-02-23T00:00:00+00:00</lastmod>
+    <loc>http://biotop.co/biotop-new/de/projects/science-comic/sciencecomic/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://biotop.co/biotop-new/projects/science-comic/color-quest/"
+                href="http://biotop.co/biotop-new/projects/science-comic/sciencecomic/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://biotop.co/biotop-new/de/projects/science-comic/color-quest/"
+                href="http://biotop.co/biotop-new/de/projects/science-comic/sciencecomic/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/tags/sciencecomic/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/sciencecomic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/sciencecomic/"
                 />
   </url>
   
