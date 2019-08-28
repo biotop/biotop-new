@@ -1,14 +1,30 @@
+<!-- PARAMETERS
+    --------------------
+      * denotes required parameters
+
+      ".image"*    - Image to be shown
+
+      ".title"     - Title to be shown
+      ".text"      - Description
+      ".link"      - Permalink to linked Site
+      ".imgclass"  - e.g. "is-square is-128x128 ov-img"
+      ".date"      - Date parameter
+
+      example useage:
+        (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-primary" "imgclass" "" "date" .Params.date )
+-->
+
 <div class="column square-3 has-no-padding">
-  <a href="{{ .Permalink }}">
-    <div class="hero is-large is-primary has-background stretch">
-      <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
+  <a href="{{with .link }}{{ . }}{{ end }}">
+    <div class="hero is-large {{ .color }} has-background stretch">
+      <img class="hero-background is-transparent {{ .imgclass }}" src="{{ .image | relURL }}" alt="">
       <div class="hero-body has-padding-1em">
         <div class="has-big-margin-bottom">
-          <h2  class="hero-quote is-6 title has-text-right">{{ dateFormat "02.01.2006" .Params.date }}</h2>
+          <h2  class="hero-quote is-6 title has-text-right">{{ with .date }}{{ dateFormat "02.01.2006" . }}{{ end }}</h2>
         </div>
         <div class="container">
-          <h1  class="hero-quote is-3 title has-little-margin">{{ .Title }}</h1>
-          <h2  class="hero-quote is-6 title">{{ .Params.description }}</h2>
+          <h1  class="hero-quote is-3 title has-little-margin">{{ with .title }}{{ . }}{{ end }}</h1>
+          <h2  class="hero-quote is-6 title">{{with .text }}{{ . }}{{ end }}</h2>
         </div>
       </div>
     </div>

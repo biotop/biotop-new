@@ -18,20 +18,37 @@
                   {{ partial "breadcrumb.html" . }}
                 </div>
                 <div class="">
-                  <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
                     <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
                     <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
-                    <h2 class="hero-quote has-text-success is-5 subtitle"> {{ .Site.Params.announcement | markdownify }}</h2>
-                  </a>
+                    <h2 class="hero-quote has-text-success is-5 subtitle"> Team </h2>
+                    <div class="columns is-multiline">
+                      {{ $projectteam := .Params.team }}
+                      {{ range .Site.Data.authors }}
+                      {{ if ne (index .team $projectteam) ""}}
+                        <div class="column is-3">
+                          <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/people#{{ .id }}">
+                          <figure class="image is-64x64 ov-img">
+                            <img class="is-rounded" src="{{ .featured | relURL }}">
+                          </figure>
+                          <h2 class="hero-quote ov"> {{ .name }}</h2>
+                          <h3 class="hero-quote ov">{{ (index .team $projectteam) }}</h3>
+                        </a>
+                        </div>
+                      {{ end }}
+                      {{ end }}
+                    </div>
                 </div>
               </div>
             </div>
           </div>
-          {{ range first 1 (where .Pages ".Params.type" "event")}}
-            {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-primary" "imgclass" "" "date" .Params.date )}}
-            {{ partial "square3.html" $p }}
-          {{ end }}
-          {{ range first 1 (where .Pages ".Params.type" "blog")}}
+          <!-- Featured Img -->
+          {{ $p := (dict  "image" .Params.featured "color" "is-primary" "imgclass" "" )}}
+          {{ partial "square3.html" $p }}
+
+          <!-- Recent Post -->
+          {{ $projecttag := index .Params.tags 0}}
+          {{ $projecttaxonomy := index .Site.Taxonomies.tags (index .Params.tags 0)}}
+          {{ range first 1 ( where $projecttaxonomy.Pages ".Params.type" "blog")}}
             {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-primary" "imgclass" "" "date" .Params.date )}}
             {{ partial "square3.html" $p }}
           {{ end }}

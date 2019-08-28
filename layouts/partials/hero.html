@@ -28,12 +28,14 @@
 
 <section class="section square-3-hero has-no-padding override-navbar">
   <div class="columns has-no-margin">
-      {{ range first 1 (where .Pages ".Params.type" "event")}}
-         {{ partial "square3.html" .}}
-      {{ end }}
-      {{ range first 2 (where .Pages ".Params.type" "blog")}}
-        {{ partial "square3.html" .}}
-      {{ end }}
+    {{ range first 1 (where .Pages ".Params.type" "event")}}
+      {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-primary" "imgclass" "" "date" .Params.date )}}
+      {{ partial "square3.html" $p }}
+    {{ end }}
+    {{ range first 2 (where .Pages ".Params.type" "blog")}}
+      {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-info" "imgclass" "" "date" .Params.date )}}
+      {{ partial "square3.html" $p }}
+    {{ end }}
   </div>
 </section>
 

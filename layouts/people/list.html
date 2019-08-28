@@ -27,8 +27,8 @@
             </div>
           </div>
           {{ range first 2 .Site.Taxonomies.tags.meeting.Pages }}
-            {{ $pdict := (dict "data" . "color" "is-grey")}}
-            {{ partial "square3-alt.html" $pdict}}
+            {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-error" "imgclass" "" "date" .Params.date )}}
+            {{ partial "square3.html" $p }}
           {{ end }}
       </div>
     </section>
@@ -41,7 +41,7 @@
             {{ $persondata := (index $.Site.Data.authors .)}}
             {{ $pdict := (dict "data" $persondata "picsize" "is-128x128" "content" "true" "namesize" "is-size-5" "subsize" "is-size-6")}}
 
-            <section class="content-ov">
+            <section class="content-ov" id="{{ . }}">
                 <section class="section has-no-padding">
                   <div class="columns is-centered">
                     <div class="column is-6">

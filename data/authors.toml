@@ -1,6 +1,14 @@
 [ anna-koeferle ]
   name = "Anna Köferle"
+  id = "anna-koeferle"
   featured = "/img/person/anna-koeferle.png"
+  [anna-koeferle.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = "Scientific Advisor"
+    containerlab = "Scientific Advisor"
+    sciencecomic = "Idea, Story"
+    workshops = "Facilitator"
   [anna-koeferle.trained]
     en = "Biochemist"
     de = "Biochemikerin"
@@ -22,7 +30,15 @@
 
 [anna-ritscher]
   name = "Anna Ritscher"
+  id = "anna-ritscher"
   featured = "/img/person/anna-ritscher.jpg"
+  [anna-ritscher.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = "Project Lead"
+    sciencecomic = ""
+    workshops = "Facilitator"
   [anna-ritscher.trained]
     en = "Chemist"
     de = "Chemikerin"
@@ -44,7 +60,15 @@
 
 [ lukas-hutter ]
   name = "Lukas Hutter"
+  id = "lukas-hutter"
   featured = "/img/person/luki.jpg"
+  [lukas-hutter.team]
+    core = "Founder, Webdesign"
+    exhibitions = "Project Lead, Content Creation"
+    barcoding = "Scientific Advisor, Facilitator"
+    containerlab = "Scientific Advisor"
+    sciencecomic = "Idea, Story"
+    workshops = "Facilitator"
   [lukas-hutter.trained]
     en = "Systems biologist, Teacher"
     de = "Systembiologe, Lehrer"
@@ -66,7 +90,15 @@
 
 [ andreas-koerner ]
   name = "Andreas Körner"
+  id = "andreas-koerner"
   featured = "/img/person/andreas-koerner.jpg"
+  [andreas-koerner.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = "Architectural Advisor"
+    sciencecomic = ""
+    workshops = ""
   [andreas-koerner.trained]
     en = "Architect"
     de = "Architekt"
@@ -88,7 +120,15 @@
 
 [ ugne-greivyte ]
   name = "Ugne Greivyte"
+  id = "ugne-greivyte"
   featured = "/img/person/avatar-placeholder.jpg"
+  [ugne-greivyte.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
   [ugne-greivyte.trained]
     en = "Architect"
     de = "Architekt"
@@ -110,7 +150,15 @@
 
 [ ralf-bliem ]
   name = "Ralf Bliem"
+  id = "ralf-bliem"
   featured = "/img/person/ralf_bliem.jpg"
+  [ralf-bliem.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = "Project Lead, Design"
+    sciencecomic = ""
+    workshops = "Facilitator"
   [ralf-bliem.trained]
     en = "Architect"
     de = "Architekt"
@@ -132,7 +180,15 @@
 
   [ martin-fera ]
     name = "Martin Fera"
+    id = "martin-fera"
     featured = "/img/person/martin-fera.jpg"
+    [martin-fera.team]
+      core = "Cofounder"
+      exhibitions = "Content Creation"
+      barcoding = ""
+      containerlab = ""
+      sciencecomic = ""
+      workshops = "Facilitator"
     [martin-fera.trained]
       en = "Archaeologist"
       de = "Archäologe"
@@ -155,7 +211,15 @@
 
 [mariangela-panniello]
   name = "Mariangela Panniello"
+  id = "mariangela-panniello"
   featured = "/img/person/mariangela.jpg"
+  [mariangela-panniello.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
   [mariangela-panniello.trained]
     en = "Neuroscientist"
     de = "Neurowissenschaftlerin"
@@ -177,7 +241,15 @@
 
 [ wolfi-schuetz ]
   name = "Wolfgang Schütz"
+  id = "wolfi-schuetz"
   featured = "/img/person/wolfi-schuetz.jpg"
+  [wolfi-schuetz.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation, Illustration"
+    barcoding = "Illustration"
+    containerlab = "Visual Communication"
+    sciencecomic = "Idea, Story, Illustration"
+    workshops = ""
   [wolfi-schuetz.trained]
     en = "Graphic Designer"
     de = "Graphiker"
@@ -200,6 +272,13 @@
 [ roberto-maffulli ]
   name = "Roberto Maffulli"
   featured = "/img/person/roberto.jpg"
+  [roberto-maffulli.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = "Technical Advisor, Airflow Management"
+    sciencecomic = ""
+    workshops = "Facilitator"
   [roberto-maffulli.trained]
     en = "Mechanical Engineer"
     de = "Maschinenbau Ingenieur"
