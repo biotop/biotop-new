@@ -18,6 +18,20 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/people/lukas-hutter/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/lukas-hutter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/lukas-hutter/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/mission-statement/</loc>
     <lastmod>2019-08-13T09:17:28+02:00</lastmod>
     <xhtml:link
@@ -29,6 +43,34 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://biotop.co/biotop-new/mission-statement/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/anna-koeferle/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/anna-koeferle/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/anna-koeferle/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/ralf-bliem/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/ralf-bliem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/ralf-bliem/"
                 />
   </url>
   
@@ -48,6 +90,20 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/people/anna-ritscher/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/anna-ritscher/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/anna-ritscher/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/imprint/</loc>
     <lastmod>2019-08-13T09:17:28+02:00</lastmod>
     <xhtml:link
@@ -59,6 +115,76 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://biotop.co/biotop-new/imprint/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/anna-waechter/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/anna-waechter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/anna-waechter/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/martin-fera/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/martin-fera/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/martin-fera/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/wolfi-schuetz/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/wolfi-schuetz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/wolfi-schuetz/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/mariangela-panniello/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/mariangela-panniello/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/mariangela-panniello/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/people/roberto-maffulli/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/roberto-maffulli/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/roberto-maffulli/"
                 />
   </url>
   
@@ -918,132 +1044,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://biotop.co/biotop-new/people/andreas-koerner/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/anna-koeferle/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/anna-koeferle/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/anna-koeferle/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/anna-ritscher/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/anna-ritscher/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/anna-ritscher/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/anna-waechter/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/anna-waechter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/anna-waechter/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/lukas-hutter/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/lukas-hutter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/lukas-hutter/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/mariangela-panniello/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/mariangela-panniello/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/mariangela-panniello/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/martin-fera/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/martin-fera/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/martin-fera/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/ralf-bliem/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/ralf-bliem/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/ralf-bliem/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/roberto-maffulli/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/roberto-maffulli/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/roberto-maffulli/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/people/wolfi-schuetz/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/people/wolfi-schuetz/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/people/wolfi-schuetz/"
                 />
   </url>
   
