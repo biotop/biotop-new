@@ -8876,8 +8876,14 @@ h1::before, h2::before, h3::before {
 .has-margin-bottom {
   margin-bottom: 0.75em !important; }
 
+.has-margin-top {
+  margin-top: 0.75rem !important; }
+
 .has-big-margin-bottom {
   margin-bottom: 3rem !important; }
+
+.has-big-margin-top {
+  margin-top: 3rem !important; }
 
 .has-no-padding {
   padding: 0px !important; }
@@ -8905,6 +8911,10 @@ h1::before, h2::before, h3::before {
 
 .opacity-80 {
   opacity: 0.8; }
+
+@media (max-width: 768px) {
+  .is-mobile-column {
+    flex-direction: column; } }
 
 .image.is-80percent {
   height: 80%; }
@@ -8940,17 +8950,9 @@ ul.toc > li > ul > li {
 .card-bottom {
   flex-grow: 1; }
 
-.prev, .next {
-  position: absolute;
-  top: 63%;
-  z-index: 100; }
-
-.prev {
-  left: auto;
-  right: 20px; }
-
-.next {
-  left: 20px; }
+.next-prev {
+  display: flex;
+  justify-content: space-between; }
 
 .feature-hero {
   z-index: 50;
