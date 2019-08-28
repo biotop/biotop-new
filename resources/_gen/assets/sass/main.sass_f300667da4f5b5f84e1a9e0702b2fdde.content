@@ -36,6 +36,28 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 400 !important; }
 
+.elegant {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400 !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  z-index: 2; }
+  @media (max-width: 768px) {
+    .elegant {
+      font-size: 90% !important; } }
+
+h1.elegant {
+  font-size: 1.6rem !important; }
+
+h2.elegant {
+  font-size: 1.4rem !important; }
+
+h3.elegant {
+  font-size: 1.2rem !important; }
+
+h4.elegant {
+  font-size: 1rem !important; }
+
 a:hover {
   color: #74cb91; }
 
@@ -8827,10 +8849,13 @@ html {
   position: fixed;
   scroll-snap-type: y mandatory; }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+h1::before, h2::before, h3::before {
+  display: block;
+  content: " ";
+  margin-top: -3.25rem;
+  height: 3.25rem;
+  visibility: hidden;
+  pointer-events: none; }
 
 .padded {
   padding: 10px; }
@@ -8857,67 +8882,44 @@ html {
 .has-no-margin {
   margin: 0px !important; }
 
-.menu {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 3rem; }
+.meta {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem; }
 
-.slider-navigation-previous,
-.slider-navigation-next {
-  color: #2e4653; }
-
-.item {
-  height: 100%; }
-
-.card {
-  height: 100%;
-  display: flex;
-  flex-direction: column; }
-
-.card-bottom {
-  flex-grow: 1; }
+.override-navbar {
+  z-index: 50;
+  position: relative; }
 
 .stretch {
   height: 100%;
   display: flex;
   flex-direction: column; }
 
-.square-3-hero {
-  height: calc(100vw/3); }
-  @media (max-width: 768px) {
-    .square-3-hero {
-      height: auto; } }
-
-.square-3 {
-  height: calc(100vw/3);
-  width: calc(100vw/3); }
-  @media (max-width: 768px) {
-    .square-3 {
-      width: 100%;
-      height: 256px; } }
-
-.square-6-hero {
+.center {
   display: flex;
-  height: calc(100vw/6); }
-  @media (max-width: 768px) {
-    .square-6-hero {
-      height: auto; } }
+  justify-content: center;
+  align-items: center; }
 
-.square-6 {
-  height: calc(100vw/6);
-  width: calc(100vw/6); }
-  @media (max-width: 768px) {
-    .square-6 {
-      width: 50vw;
-      height: 128px; } }
+.opacity-80 {
+  opacity: 0.8; }
+
+.image.is-80percent {
+  height: 80%; }
 
 .is-256x256 {
   height: 256px;
   width: 256px; }
 
-.meta {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem; }
+img.no-fit {
+  object-fit: cover; }
+
+.is-cover > img {
+  object-fit: cover !important; }
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3rem; }
 
 ul.toc > li {
   font-size: 80%;
@@ -8927,32 +8929,25 @@ ul.toc > li {
 ul.toc > li > ul > li {
   font-size: 80%; }
 
-img.no-fit {
-  object-fit: cover; }
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
 
-.is-blogpost {
-  background-color: whitesmoke; }
+.card-bottom {
+  flex-grow: 1; }
 
-.is-eventpost {
-  background-color: #2e4653; }
+.prev, .next {
+  position: absolute;
+  top: 63%;
+  z-index: 100; }
 
-.search-item, .cal-search-item {
-  display: none; }
+.prev {
+  left: auto;
+  right: 20px; }
 
-.search-res, .cal-search-res {
-  display: block; }
-
-h1::before, h2::before, h3::before {
-  display: block;
-  content: " ";
-  margin-top: -3.25rem;
-  height: 3.25rem;
-  visibility: hidden;
-  pointer-events: none; }
-
-.override-navbar {
-  z-index: 50;
-  position: relative; }
+.next {
+  left: 20px; }
 
 .feature-hero {
   z-index: 50;
@@ -8985,6 +8980,35 @@ h1::before, h2::before, h3::before {
 .hero-foot {
   z-index: 42;
   background: whitesmoke; }
+
+.square-3-hero {
+  height: calc(100vw/3); }
+  @media (max-width: 768px) {
+    .square-3-hero {
+      height: auto; } }
+
+.square-3 {
+  height: calc(100vw/3);
+  width: calc(100vw/3); }
+  @media (max-width: 768px) {
+    .square-3 {
+      width: 100%;
+      height: 256px; } }
+
+.square-6-hero {
+  display: flex;
+  height: calc(100vw/6); }
+  @media (max-width: 768px) {
+    .square-6-hero {
+      height: auto; } }
+
+.square-6 {
+  height: calc(100vw/6);
+  width: calc(100vw/6); }
+  @media (max-width: 768px) {
+    .square-6 {
+      width: 50vw;
+      height: 128px; } }
 
 .content-ov {
   padding: 2rem;
@@ -9025,21 +9049,3 @@ h3.ov {
   filter: grayscale(100%); }
   .ov-img > img {
     object-fit: cover !important; }
-
-.is-cover > img {
-  object-fit: cover !important; }
-
-.prev, .next {
-  position: absolute;
-  top: 63%;
-  z-index: 100; }
-
-.prev {
-  left: auto;
-  right: 20px; }
-
-.next {
-  left: 20px; }
-
-.image.is-80percent {
-  height: 80%; }

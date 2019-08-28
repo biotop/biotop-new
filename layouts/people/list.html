@@ -3,59 +3,59 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "header" }}
+  <div class="column has-navbar-fixed-top has-no-padding">
+      <!-- Featured entries -->
+      <section class="section square-3-hero has-no-padding override-navbar has-big-margin-bottom">
+        <div class="columns has-no-margin">
+            <div class="has-background-white column square-3 has-no-padding">
+              <div class="is-primary">
+                <div class="hero-body has-padding-1em">
+                  <div class="has-big-margin-bottom">
+                    {{ partial "breadcrumb.html" . }}
+                  </div>
+                  <div class="">
+                    <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
+                      <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
+                      <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ range first 2 .Site.Taxonomies.tags.meeting.Pages }}
+              {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-error" "imgclass" "" "date" .Params.date )}}
+              {{ partial "square3.html" $p }}
+            {{ end }}
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="columns is-multiline">
+          {{ range.Pages }}
+          <div class="column has-no-padding is-full">
+            {{ with .Params.id }}
+              {{ $persondata := (index $.Site.Data.authors .)}}
+              {{ $pdict := (dict "data" $persondata "picsize" "is-128x128" "content" "true" "namesize" "is-size-5" "subsize" "is-size-6")}}
+
+              <section class="content-ov has-margin-bottom" id="{{ . }}">
+                  <section class="section has-no-padding">
+                    <div class="columns is-centered">
+                      <div class="column has-no-padding is-6">
+                        {{ partial "person-info-big.html" $pdict }}
+                      </div>
+                    </div>
+                  </section>
+              </section>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </section>
+  </div>
   {{ partial "header.html" . }}
 {{ end }}
 
 {{ define "non-section-main" }}
-<div class="column has-navbar-fixed-top has-no-padding">
-    <!-- Featured entries -->
-    <section class="section square-3-hero has-no-padding override-navbar has-big-margin-bottom">
-      <div class="columns has-no-margin">
-          <div class="has-background-white column square-3 has-no-padding">
-            <div class="is-primary">
-              <div class="hero-body has-padding-1em">
-                <div class="has-big-margin-bottom">
-                  {{ partial "breadcrumb.html" . }}
-                </div>
-                <div class="">
-                  <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
-                    <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
-                    <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {{ range first 2 .Site.Taxonomies.tags.meeting.Pages }}
-            {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-error" "imgclass" "" "date" .Params.date )}}
-            {{ partial "square3.html" $p }}
-          {{ end }}
-      </div>
-    </section>
-
-    <section class="">
-      <div class="columns is-multiline">
-        {{ range.Pages }}
-        <div class="columns">
-          {{ with .Params.id }}
-            {{ $persondata := (index $.Site.Data.authors .)}}
-            {{ $pdict := (dict "data" $persondata "picsize" "is-128x128" "content" "true" "namesize" "is-size-5" "subsize" "is-size-6")}}
-
-            <section class="content-ov" id="{{ . }}">
-                <section class="section has-no-padding">
-                  <div class="columns is-centered">
-                    <div class="column is-6">
-                      {{ partial "person-info" $pdict }}
-                    </div>
-                  </div>
-                </section>
-            </section>
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
-    </section>
-</div>
 {{ end }}
 
 {{ define "custom-js"}}

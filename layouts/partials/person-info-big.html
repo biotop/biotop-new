@@ -1,0 +1,30 @@
+{{ $lang := (i18n "lang")}}
+{{ $site := .Site }}
+
+
+<div class="is-flex" style="justify-content:center;flex-direction:column">
+    <div class="is-flex" style="justify-content:center">
+      <figure class="image is-256x256 has-margin-bottom">
+        <img class="is-rounded" src="{{ .data.featured | relURL }}">
+      </figure>
+    </div>
+    <div class="">
+      <h2 class="elegant is-bold"> {{ .data.name }}</h2>
+      <h3 class="elegant has-text-info">{{ index .data.role $lang }} | {{ index .data.trained $lang }}</h3>
+      <div class="content">
+        <p>{{ (index .data.bio $lang) | markdownify }}</p>
+      </div>
+      <div class="">
+        {{ range $project,$role := .data.team }}
+          {{ if ne $project "core" }}
+            {{ if ne $role "" }}
+                <h4 class="elegant has-text-info">
+                  <span class="has-text-dark"> {{ $project }}: </span>
+                  <span class="has-text-info"> {{ $role }}</span>
+                </h4>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+</div>

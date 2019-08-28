@@ -58,6 +58,36 @@
   xing = ""
   linkedin = ""
 
+  [anna-waechter]
+    name = "Anna Wächter-Mittersteiner"
+    id = "anna-waechter"
+    featured = "/img/person/anna-waechter-mit.jpg"
+    [anna-waechter.team]
+      core = "Cofounder"
+      exhibitions = "Content Creation"
+      barcoding = "Project Lead"
+      containerlab = ""
+      sciencecomic = ""
+      workshops = "Project Lead, Facilitator"
+    [anna-waechter.trained]
+      en = "Molecular biologist"
+      de = "Molekularbiologin"
+    [anna-waechter.role]
+      en = "Co-founder"
+      de = "Mitgründerin"
+    [anna-waechter.bio]
+      en = "Anna studied molecular biology at the University of Vienna and the University of Zurich, focussing on cell biology, immunology and basic medical research. For her diploma thesis, she conducted research on alternative signalling pathways in macrophages at the university clinic in Zurich. Anna is particularly interested in low-threshold communication of science. In the context of Otelo Villach, Anna is now collecting and disseminating information on culinary sustainability and diversity, focussing on accessibility, a hands-on approach and the role of public space."
+      de = "Anna studierte Molekulare Biologie an der Universität Wien und der Universität Zürich. Sie beschäftigte sich mit Zellbiologie, Immunologie und medizinischer Grundlagenforschung. Für ihre Diplomarbeit forschte sie an alternativen Signaling Pathways in Makrophagen am Universitätsspital Zürich. Niederschwellige Wissenschaftsvermittlung ist ihr ein großes Anliegen. Übers Otelo Villach sammelt und verbreitet sie derzeit Informationen zu kulinarischer Nachhaltigkeit und Vielfalt. Im Vordergrund stehen dabei die einfache Anwendung im städtischen Alltag, die Lust am Selbermachen sowie Aktivitäten im öffentlichen Raum, die zum Mitmachen animieren."
+    website = "http://cargocollective.com/divergenzblende"
+    email = "anna.waechter@biotop.co"
+    github = ""
+    twitter = ""
+    facebook = ""
+    instagram =""
+    slideshare = ""
+    xing = ""
+    linkedin = ""
+
 [ lukas-hutter ]
   name = "Lukas Hutter"
   id = "lukas-hutter"
