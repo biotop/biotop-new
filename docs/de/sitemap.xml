@@ -108,6 +108,36 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/de/tags/workshop/</loc>
+    <lastmod>2019-08-13T09:23:10+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/workshop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/workshop/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/projects/workshops/workshops/</loc>
+    <lastmod>2019-08-13T09:23:10+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/projects/workshops/workshops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/projects/workshops/workshops/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/de/projects/</loc>
     <lastmod>2019-08-13T09:22:55+02:00</lastmod>
     <xhtml:link
@@ -896,6 +926,20 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/people/anna-ritscher/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/people/anna-waechter/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/people/anna-waechter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/people/anna-waechter/"
                 />
   </url>
   
