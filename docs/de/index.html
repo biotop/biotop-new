@@ -58,7 +58,7 @@
 
 
   
-  <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="http://biotop.co/biotop-new/jquery.min.js"></script>
   
   <script type="text/javascript" src="/biotop-new/bulma-calendar.min.js"></script>
   
@@ -68,9 +68,9 @@
 </head>
 <body class="">
   <div id="hero">
-<section class="hero is-white is-medium override-navbar">
+<section class="hero is-white is-medium">
   <div class="hero-body">
-    <div class="container" style="z-index:60">
+    <div class="container" style="z-index:30">
       <figure class="image is-128x128">
         <img class="center" src="/biotop-new/img/logo.svg">
       </figure>
@@ -80,9 +80,9 @@
   </div>
   
 </section>
-<section class="hero is-primary has-text-centered is-medium override-navbar">
+<section class="hero is-primary has-text-centered is-medium">
   <div class="hero-body">
-    <div class="container" style="z-index:60">
+    <div class="container" style="z-index:30">
       <h1 class="title hero-quote">
         Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden.
       </h1>
@@ -95,7 +95,7 @@
 </div>
 </section>
 
-<section class="section square-3-hero has-no-padding override-navbar">
+<section class="section square-3-hero has-no-padding">
   <div class="columns has-no-margin">
     
       
@@ -166,7 +166,7 @@
 </section>
 
 </section>
-<section class="hero is-link has-text-centered is-medium override-navbar">
+<section class="hero is-link has-text-centered is-medium">
   <div class="hero-body">
     <div class="container">
       <h1 class="title hero-quote"> Über Biotop </h1>
@@ -385,9 +385,29 @@
   <div class="container">
     <div class="navbar-brand" style="z-index:50">
       
-      <a class="navbar-item" href="/biotop-new/de">
+      <a id="logo" class="navbar-item" href="/biotop-new/de">
         <img src="/biotop-new/img/biotoptext.svg">
       </a>
+
+      <div class="navbar-item" id="breadcrumb">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+    <div class="navbar-start">
+      <ul>
+        
+
+<li class="active">
+  <a href="http://biotop.co/biotop-new/de/">Startseite</a>
+</li>
+
+      </ul>
+    </div>
+</nav>
+
+<ol  class="nav navbar-nav">
+</ol>
+
+
+      </div>
 
       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -844,7 +864,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/lukas-hutter/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Lukas Hutter</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -866,7 +886,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/anna-koeferle/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Anna Köferle</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -877,7 +897,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/ralf-bliem/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Ralf Bliem</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -899,7 +919,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/anna-ritscher/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Anna Ritscher</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -921,7 +941,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/anna-waechter/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Anna Wächter-Mittersteiner</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -932,7 +952,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/martin-fera/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Martin Fera</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -943,7 +963,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/wolfi-schuetz/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Wolfgang Schütz</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -954,7 +974,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/mariangela-panniello/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Mariangela Panniello</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -965,7 +985,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/roberto-maffulli/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Roberto Maffulli</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -1394,7 +1414,7 @@
           <div class="content">
             <a href="http://biotop.co/biotop-new/de/people/andreas-koerner/">
               <p class="title is-7 has-text-info has-little-margin">01.01.0001</p>
-              <p class="title is-6 has-text-primary has-little-margin"></p>
+              <p class="title is-6 has-text-primary has-little-margin">Andreas Körner</p>
               <p class="subtitle is-7 has-text-grey has-little-margin"></p>
             </a>
             <hr>
@@ -1411,7 +1431,7 @@
 <script type="text/javascript">
 
   
-  var eventDates = [  { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/lukas-hutter/" }, { title: "Leitbild", description: "Unser manifest", date : "2019-08-13", type : "index", link : "http://biotop.co/biotop-new/de/mission-statement/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/anna-koeferle/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/ralf-bliem/" }, { title: "Mitmachen \u0026 Unterstützen", description: "Wie kann ich Biotop unterstüzen oder mitmachen?", date : "2019-08-13", type : "index", link : "http://biotop.co/biotop-new/de/support/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/anna-ritscher/" }, { title: "Impressum", description: "Wer ist für die Inhalte dieser Website verantwortlich?", date : "2019-08-13", type : "footer", link : "http://biotop.co/biotop-new/de/imprint/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/anna-waechter/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/martin-fera/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/wolfi-schuetz/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/mariangela-panniello/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/roberto-maffulli/" }, { title: "Ausstellung", description: "Wissenschaft + Kunst = \u003ci class='fa fa-heart has-text-danger'\u003e\u003c/i\u003e", date : "2019-08-13", type : "project", link : "http://biotop.co/biotop-new/de/projects/exhibitions/exhibitions/" }, { title: "Workshops", description: "Wissenschaft zum Angreifen", date : "2019-08-13", type : "project", link : "http://biotop.co/biotop-new/de/projects/workshops/workshops/" }, { title: "Pinus Sylvestris", description: "Biotop Adventkalender Tag 7", date : "2018-12-07", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/07/" }, { title: "Die Wunderbare Physik der Schneeflocke", description: "Biotop Adventkalender Tag 6", date : "2018-12-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/06/" }, { title: "Krampus", description: "Biotop Adventkalender Tag 5", date : "2018-12-05", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/05/" }, { title: "Erinnerst du dich noch an diesen Geschmack?", description: "Biotop Adventkalender Tag 4", date : "2018-12-04", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/04/" }, { title: "Ein (ur)alter Keks", description: "Biotop Adventkalender Tag 3", date : "2018-12-03", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/03/" }, { title: "Ohrwurmologie", description: "Biotop Adventkalender Tag 2", date : "2018-12-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/02/" }, { title: "Eine Weihnachtsvorlesung als Wandzeitung", description: "Biotop Adventkalender Tag 1", date : "2018-12-01", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/01/" }, { title: "Biotop Adventkalender", description: "Ein wissenschaftlicher Adventkalender", date : "2018-11-30", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal2018/" }, { title: "Architekten verpacken Geschenke", description:  null , date : "2018-11-16", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/16/" }, { title: "Leucht' ein Licht Teil 2 - Spektrometerworkshop", description:  null , date : "2018-11-15", type : "event", link : "http://biotop.co/biotop-new/de/blog/xmascal/15/" }, { title: "Das Lebkuchenhaus in der Architektur", description:  null , date : "2018-11-14", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/14/" }, { title: "Das Lebkuchenhaus", description:  null , date : "2018-11-13", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/13/" }, { title: "Leucht' ein Licht", description:  null , date : "2018-11-12", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/12/" }, { title: "Das Problem des Handelsreisenden oder wie man den Weihnachtsshoppingtrip optimiert", description:  null , date : "2018-11-11", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/11/" }, { title: "Über die Geschichte des Rentiers", description:  null , date : "2018-11-10", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/10/" }, { title: "Weihnachten vor 1000 Jahren", description:  null , date : "2018-11-09", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/09/" }, { title: "Der Dunkelste Tag", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/21/" }, { title: "Die Feuerwerksrakete - Ein farbiges Schauspiel", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/31/" }, { title: "Die Funken des Sternspritzers", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/22/" }, { title: "Die Physik des Frierens – Wie man sich warm hält", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/19/" }, { title: "Ein nützliches zweites Leben für altes Geschenkspapier", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/18/" }, { title: "Ein Weihnachtsgeschenk für Frau Pinguin", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/17/" }, { title: "Last Christmas I gave you my heart, but the very next day you gave it away...", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/08/" }, { title: "Meet Biotop", description:  null , date : "2018-11-08", type : "event", link : "http://biotop.co/biotop-new/de/blog/xmascal/20/" }, { title: "Stress", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/23/" }, { title: "Unsere Mission", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/24/" }, { title: "Drittes Biotop Meeting", description: "18.-21.10.2018, Burg Groppenstein", date : "2018-10-22", type : "blog", link : "http://biotop.co/biotop-new/de/blog/meeting-october-2018/" }, { title: "Biodesign Here Now", description: "Biotop am London Design Festival 2018", date : "2018-10-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/biodesign_here_now/" }, { title: "Biotop X OpenCell", description: "In 10 Tagen zum fertigen Labor", date : "2018-05-25", type : "blog", link : "http://biotop.co/biotop-new/de/blog/opencell/" }, { title: "(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung", description: "", date : "2018-04-26", type : "blog", link : "http://biotop.co/biotop-new/de/blog/invisible-behind-scenes/" }, { title: "(Un)Sichtbares", description: "Eine Ausstellung von Biotop", date : "2018-04-25", type : "blog", link : "http://biotop.co/biotop-new/de/blog/invisible-catalogue/" }, { title: "Containerlabor", description: "Leistbarer und flexibler Laborraum im Frachtcontainer", date : "2017-12-22", type : "project", link : "http://biotop.co/biotop-new/de/projects/containerlab/containerlab/" }, { title: "DNA Barcoding", description: "Mit dem genetischen Fingerabdruck Organismen in der Umwelt untersuchen.", date : "2017-12-22", type : "project", link : "http://biotop.co/biotop-new/de/projects/barcoding/barcoding/" }, { title: "Zweites Biotop Treffen", description: "17.-19.-11.2017 / Wien", date : "2017-11-18", type : "blog", link : "http://biotop.co/biotop-new/de/blog/meeting-november-2017/" }, { title: "Biotop Kick-Off Meeting", description: "28.-30.-07.2017 / Villach", date : "2017-08-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/meeting-july-2017/" }, { title: "Science Comic", description: "Ein kleines Mädchen verliert alle Farben  in ihrem Leben und bricht in ein wissenschaftliches Abenteuer auf, um sie zurück zu bekommen.", date : "2017-01-01", type : "project", link : "http://biotop.co/biotop-new/de/projects/science-comic/sciencecomic/" }, { title: "", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/andreas-koerner/" },];
+  var eventDates = [  { title: "Lukas Hutter", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/lukas-hutter/" }, { title: "Leitbild", description: "Unser manifest", date : "2019-08-13", type : "index", link : "http://biotop.co/biotop-new/de/mission-statement/" }, { title: "Anna Köferle", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/anna-koeferle/" }, { title: "Ralf Bliem", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/ralf-bliem/" }, { title: "Mitmachen \u0026 Unterstützen", description: "Wie kann ich Biotop unterstüzen oder mitmachen?", date : "2019-08-13", type : "index", link : "http://biotop.co/biotop-new/de/support/" }, { title: "Anna Ritscher", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/anna-ritscher/" }, { title: "Impressum", description: "Wer ist für die Inhalte dieser Website verantwortlich?", date : "2019-08-13", type : "footer", link : "http://biotop.co/biotop-new/de/imprint/" }, { title: "Anna Wächter-Mittersteiner", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/anna-waechter/" }, { title: "Martin Fera", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/martin-fera/" }, { title: "Wolfgang Schütz", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/wolfi-schuetz/" }, { title: "Mariangela Panniello", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/mariangela-panniello/" }, { title: "Roberto Maffulli", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/roberto-maffulli/" }, { title: "Ausstellung", description: "Wissenschaft + Kunst = \u003ci class='fa fa-heart has-text-danger'\u003e\u003c/i\u003e", date : "2019-08-13", type : "project", link : "http://biotop.co/biotop-new/de/projects/exhibitions/exhibitions/" }, { title: "Workshops", description: "Wissenschaft zum Angreifen", date : "2019-08-13", type : "project", link : "http://biotop.co/biotop-new/de/projects/workshops/workshops/" }, { title: "Pinus Sylvestris", description: "Biotop Adventkalender Tag 7", date : "2018-12-07", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/07/" }, { title: "Die Wunderbare Physik der Schneeflocke", description: "Biotop Adventkalender Tag 6", date : "2018-12-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/06/" }, { title: "Krampus", description: "Biotop Adventkalender Tag 5", date : "2018-12-05", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/05/" }, { title: "Erinnerst du dich noch an diesen Geschmack?", description: "Biotop Adventkalender Tag 4", date : "2018-12-04", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/04/" }, { title: "Ein (ur)alter Keks", description: "Biotop Adventkalender Tag 3", date : "2018-12-03", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/03/" }, { title: "Ohrwurmologie", description: "Biotop Adventkalender Tag 2", date : "2018-12-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/02/" }, { title: "Eine Weihnachtsvorlesung als Wandzeitung", description: "Biotop Adventkalender Tag 1", date : "2018-12-01", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/01/" }, { title: "Biotop Adventkalender", description: "Ein wissenschaftlicher Adventkalender", date : "2018-11-30", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal2018/" }, { title: "Architekten verpacken Geschenke", description:  null , date : "2018-11-16", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/16/" }, { title: "Leucht' ein Licht Teil 2 - Spektrometerworkshop", description:  null , date : "2018-11-15", type : "event", link : "http://biotop.co/biotop-new/de/blog/xmascal/15/" }, { title: "Das Lebkuchenhaus in der Architektur", description:  null , date : "2018-11-14", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/14/" }, { title: "Das Lebkuchenhaus", description:  null , date : "2018-11-13", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/13/" }, { title: "Leucht' ein Licht", description:  null , date : "2018-11-12", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/12/" }, { title: "Das Problem des Handelsreisenden oder wie man den Weihnachtsshoppingtrip optimiert", description:  null , date : "2018-11-11", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/11/" }, { title: "Über die Geschichte des Rentiers", description:  null , date : "2018-11-10", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/10/" }, { title: "Weihnachten vor 1000 Jahren", description:  null , date : "2018-11-09", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/09/" }, { title: "Der Dunkelste Tag", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/21/" }, { title: "Die Feuerwerksrakete - Ein farbiges Schauspiel", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/31/" }, { title: "Die Funken des Sternspritzers", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/22/" }, { title: "Die Physik des Frierens – Wie man sich warm hält", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/19/" }, { title: "Ein nützliches zweites Leben für altes Geschenkspapier", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/18/" }, { title: "Ein Weihnachtsgeschenk für Frau Pinguin", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/17/" }, { title: "Last Christmas I gave you my heart, but the very next day you gave it away...", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/08/" }, { title: "Meet Biotop", description:  null , date : "2018-11-08", type : "event", link : "http://biotop.co/biotop-new/de/blog/xmascal/20/" }, { title: "Stress", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/23/" }, { title: "Unsere Mission", description:  null , date : "2018-11-08", type : "blog", link : "http://biotop.co/biotop-new/de/blog/xmascal/24/" }, { title: "Drittes Biotop Meeting", description: "18.-21.10.2018, Burg Groppenstein", date : "2018-10-22", type : "blog", link : "http://biotop.co/biotop-new/de/blog/meeting-october-2018/" }, { title: "Biodesign Here Now", description: "Biotop am London Design Festival 2018", date : "2018-10-06", type : "blog", link : "http://biotop.co/biotop-new/de/blog/biodesign_here_now/" }, { title: "Biotop X OpenCell", description: "In 10 Tagen zum fertigen Labor", date : "2018-05-25", type : "blog", link : "http://biotop.co/biotop-new/de/blog/opencell/" }, { title: "(Un)Sichtbares - Ein Blick hinter die Kulissen der 1. Biotop-Ausstellung", description: "", date : "2018-04-26", type : "blog", link : "http://biotop.co/biotop-new/de/blog/invisible-behind-scenes/" }, { title: "(Un)Sichtbares", description: "Eine Ausstellung von Biotop", date : "2018-04-25", type : "blog", link : "http://biotop.co/biotop-new/de/blog/invisible-catalogue/" }, { title: "Containerlabor", description: "Leistbarer und flexibler Laborraum im Frachtcontainer", date : "2017-12-22", type : "project", link : "http://biotop.co/biotop-new/de/projects/containerlab/containerlab/" }, { title: "DNA Barcoding", description: "Mit dem genetischen Fingerabdruck Organismen in der Umwelt untersuchen.", date : "2017-12-22", type : "project", link : "http://biotop.co/biotop-new/de/projects/barcoding/barcoding/" }, { title: "Zweites Biotop Treffen", description: "17.-19.-11.2017 / Wien", date : "2017-11-18", type : "blog", link : "http://biotop.co/biotop-new/de/blog/meeting-november-2017/" }, { title: "Biotop Kick-Off Meeting", description: "28.-30.-07.2017 / Villach", date : "2017-08-02", type : "blog", link : "http://biotop.co/biotop-new/de/blog/meeting-july-2017/" }, { title: "Science Comic", description: "Ein kleines Mädchen verliert alle Farben  in ihrem Leben und bricht in ein wissenschaftliches Abenteuer auf, um sie zurück zu bekommen.", date : "2017-01-01", type : "project", link : "http://biotop.co/biotop-new/de/projects/science-comic/sciencecomic/" }, { title: "Andreas Körner", description:  null , date : "0001-01-01", type :  null , link : "http://biotop.co/biotop-new/de/people/andreas-koerner/" },];
 
   var colormap = {"event" : "has-background-warning", "blog" : "has-background-link"}
 
@@ -2242,7 +2262,7 @@ AUSTRIA</br></p>
 </section>
 
 
-<script type="text/javascript" src="/biotop-new/main.min.8a6a69a913bfaa9df1e8ecfabd1fa742ec3b8c6a202fc46fd344de0a5bd358e9.js"></script>
+<script type="text/javascript" src="/biotop-new/main.min.278e67097802dbb3b78a02e17d4e0dd0c14470f7618517a5866250f05282b84d.js"></script>
 
 <script src="https://d3js.org/d3.v3.min.js"></script>
 
