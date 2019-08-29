@@ -1,4 +1,4 @@
-var w             = 0.992 * window.innerWidth,
+var w             =  window.innerWidth,
   h             =  document.getElementById('hero').clientHeight,
   radius        = 5.25,
   links         = [],
