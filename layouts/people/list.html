@@ -30,9 +30,9 @@
       </section>
 
       <section class="section">
-        <div class="columns is-multiline">
+        <div class="columns is-multiline is-centered has-padding-LR">
           {{ range.Pages }}
-          <div class="column has-no-padding is-full">
+          <div class="column is-4">
             {{ with .Params.id }}
               {{ $persondata := (index $.Site.Data.authors .)}}
               {{ $pdict := (dict "data" $persondata "picsize" "is-128x128" "content" "true" "namesize" "is-size-5" "subsize" "is-size-6")}}
@@ -40,7 +40,7 @@
               <section class="content-ov has-margin-bottom" id="{{ . }}">
                   <section class="section has-no-padding">
                     <div class="columns is-centered">
-                      <div class="column has-no-padding is-6">
+                      <div class="column has-no-padding">
                         {{ partial "person-info-big.html" $pdict }}
                       </div>
                     </div>
