@@ -5,27 +5,29 @@
 <div class="is-flex" style="justify-content:center;flex-direction:column">
     <div class="is-flex" style="justify-content:center">
       <a href="{{ .link }}">
-        <figure class="image is-256x256 has-margin-bottom">
-          <img class="is-rounded" src="{{ .data.featured | relURL }}">
+        <figure class="image {{ .picsize }} has-margin-bottom">
+          <img class="{{ .imgclass }}" src="{{ .data.featured | relURL }}">
         </figure>
       </a>
     </div>
     <div class="">
       <a href="{{ .link }}">
-        <h2 class="elegant is-bold"> {{ .data.name }}</h2>
+        <h2 class="elegant is-bold is-"> {{ .data.name }}</h2>
         <h3 class="elegant has-text-info">{{ index .data.role $lang }} | {{ index .data.trained $lang }}</h3>
       </a>
+      {{ if eq .content "true" }}
       <div class="content">
         <p>{{ (index .data.bio $lang) | markdownify }}</p>
       </div>
+      {{ end }}
       <div class="">
         {{ range $project,$role := .data.team }}
           {{ if ne $project "core" }}
             {{ if ne $role "" }}
-                <h4 class="elegant has-text-info">
+                <h5 class="elegant has-text-info">
                   <span class="has-text-dark"> {{ $project }}: </span>
                   <span class="has-text-info"> {{ $role }}</span>
-                </h4>
+                </h5>
             {{ end }}
           {{ end }}
         {{ end }}

@@ -4,39 +4,27 @@
 
 {{ define "header" }}
   <div class="column has-navbar-fixed-top has-no-padding">
-      <!-- Featured entries -->
-      <section class="section square-3-hero has-no-padding has-big-margin-bottom">
-        <div class="columns has-no-margin">
-            <div class="has-background-white column square-3 has-no-padding">
-              <div class="is-primary">
-                <div class="hero-body has-padding-1em">
-                  <div class="has-big-margin-bottom">
-                    {{ partial "breadcrumb.html" . }}
-                  </div>
-                  <div class="">
-                    <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
-                      <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
-                      <h2 class="hero-quote has-text-grey is-5 subtitle">{{ .Params.description }} </h2>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {{ range first 2 .Site.Taxonomies.tags.meeting.Pages }}
-              {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-error" "imgclass" "" "date" .Params.date )}}
-              {{ partial "square3.html" $p }}
-            {{ end }}
+      <section class="hero is-large has-background is-link">
+        {{ range first 1 .Site.Taxonomies.tags.meeting.Pages }}
+          <img class="hero-background is-transparent" src="{{ .Params.featured | relURL }}" alt="">
+        {{ end }}
+        <div class="hero-body">
+          <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
+            <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
+            <h2 class="hero-quote has-text-white is-5 subtitle">{{ .Params.description }} </h2>
+          </a>
         </div>
+
       </section>
 
       <section class="section">
         <div class="columns is-multiline is-centered has-padding-LR">
           {{ range.Pages }}
-          <div class="column is-4">
+          <div class="column is-3">
             {{ $link := .Permalink }}
             {{ with .Params.id }}
               {{ $persondata := (index $.Site.Data.authors .)}}
-              {{ $pdict := (dict "data" $persondata "picsize" "is-128x128" "link" $link "content" "true" "namesize" "is-size-5" "subsize" "is-size-6")}}
+              {{ $pdict := (dict "data" $persondata "picsize" "is-128x128" "imgclass" "is-rounded" "link" $link "content" "false" "namesize" "is-size-5" "subsize" "is-size-6")}}
 
               <section class="content-ov has-margin-bottom" id="{{ . }}">
                   <section class="section has-no-padding">
@@ -57,6 +45,34 @@
 {{ end }}
 
 {{ define "non-section-main" }}
+<section class="hero is-medium is-primary">
+  <div class="hero-body has-text-centered">
+    {{ $thistaxonomy := "meeting"}}
+    {{ $title := .Title}}
+    {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
+      {{ if in $thistaxonomy $key }}
+        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/tags/{{ $key}}/">
+          <span class="hero-quote has-text-success">#{{ $key }} </span>
+        </a>
+      {{ else if eq $key $title}}
+        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/tags/{{ $key}}/">
+          <span class="hero-quote has-text-success">#{{ $key }} </span>
+        </a>
+      {{ else }}
+        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/tags/{{ $key}}/">
+          <span class="hero-quote">#{{ $key }} </span>
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+<section class="hero is-medium is-info">
+  {{ range .Site.Taxonomies.tags.meeting }}
+    {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "imgclass" "is-square is-128x128 ov-img" "date" .Params.date "tags" .Params.tags "authors" .Params.authors )}}
+
+    {{ partial "content-ov.html" $p }}
+  {{ end }}
+</section>
 {{ end }}
 
 {{ define "custom-js"}}
