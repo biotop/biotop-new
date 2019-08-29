@@ -8915,9 +8915,6 @@ h1::before, h2::before, h3::before {
   justify-content: center;
   align-items: center; }
 
-.opacity-80 {
-  opacity: 0.8; }
-
 @media (max-width: 768px) {
   .is-mobile-column {
     flex-direction: column;
@@ -8966,6 +8963,10 @@ ul.toc > li > ul > li {
   display: flex;
   justify-content: space-between; }
 
+.content figure.image {
+  margin-left: -1.5em;
+  margin-right: -1.5em; }
+
 .feature-hero {
   z-index: 50;
   background: white; }
@@ -8975,17 +8976,20 @@ ul.toc > li > ul > li {
   text-transform: uppercase;
   z-index: 2; }
 
+.navbar {
+  height: 3.25rem; }
+
 .top-hero {
   margin-top: 3.25rem; }
 
 .hero.is-large {
-  height: 75vh; }
+  min-height: 75vh; }
 
 .hero.is-medium {
-  height: 50vh; }
+  min-height: 50vh; }
 
 .hero.is-small {
-  height: 25vh; }
+  min-height: 25vh; }
 
 .hero.is-fullheight.top-hero {
   min-height: calc(100vh - 3.25rem); }
@@ -9020,7 +9024,7 @@ ul.toc > li > ul > li {
 
 .hero-foot {
   z-index: 42;
-  background: whitesmoke; }
+  background: rgba(245, 245, 245, 0.9); }
 
 .square-3-hero {
   height: calc(100vw/3); }
