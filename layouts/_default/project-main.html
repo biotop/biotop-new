@@ -84,36 +84,12 @@
 {{ define "pre-footer" }}
 <!-- Tags -->
 {{ $projecttaxonomy := index .Site.Taxonomies.tags (index .Params.tags 0)}}
-<section class="hero is-medium is-primary">
-  <div class="hero-body has-text-centered">
-    {{ $thistaxonomy := .Param "tags"}}
-    {{ $title := .Title}}
-    {{ range $key, $taxonomy := .Site.Taxonomies.tags }}
-      {{ if in $thistaxonomy $key }}
-        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/tags/{{ $key}}/">
-          <span class="hero-quote has-text-success">#{{ $key }} </span>
-        </a>
-      {{ else if eq $key $title}}
-        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/tags/{{ $key}}/">
-          <span class="hero-quote has-text-success">#{{ $key }} </span>
-        </a>
-      {{ else }}
-        <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/tags/{{ $key}}/">
-          <span class="hero-quote">#{{ $key }} </span>
-        </a>
-      {{ end }}
-    {{ end }}
-  </div>
-</section>
+{{ $pages := (where $projecttaxonomy.Pages ".Params.type" "blog" )}}
 
-<!--  Related Blog Pages -->
-<section class="hero is-medium is-info">
-  {{ range ( where $projecttaxonomy.Pages ".Params.type" "blog")}}
-    {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "imgclass" "is-square is-128x128 ov-img" "date" .Params.date "tags" .Params.tags "authors" .Params.authors )}}
+{{ $p := (dict "context" . "pages" $pages)}}
+{{ partial "tags-block.html" $p }}
 
-    {{ partial "content-ov.html" $p }}
-  {{ end }}
-</section>
+
 {{ end }}
 
 {{ define "custom-js"}}
