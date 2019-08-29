@@ -8860,6 +8860,9 @@ h1::before, h2::before, h3::before {
   visibility: hidden;
   pointer-events: none; }
 
+#logo {
+  display: none; }
+
 .padded {
   padding: 10px; }
 
@@ -8898,10 +8901,6 @@ h1::before, h2::before, h3::before {
 .meta {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem; }
-
-.override-navbar {
-  z-index: 50;
-  position: relative; }
 
 .stretch {
   height: 100%;

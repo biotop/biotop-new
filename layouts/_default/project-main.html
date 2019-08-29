@@ -3,17 +3,17 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "non-section-main" }}
 <div class="column has-navbar-fixed-top has-no-padding">
 
     <!-- Square-3 -->
-    <section class="section square-3-hero has-no-padding override-navbar">
+    <section class="section square-3-hero has-no-padding">
       <div class="columns has-no-margin">
-          <div class="has-background-white column square-3 flex-height has-no-padding">
-            <div class="is-primary">
-              <div class="hero-body has-padding-1em">
-                <div class="has-big-margin-bottom">
-                  {{ partial "breadcrumb.html" . }}
-                </div>
+          <div class="has-background-white column flex-height">
+              <div class="hero-body">
                 <div class="">
                   <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/blog/">
                     <h1 class="hero-quote is-3 title has-little-margin">{{ .Title }} </h1>
@@ -21,7 +21,6 @@
                   </a>
                 </div>
               </div>
-            </div>
           </div>
           {{ $p := (dict  "image" .Params.featured "color" "is-primary" "imgclass" "" )}}
           {{ partial "square3.html" $p }}
@@ -36,7 +35,7 @@
     </section>
 
     <!-- Square-6 -->
-    <section class="hero is-light override-navbar">
+    <section class="hero is-light">
       <div class="hero-body has-text-centered">
 
         <h2 class="hero-quote has-text-success is-5 subtitle"> Team </h2>
@@ -46,7 +45,7 @@
               {{ if ne (index .team $projectteam) ""}}
                 <div class="column is-one-fifth-fullhd  is-one-fifth-widescreen is-one-quarter-desktop is-one-third-tablet is-half-mobile">
                   <div class="is-flex has-text-centered" style="justify-content:center">
-                    <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/people#{{ .id }}">
+                    <a href="{{ $.Site.BaseURL}}/{{ $.Site.LanguagePrefix }}/people/{{ .id }}">
                       <div class="is-flex" style="justify-content:center">
                         <figure class="image is-64x64 ov-img is-hidden-mobile">
                           <img class="is-rounded" src="{{ .featured | relURL }}">
@@ -95,10 +94,6 @@
       {{ end }}
     </section>
 </div>
-  {{ partial "header.html" . }}
-{{ end }}
-
-{{ define "non-section-main" }}
 {{ end }}
 
 {{ define "custom-js"}}

@@ -4,13 +4,17 @@
 
 <div class="is-flex" style="justify-content:center;flex-direction:column">
     <div class="is-flex" style="justify-content:center">
-      <figure class="image is-256x256 has-margin-bottom">
-        <img class="is-rounded" src="{{ .data.featured | relURL }}">
-      </figure>
+      <a href="{{ .link }}">
+        <figure class="image is-256x256 has-margin-bottom">
+          <img class="is-rounded" src="{{ .data.featured | relURL }}">
+        </figure>
+      </a>
     </div>
     <div class="">
-      <h2 class="elegant is-bold"> {{ .data.name }}</h2>
-      <h3 class="elegant has-text-info">{{ index .data.role $lang }} | {{ index .data.trained $lang }}</h3>
+      <a href="{{ .link }}">
+        <h2 class="elegant is-bold"> {{ .data.name }}</h2>
+        <h3 class="elegant has-text-info">{{ index .data.role $lang }} | {{ index .data.trained $lang }}</h3>
+      </a>
       <div class="content">
         <p>{{ (index .data.bio $lang) | markdownify }}</p>
       </div>

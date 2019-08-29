@@ -1,7 +1,7 @@
 <div id="hero">
-<section class="hero is-white is-medium override-navbar">
+<section class="hero is-white is-medium">
   <div class="hero-body">
-    <div class="container" style="z-index:60">
+    <div class="container" style="z-index:30">
       <figure class="image is-128x128">
         <img class="center" src="{{ .Site.Params.logo.notext | relURL }}">
       </figure>
@@ -11,9 +11,9 @@
   </div>
   <!-- Hero footer: will stick at the bottom -->
 </section>
-<section class="hero is-primary has-text-centered is-medium override-navbar">
+<section class="hero is-primary has-text-centered is-medium">
   <div class="hero-body">
-    <div class="container" style="z-index:60">
+    <div class="container" style="z-index:30">
       <h1 class="title hero-quote">
         {{ .Site.Params.description }}
       </h1>
@@ -26,7 +26,7 @@
 </div>
 </section>
 
-<section class="section square-3-hero has-no-padding override-navbar">
+<section class="section square-3-hero has-no-padding">
   <div class="columns has-no-margin">
     {{ range first 1 (where .Pages ".Params.type" "event")}}
       {{ $p := (dict "title" .Title "text" .Params.description "link" .Permalink "image" .Params.featured "color" "is-primary" "imgclass" "" "date" .Params.date )}}
@@ -40,7 +40,7 @@
 </section>
 
 </section>
-<section class="hero is-link has-text-centered is-medium override-navbar">
+<section class="hero is-link has-text-centered is-medium">
   <div class="hero-body">
     <div class="container">
       <h1 class="title hero-quote"> {{ i18n "about-biotop" }} </h1>
