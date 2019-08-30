@@ -3,6 +3,7 @@
     "clean": "rm -r node_modules",
     "git": "git add . && git commit -m",
     "postgit": "git push --all",
+    "build" : "snap run hugo && npm run git -- 'rebuild site'", 
     "say-hello": "echo 'Hello World'"
   }
 }

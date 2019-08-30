@@ -8912,6 +8912,7 @@ h1::before, h2::before, h3::before {
 
 .center {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
 
@@ -9025,6 +9026,12 @@ ul.toc > li > ul > li {
 .hero-foot {
   z-index: 42;
   background: rgba(245, 245, 245, 0.9); }
+
+.search-item {
+  display: none; }
+
+.search-res {
+  display: block; }
 
 .square-3-hero {
   height: calc(100vw/3); }
