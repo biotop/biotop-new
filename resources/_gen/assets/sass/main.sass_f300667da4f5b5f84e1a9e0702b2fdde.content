@@ -9027,6 +9027,12 @@ ul.toc > li > ul > li {
   z-index: 42;
   background: rgba(245, 245, 245, 0.9); }
 
+.search-item {
+  display: none; }
+
+.search-res {
+  display: block; }
+
 .square-3-hero {
   height: calc(100vw/3); }
   @media (max-width: 768px) {
