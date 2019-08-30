@@ -3,7 +3,28 @@
     "clean": "rm -r node_modules",
     "git": "git add . && git commit -m",
     "postgit": "git push --all",
-    "build" : "snap run hugo && npm run git -- 'rebuild site'", 
+    "build": "snap run hugo && npm run git -- 'rebuild site'",
     "say-hello": "echo 'Hello World'"
-  }
+  },
+  "name": "biotop-new",
+  "description": "New Website for Biotop science collective",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biotop/biotop-new.git"
+  },
+  "keywords": [
+    "hugo",
+    "website"
+  ],
+  "author": "el-uhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biotop/biotop-new/issues"
+  },
+  "homepage": "https://github.com/biotop/biotop-new#readme"
 }
