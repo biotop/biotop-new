@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "clean": "rm -r node_modules",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all",
+    "say-hello": "echo 'Hello World'"
+  }
+}
