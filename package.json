@@ -4,6 +4,7 @@
     "git": "git add . && git commit -m",
     "postgit": "git push --all",
     "build": "snap run hugo && npm run git -- 'rebuild site'",
+    "start": "snap run hugo server",
     "say-hello": "echo 'Hello World'"
   },
   "name": "biotop-new",

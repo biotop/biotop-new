@@ -7,7 +7,7 @@ var w             =  window.innerWidth,
   bleed         = 0,
   fillopacity   = 0.750,
   strokeopacity = 0.750,
-  cellsX        = 1,
+  cellsX        = 2,
   cellsY        = 2,
   x_gradient    = ["#fff", "#aaa"],
   y_gradient    = ["#fff", "#aaa"];
@@ -26,11 +26,6 @@ var vertices = d3.range(cellsX*cellsY).map(function(d) {
 
 var d3_geom_voronoi = d3.geom.voronoi().x(function(d) { return d.x; }).y(function(d) { return d.y; });
 
-var voronoi = d3.geom.voronoi()
-              .clipExtent([[cellpadding, cellpadding], [w - cellpadding, h - cellpadding]])
-             .x(function(d) { return d.x; })
-             .y(function(d) { return d.y; })
-              .triangles(vertices);
 
 var prevEventScale = 1;
 
@@ -74,7 +69,7 @@ d3.select(window)
 .on("keydown", function() {
   // shift
   if(d3.event.keyCode == 16) {
-    zoomToAdd = false;
+    zoomToAdd = true;
   }
   // s
   if(d3.event.keyCode == 83) {

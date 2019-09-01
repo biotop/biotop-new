@@ -1,7 +1,7 @@
 # Biotop New
 
 ## Test site
-- [ ] Ask people to test site using their devises. Paying attention to flex/overflow behaviour
+- [x] Ask people to test site using their devises. Paying attention to flex/overflow behaviour
 
 ## Content
 ### Mission statement and support section
@@ -24,4 +24,4 @@
 - [ ] Contact for info...
   - [ ] Gerhard
   - [ ] Ugne
-  - [ ] Dieter
+  - [x] Dieter

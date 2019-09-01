@@ -118,6 +118,67 @@
   xing = ""
   linkedin = ""
 
+[ niko-popitsch ]
+  name = "Niko Popitsch"
+  id = "niko-popitsch"
+  featured = "/img/person/niko.png"
+  [niko-popitsch.team]
+    core = "Co-founder"
+    exhibitions = "Content Creation"
+    barcoding = "Scientific Advisor"
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [niko-popitsch.trained]
+    en = "Bioinformatician"
+    de = "Bioinformatiker"
+  [niko-popitsch.role]
+    en = "Co-founder"
+    de = "Mitgründer"
+  [ niko-popitsch.bio ]
+    en = "Niko holds a PhD in Computer Science and an MSc in Molecular Biology and currently work as a bioinformatician. Since 2011, he works with next-generation sequencing data, both working with researchers on challenging biological/medical projects as well as doing basic bioinformatics research and method development. During his time at the University of Oxford, he was involved in several large-scale, translational whole-genome sequencing projects. Working with huge datasets from cancer and rare diseases, made him appreciate the power of statistical and genomics approaches for addressing fundamental medical and biological questions. He has recently started to apply Deep Learning-based methods to such data in order to uncover hidden, complex patterns that might lead to biological insight."
+    de = "Niko studierte Informatik und Molekularbiologie in Wien. Im Rahmen seiner Doktorarbeit befasste er sich mit semantischen Webtechnologien, bevor er schließlich 2011 in der Bereich der Bioinformatik wechselte. Er hilft anderen Forschern bei der computergestützen Datenverarbeitung und entwickelt auch neue Analyse-Methoden. Während seiner Zeit an der Universität Oxford war er in einige großangelegte, angewandte Genom-Sequenzierstudien verwickelt. Er befasste sich mit riesigen Datensätzen aus dem Bereich der Onkologie, aber auch aus dem Bereich der seltenen Krankheiten und ist überzeugt, dass deren statistische Analyse wichtige biologische Fragestellungen beantworten kann. Vor Kurzem hat er begonnen auch so-genannte Deep Learning-Methoden anzuwenden, um versteckte, komplexe Zusammenhänge aus großen Datenmengen herausarbeiten zu können."
+  website = "https://www.researchgate.net/profile/Niko_Popitsch"
+  email = ""
+  github = "popitsch"
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = "niko-popitsch-379b0942/"
+
+
+  [ sebastian-vasquez ]
+    name = "Sebastian Vasquez-Lopez"
+    id = "sebastian-vasquez"
+    featured = "/img/person/sebas.jpg"
+    [sebastian-vasquez.team]
+      core = ""
+      exhibitions = "Content Creation"
+      barcoding = ""
+      containerlab = ""
+      sciencecomic = ""
+      workshops = ""
+    [sebastian-vasquez.trained]
+      en = "Neuroscientist"
+      de = "Neurowissenschaftler"
+    [sebastian-vasquez.role]
+      en = "Scientific Associate"
+      de = "Wissenschaftliches Mitglied"
+    [ sebastian-vasquez.bio ]
+      en = "Sebastian studied medicine in Medellin (Colombia) before he went to Newcastle to study Genetics. He is now finishing his PhD in Neuroscience at the University of Oxford, where he focusses on the application of novel imaging techniques to study sensory processing in the brain. His research interests include: **auditory neuroscience**, **functional neurophysiology**, and the **development of novel methods to study neuronal circuits**."
+      de = "Sebastian studierte Medizin in Medellin (Kolumbien) bevor er an der University of Newcastle Genetik studierte. Derzeit schließt er an der University of Oxford sein Doktorat im Fach Neurowissenschaften ab, wo er sich mit der Anwendung neuer bildgebender Verfahren beschäftigt um die Reizverarbeitung im Gehirn zu untersuchen. Seine Forschungsinteressen beinhalten: Neurologie des Hörens, funktionale Neurophysiologie und die Entwicklung neuer bildgebender Verfahren um neuronale Schaltkreise zu untersuchen."
+    website = ""
+    email = ""
+    github = ""
+    twitter = ""
+    facebook = ""
+    instagram =""
+    slideshare = ""
+    xing = ""
+    linkedin = ""
+
 [ andreas-koerner ]
   name = "Andreas Körner"
   id = "andreas-koerner"
