@@ -1,5 +1,7 @@
 # Biotop New
 
+- [x] Show Ralf around
+
 ## Test site
 - [x] Ask people to test site using their devises. Paying attention to flex/overflow behaviour
 
