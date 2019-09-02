@@ -1,6 +1,7 @@
 # Biotop New
 
 - [x] Show Ralf around
+- [x] Configure slack integration 
 
 ## Test site
 - [x] Ask people to test site using their devises. Paying attention to flex/overflow behaviour
