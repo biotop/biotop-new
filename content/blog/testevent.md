@@ -1,5 +1,5 @@
 +++
-authors = ["anna-koeferle"]
+authors = ["anna-koeferle", "ralf-bliem"]
 categories = ["biotop*"]
 date = "2019-08-14"
 description = "Biotop @ London Design Festival 2018"
@@ -7,7 +7,6 @@ featured = "/img/blog/biodesign_here_now/1_biodesign_container.png"
 linktitle = ""
 title = "Testevent"
 type = "event"
-
 +++
 
 We recently had the chance to be a part of the [London Design Festival](https://www.londondesignfestival.com/), by contributing to the ["Biodesign Here Now"](https://www.londondesignfestival.com/event/biodesign-here-now) exhibition at the [OpenCell] (http://opencell.webflow.io/) campus in Shepherd's Bush. We installed our exhibition ["See the invisible"](http://biotop.co/en/blog/invisible-catalogue/), which we already had on display in Villach last Christmas.
