@@ -17,7 +17,7 @@
   - [ ] Exhibitions
   - [ ] Sciencecomic
   - [ ] Containerlab
-  - [ ] DNA Barcoding
+  - [x] DNA Barcoding
   - [ ] Workshops
 
 ### Migrate existing content

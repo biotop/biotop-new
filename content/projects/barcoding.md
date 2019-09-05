@@ -10,108 +10,21 @@ tags = ["barcoding"]
 draft=false
 +++
 
-# Heading 1
+# What is DNA-barcoding?
 
-## Heading 2
+{{< rel-figure src="/img/project/DNA_barcoding/DNA_Barcoding_poster.png">}}
 
-### Heading 3
 
-#### Heading 4
+DNA-barcoding is a method that is uses a small section of the DNA to specify an organism. The chosen section has to be unique for every species. It is called barcode because it can be assigned distinctively like a supermarket barcode to a product.
 
-##### Heading 5
+DNA stores genetic information like computercode only instead of the numbers 0 and 1 DNA uses four bases as 'letters': adenine, thymine, cytosine and guanine. Their sequence can be decoded in the barcode region and aligned with databases to find out which animal, plant or fungus it fits.
 
-###### Heading 6
+The barcode-database BOLD (Barcode of Life Database) stores barcodes of animals, plants and fungi with their exact name, the place of finding. Worldwide collectors upload their data to this platform to make it accessible to the public. In austria barcodes are collected from the ABOL (Austrian Barcode of Life) initiative with the help of many specialized biologists (taxonomists) and museums.
 
----
+We would like to offer workshops were barcoding can be learned. It should be a chance for students and interested adults to gain an insight into techniques of modern biology.
 
-Paragraph
-text `Inline Code` text
-~~Mistaken text.~~
-*Italics*
-**Bold**
+Possible questions that could be adressed would be for example:
+ - to identify the composition of groceries (from which animal is the meat in my lasagne)
+ - to search for rare species in the Naturpark Dobratsch area and specify them
 
----
-
-Tasks
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**
-- [ ] incomplete
-- [x] completed
-
----
-
-Code Blocks
-
-    4 space indention
-    makes full-width
-    standard code blocks
-
-```js
-var now = new Date();
-
-var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
-
-var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
-
-var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
-
-function fourdigits(number)	{
-	return (number < 1000) ? number + 1900 : number;
-								}
-today =  days[now.getDay()] + ", " +
-         months[now.getMonth()] + " " +
-         date + ", " +
-         (fourdigits(now.getYear())) ;
-
-document.write(today);
-```
-
-```css
-#sc_drag_area {
-  height:100px;
-  left:150px;
-  position: absolute;
-  top:100px;
-  width:250px;
-  z-index: 9999;
-}
-```
-
----
-
-* List item one
-* List item two
-* A nested item
-
----
-
-1. Number list item one
-	1.1. A nested item
-2. Number list item two
-3. Number list item three
-
----
-
-> Quote
->
-> Second line Quote
-
----
-
-Standard link =  http://ghost.org
-[Custom Text Link](http://ghost.org)
-
----
-
-![Image](https://dl.dropboxusercontent.com/u/41297054/Pic.jpeg)
-
----
-
-Table
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+> We are very happy to get ideas from the public – if you have any questions that might possibly be answered through DNA-barcoding contact us!
