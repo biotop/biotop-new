@@ -2,7 +2,7 @@ var w             =  window.innerWidth,
   h             =  document.getElementById('hero').clientHeight,
   radius        = 5.25,
   links         = [],
-  cellsize      = 10,
+  cellsize      = 20,
   cellpadding   = 40,
   bleed         = 0,
   fillopacity   = 0.750,
@@ -24,8 +24,9 @@ var vertices = d3.range(cellsX*cellsY).map(function(d) {
              return [x, y];
            });
 
-var d3_geom_voronoi = d3.geom.voronoi().x(function(d) { return d.x; }).y(function(d) { return d.y; });
-
+var d3_geom_voronoi = d3.geom.voronoi()
+                        .x(function(d) { return d.x; })
+                        .y(function(d) { return d.y; });
 
 var prevEventScale = 1;
 
@@ -43,7 +44,8 @@ function shrink(){
 // define zoom
 var zoom = d3.behavior.zoom().on("zoom", function(d,i) {
            if (zoomToAdd){
-             if (d3.event.scale > prevEventScale) {
+             if (d3.event.scale >= 500) {
+             } else if (d3.event.scale > prevEventScale && d3.event.scale < 500) {
                grow();
              } else if (vertices.length > 2 && d3.event.scale != prevEventScale) {
                shrink();
@@ -66,61 +68,62 @@ var zoom = d3.behavior.zoom().on("zoom", function(d,i) {
 
 // define hotkeys
 d3.select(window)
-.on("keydown", function() {
-  // shift
-  if(d3.event.keyCode == 16) {
-    zoomToAdd = true;
-  }
-  // s
-  if(d3.event.keyCode == 83) {
-    simulate = !simulate;
-    if(simulate) {
-      force.start();
-    } else {
-      force.stop();
-    }
-  }
-  // // key up -> add nodes
-  // if(d3.event.keyCode == 38) {
-  //   grow();
-  // }
-  // // key down -> remove nodes
-  // if(d3.event.keyCode == 40) {
-  //   shrink();
-  // }
-})
-.on("keyup", function() {
-  zoomToAdd = true;
-});
+    .on("keydown", function() {
+      // shift
+      if(d3.event.keyCode == 16) {
+        zoomToAdd = true;
+      }
+      // s
+      if(d3.event.keyCode == 83) {
+        simulate = !simulate;
+        if(simulate) {
+          force.start();
+        } else {
+          force.stop();
+        }
+      }
+      // key up -> add nodes
+      if(d3.event.keyCode == 38) {
+        grow();
+      }
+      // key down -> remove nodes
+      if(d3.event.keyCode == 40) {
+        shrink();
+      }
+    })
+    // .on("keyup", function() {
+    //   zoomToAdd = true;
+    // });
 
 // prepare svg element
 var svg = d3.select(".hero")
-          .append("g")
-          .style("position", "absolute")
-          .style("left", "0")
-          .style("top", "56")
-          .style("z-index", "1")
-          .append("svg")
-          .attr("width", w)
-          .attr("height", h)
-          .call(zoom);
+            .append("g")
+            .style("position", "absolute")
+            .style("left", "0")
+            .style("top", "56")
+            .style("z-index", "1")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h)
+            .call(zoom);
 
 // define force parameters
 var force = d3.layout.force()
-            .charge(-800)
+            .charge(-600)
             .size([w, h])
             .on("tick", update);
 
 // use the force
 force.nodes(vertices).start();
 
-for(i=-5; i<80; i++){
+for(i=-5; i<2000; i++){
   zoom.scale(i);
   svg.transition()
-  .duration(6000)
-  .ease("exp")
-  .call(zoom.event)
+    .duration(6000)
+    .ease("exp")
+    .call(zoom.event)
 }
+
 
 
 

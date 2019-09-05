@@ -2,7 +2,7 @@
 
 - [x] Show Ralf around
 - [ ] Configure slack integration
-- [ ] Fix zoom behaviour on landing site
+- [x] Fix zoom behaviour on landing site
 
 ## Test site
 - [x] Ask people to test site using their devises. Paying attention to flex/overflow behaviour
