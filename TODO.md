@@ -1,7 +1,8 @@
 # Biotop New
 
 - [x] Show Ralf around
-- [ ] Configure slack integration 
+- [ ] Configure slack integration
+- [ ] Fix zoom behaviour on landing site
 
 ## Test site
 - [x] Ask people to test site using their devises. Paying attention to flex/overflow behaviour
