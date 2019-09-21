@@ -2,6 +2,7 @@
   name = "Anna Köferle"
   id = "anna-koeferle"
   featured = "/img/person/anna-koeferle.png"
+  thumb = "/img/person/thumb_anna-koeferle.png"
   [anna-koeferle.team]
     core = "Cofounder"
     exhibitions = "Content Creation"
@@ -32,6 +33,7 @@
   name = "Anna Ritscher"
   id = "anna-ritscher"
   featured = "/img/person/anna-ritscher.jpg"
+  thumb = "/img/person/thumb_anna-ritscher.jpg"
   [anna-ritscher.team]
     core = "Cofounder"
     exhibitions = "Content Creation"
@@ -62,6 +64,7 @@
     name = "Anna Wächter-Mittersteiner"
     id = "anna-waechter"
     featured = "/img/person/anna-waechter-mit.jpg"
+    thumb = "/img/person/thumb_anna-waechter-mit.jpg"
     [anna-waechter.team]
       core = "Cofounder"
       exhibitions = "Content Creation"
@@ -92,6 +95,7 @@
   name = "Lukas Hutter"
   id = "lukas-hutter"
   featured = "/img/person/luki.jpg"
+  thumb = "/img/person/thumb_luki.jpg"
   [lukas-hutter.team]
     core = "Founder, Webdesign"
     exhibitions = "Project Lead, Content Creation"
@@ -122,6 +126,7 @@
   name = "Niko Popitsch"
   id = "niko-popitsch"
   featured = "/img/person/niko.png"
+  thumb = "/img/person/thumb_niko.png"
   [niko-popitsch.team]
     core = "Co-founder"
     exhibitions = "Content Creation"
@@ -153,6 +158,7 @@
     name = "Sebastian Vasquez-Lopez"
     id = "sebastian-vasquez"
     featured = "/img/person/sebas.jpg"
+    thumb = "/img/person/thumb_sebas.jpg"
     [sebastian-vasquez.team]
       core = ""
       exhibitions = "Content Creation"
@@ -183,6 +189,7 @@
   name = "Andreas Körner"
   id = "andreas-koerner"
   featured = "/img/person/andreas-koerner.jpg"
+  thumb = "/img/person/thumb_andreas-koerner.jpg"
   [andreas-koerner.team]
     core = "Cofounder"
     exhibitions = "Content Creation"
@@ -213,6 +220,7 @@
   name = "Ugne Greivyte"
   id = "ugne-greivyte"
   featured = "/img/person/avatar-placeholder.jpg"
+  thumb = "/img/person/thumb_avatar-placeholder.jpg"
   [ugne-greivyte.team]
     core = ""
     exhibitions = "Content Creation"
@@ -243,6 +251,7 @@
   name = "Ralf Bliem"
   id = "ralf-bliem"
   featured = "/img/person/ralf_bliem.jpg"
+  thumb = "/img/person/thumb_ralf_bliem.jpg"
   [ralf-bliem.team]
     core = "Cofounder"
     exhibitions = "Content Creation"
@@ -273,6 +282,7 @@
     name = "Martin Fera"
     id = "martin-fera"
     featured = "/img/person/martin-fera.jpg"
+    thumb = "/img/person/thumb_martin-fera.jpg"
     [martin-fera.team]
       core = "Cofounder"
       exhibitions = "Content Creation"
@@ -304,6 +314,7 @@
   name = "Mariangela Panniello"
   id = "mariangela-panniello"
   featured = "/img/person/mariangela.jpg"
+  thumb = "/img/person/thumb_mariangela.jpg"
   [mariangela-panniello.team]
     core = "Cofounder"
     exhibitions = "Content Creation"
@@ -334,6 +345,7 @@
   name = "Wolfgang Schütz"
   id = "wolfi-schuetz"
   featured = "/img/person/wolfi-schuetz.jpg"
+  thumb = "/img/person/thumb_wolfi-schuetz.jpg"
   [wolfi-schuetz.team]
     core = "Cofounder"
     exhibitions = "Content Creation, Illustration"
@@ -363,6 +375,7 @@
 [ roberto-maffulli ]
   name = "Roberto Maffulli"
   featured = "/img/person/roberto.jpg"
+  thumb = "/img/person/thumb_roberto.jpg"
   [roberto-maffulli.team]
     core = "Cofounder"
     exhibitions = "Content Creation"
