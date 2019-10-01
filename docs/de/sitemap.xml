@@ -189,6 +189,96 @@
   </url>
   
   <url>
+    <loc>http://biotop.co/biotop-new/de/tags/archaeology/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/archaeology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/archaeology/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/categories/archaeology/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/categories/archaeology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/categories/archaeology/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/categories/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/tags/citizen-science/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/citizen-science/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/citizen-science/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/blog/grabelsdorf/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/blog/grabelsdorf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/blog/grabelsdorf/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/tags/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://biotop.co/biotop-new/de/projects/exhibitions/</loc>
     <lastmod>2019-08-13T09:23:31+02:00</lastmod>
     <xhtml:link
@@ -215,21 +305,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/tags/exhibition/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/tags/</loc>
-    <lastmod>2019-08-13T09:23:31+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/tags/"
                 />
   </url>
   
@@ -305,6 +380,51 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/blog/color-quest/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/blog/color-quest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/blog/color-quest/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/categories/science-comic/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/categories/science-comic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/categories/science-comic/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://biotop.co/biotop-new/de/tags/science-comic/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://biotop.co/biotop-new/tags/science-comic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://biotop.co/biotop-new/de/tags/science-comic/"
                 />
   </url>
   
@@ -515,21 +635,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://biotop.co/biotop-new/de/categories/biotop/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://biotop.co/biotop-new/de/categories/</loc>
-    <lastmod>2018-11-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://biotop.co/biotop-new/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://biotop.co/biotop-new/de/categories/"
                 />
   </url>
   
