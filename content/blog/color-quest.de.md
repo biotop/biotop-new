@@ -18,15 +18,12 @@ Unsere Geschichte dreht sich um ein kleines Mädchen, das es liebt zu malen. Ein
 Die Idee zum Comic "Color Quest" entstand schon bei unserem [ersten Biotop Treffen im Juli 2017](http://biotop.co/en/blog/meeting-july-2017/). Zuerst dachten wir an ein Kinderbuch mit Illustrationen, dann wurde daraus ein kurzer Comic, vielleicht entsteht daraus auch bald ein ganzes Graphic Novel - gezeichnet von [Wolfi Schütz](http://stulowitz.at/), story und Text von Wolfi, Luki and Anna.
 
 
-{{< rel-figure src="/img/blog/colour_quest/development.png">}}
-
 From Wolfi's sketchbook:
 
 {{< rel-figure src="/img/blog/colour_quest/mantis.png">}}
 (The Mantis Shrimp character)
 
 Workshop in Salzburg:
-{{< rel-figure src="/img/blog/colour_quest/anna.jpg">}}
 {{< rel-figure src="/img/blog/colour_quest/wolfi_luki.jpg">}}
 
 
