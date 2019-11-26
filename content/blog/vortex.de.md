@@ -9,6 +9,7 @@ linktitle = ""
 title = "Vortex"
 type = "blog"
 tags = ["exhibition", "villach", "vortex"]
+aliases = ["/vortex"]
 +++
 
 **Wann:** 07.12.2019 - 25.01.2020, Do, Fr, Sa, 17-20 Uhr sowie nach Vereinbarung
