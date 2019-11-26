@@ -1,10 +1,12 @@
 {
   "scripts": {
     "clean": "rm -r node_modules",
+    "git-build": "cd biotop.github.io && git add . && git commit -m 'rebuild site' && cd ..",
     "git": "git add . && git commit -m",
-    "postgit": "git push --all",
+    "git-pull": "git pull --recurse-submodules",
+    "postgit": "git push --recurse-submodules=on-demand",
     "build": "snap run hugo",
-    "postbuild": "npm run git -- 'rebuild site'",
+    "postbuild": "npm run git-build && npm run git -- 'rebuild site'",
     "server": "snap run hugo server",
     "start": "npm run server",
     "say-hello": "echo 'Hello World'"
