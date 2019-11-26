@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>biotop* on Biotop Wissenschaftskollektiv</title>
@@ -6,10 +6,33 @@
     <description>Recent content in biotop* on Biotop Wissenschaftskollektiv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://biotop.co/biotop-new/de/categories/biotop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Human Nature</title>
+      <link>http://biotop.co/biotop-new/de/blog/human-nature/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/de/blog/human-nature/</guid>
+      <description>Wann: 19.12.2019 20:15
+Wo: Stadtkinocenter Villach
+&amp;ldquo;Human Nature&amp;rdquo;: Die CRISPR Revolution beleuchtet die Entwicklung und Anwendungsgebiete der Genschere CRISPR-CAS9. Diese neue Technologie ermöglicht die präzise Veränderung des Erbguts von Organismen; vom Eingriff in die Biosphäre bis hin zur Manipulation des menschlichen Genoms scheint alles möglich. CRISPR stellt so die Heilung vieler genetischer Krankheiten in Aussicht. Doch wie weit darf die Forschung gehen? Wo liegt die Grenze zwischen einem medizinisch gerechtfertigten Eingriff und ethisch bedenklicher Selbstoptimierung?</description>
+    </item>
+    
+    <item>
+      <title>Vortex</title>
+      <link>http://biotop.co/biotop-new/de/blog/vortex/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/de/blog/vortex/</guid>
+      <description>Wann: 07.12.2019 - 25.01.2020, Do, Fr, Sa, 17-20 Uhr sowie nach Vereinbarung
+Wo: In den Räumlichkeiten des ehemaligen Rollin’ Skate Shops am Oberen Kirchenplatz in Villach
+Unter dem Titel “VORTEX” präsentiert das Biotop-Wissenschaftskollektiv vom 7. Dezember 2019 bis zum 25. Jänner 2020 eine Ausstellung zum Thema “Komplexe Systeme verstehen”.
+Komplexität ist ein geflügeltes Wort. Wir sind von komplexen Systemen umgeben, nehmen an ihnen Teil und kämpfen mit ihren Folgen. Das Finanz- und Klimasystem sind zwei Beispiele für komplexe Systeme die unser aller Leben unweigerlich beeinflussen, und uns durch ihre scheinbare Undurchdringlichkeit verunsichern.</description>
+    </item>
     
     <item>
       <title>Biotop Adventkalender</title>

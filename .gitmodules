@@ -1,3 +1,3 @@
-[submodule "bulma/base"]
-	path = bulma/base
+[submodule "bulma-base"]
+	path = themes/bulma-base
 	url = https://github.com/el-uhu/bulma-base.git

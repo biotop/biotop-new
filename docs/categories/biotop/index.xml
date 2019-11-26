@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>biotop* on Biotop Science Collective</title>
@@ -6,10 +6,32 @@
     <description>Recent content in biotop* on Biotop Science Collective</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://biotop.co/biotop-new/categories/biotop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Human Nature</title>
+      <link>http://biotop.co/biotop-new/blog/human-nature/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/blog/human-nature/</guid>
+      <description>When: 19.12.2019 20:15
+Where: Stadtkinocenter Villach
+&amp;ldquo;Human Nature&amp;rdquo; is a new documentary film about the development and applications of the genome editing tool CRISPR/CAS9. This novel technology enables the precise modification of genetic material inside an organism, allowing both changes to the biosphere as well as editing of the human genome. While this method has the potential to cure many genetic diseases, it also raises a plethora of ethical questions. What exactly is &amp;ldquo;normal&amp;rdquo; as opposed to &amp;ldquo;diseased&amp;rdquo;?</description>
+    </item>
+    
+    <item>
+      <title>Vortex</title>
+      <link>http://biotop.co/biotop-new/blog/vortex/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/blog/vortex/</guid>
+      <description>When: 07th December 2019 - 25th January 2020; Thu, Fri, Sat, 5-8 pm and upon arrangement
+Where: Former “Rollin’ Skate Shop”, Oberer Kirchenplatz 4, Villach
+We are surrounded by and take part in complex systems. Yet, we struggle with the consequences of complexity. The global financial system and the climate are two examples of complex systems that inevitably affect our daily lives. Due to their apparent impenetrability, they make us feel insecure.</description>
+    </item>
     
     <item>
       <title>Biotop Christmas Calendar</title>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Biotop Science Collective</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Biotop Science Collective</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://biotop.co/biotop-new/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>biotop*</title>
+      <link>http://biotop.co/biotop-new/categories/biotop/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://biotop.co/biotop-new/categories/biotop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>archaeology</title>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>http://biotop.co/biotop-new/categories/science-comic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>biotop*</title>
-      <link>http://biotop.co/biotop-new/categories/biotop/</link>
-      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://biotop.co/biotop-new/categories/biotop/</guid>
       <description></description>
     </item>
     
