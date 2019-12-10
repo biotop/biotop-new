@@ -10,108 +10,44 @@ date= 2019-08-13T09:23:10+02:00
 draft= false
 +++
 
-# Heading 1
+Für alle die Wissenschaft hautnah erleben wollen entwickelt Biotop unterschiedliche Workshopkonzepte.
 
-## Heading 2
+# Mikroskopie
+{{< rel-figure src="/img/project/workshop/kollage.jpg">}}
 
-### Heading 3
+Du möchtest gerne einmal dein eigenes **Mikroskop** basteln und lernen wie man damit arbeitet? - Komm zu einem unserer Foldscope Workshops.
 
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
----
-
-Paragraph
-text `Inline Code` text
-~~Mistaken text.~~
-*Italics*
-**Bold**
-
----
-
-Tasks
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**
-- [ ] incomplete
-- [x] completed
-
----
-
-Code Blocks
-
-    4 space indention
-    makes full-width
-    standard code blocks
-
-```js
-var now = new Date();
-
-var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
-
-var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
-
-var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
-
-function fourdigits(number)	{
-	return (number < 1000) ? number + 1900 : number;
-								}
-today =  days[now.getDay()] + ", " +
-         months[now.getMonth()] + " " +
-         date + ", " +
-         (fourdigits(now.getYear())) ;
-
-document.write(today);
-```
-
-```css
-#sc_drag_area {
-  height:100px;
-  left:150px;
-  position: absolute;
-  top:100px;
-  width:250px;
-  z-index: 9999;
-}
-```
-
----
-
-* List item one
-* List item two
-* A nested item
-
----
-
-1. Number list item one
-	1.1. A nested item
-2. Number list item two
-3. Number list item three
-
----
-
-> Quote
+> Termine auf Anfrage
 >
-> Second line Quote
+> Kosten: 15€ inkl. Papier-Mikroskop zum mitnehmen
 
----
+# Spektroskopie
 
-Standard link =  http://ghost.org
-[Custom Text Link](http://ghost.org)
+{{< rel-figure src="/img/project/workshop/spectrum.png">}}
 
----
+Du willst erfahren was ein **Spektrometer** ist, wie es Licht in verschiedene Farben auftrennt, dann baue dir doch dein eigenes aus Papier in unserem Spektrometer Workshop.
 
-![Image](https://dl.dropboxusercontent.com/u/41297054/Pic.jpeg)
+> Termine auf Anfrage
+>
+> Kosten: 12€
 
----
+# Genetik
+{{< rel-figure src="/img/project/workshop/herbs.jpg">}}
 
-Table
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+Für alle die mehr über **Genetik** erfahren wollen gibt es unseren neuen [GMO-Detective](https://gmodetective.com/) Workshop und [DNA-Barcoding(http://biotop.co/de/projects/barcoding/) Workshops.
+
+> **Termine:**
+>
+> Fr 27.12.2019 17:00-20:00, Sa 04.01.2020  17:00-20:00
+>
+> Bitte um Anmeldug per E-mail: joinus@biotop.co
+>
+> Kosten: 25 Euro, max. Teilnehmerzahl 8, ab 14 Jahren
+
+
+Bitte um Anmeldug per E-mail: joinus@biotop.co
+Kosten: 25 Euro, max. Teilnehmerzahl 8, ab 14 Jahren
+
+
+Wir gestalten auch gerne Workshops für Schulklassen und andere Gruppen und passen sie an die Bedürfnisse und Interessen der Gruppen an. Bei Interesse bitte melden!

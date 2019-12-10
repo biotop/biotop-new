@@ -7,7 +7,7 @@ featured = "/img/blog/colour_quest/Anna_char.jpg"
 linktitle = ""
 title = "Die Suche nach den Farben"
 type = "blog"
-tags = ["science-comic"]
+tags = ["sciencecomic"]
 +++
 
 

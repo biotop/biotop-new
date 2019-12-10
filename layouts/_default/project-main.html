@@ -86,7 +86,7 @@
 {{ $projecttaxonomy := index .Site.Taxonomies.tags (index .Params.tags 0)}}
 {{ $pages := (where $projecttaxonomy.Pages ".Params.type" "blog" )}}
 
-{{ $p := (dict "context" . "pages" .Pages "url" $.Site.BaseURL "lang" $.Site.LanguagePrefix )}}
+{{ $p := (dict "context" . "pages" $pages "url" $.Site.BaseURL "lang" $.Site.LanguagePrefix )}}
 {{ partial "tags-block.html" $p }}
 
 
