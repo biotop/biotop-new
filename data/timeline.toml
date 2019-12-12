@@ -84,3 +84,10 @@
       type = "Project"
       link = ""
       featured = ""
+    [[landingpage.2019.events]]
+      month = "December"
+      location = "Villach"
+      title = "Vortex Exhibition"
+      type = "Project"
+      link = "/vortex/"
+      featured = ""
