@@ -1,8 +1,8 @@
 +++
 authors = ["lukas-hutter"]
 categories = ["biotop*"]
-date = "2019-12-07"
-publishdate = "2019-11-25"
+date = "2020-01-31"
+publishdate = "2020-01-31"
 description = "Open until 14.02.2020, Thu-Sat 17:00-20:00"
 featured = "/img/event/post_vortex.png"
 linktitle = ""
