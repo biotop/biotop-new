@@ -401,3 +401,333 @@
   slideshare = ""
   xing = ""
   linkedin = ""
+
+[ kilian-rieder ]
+  name = "Kilian Rieder"
+  featured = "/img/person/kilian.jpg"
+  thumb = "/img/person/thumb_kilian.jpg"
+  [kilian-rieder.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [kilian-rieder.trained]
+    en = "Historian of Economics"
+    de = "Wirtschaftshistoriker"
+  [kilian-rieder.role]
+    en = "Cofounder"
+    de = "Mitgründer"
+  [ kilian-rieder.bio]
+    en= "Kilian studied PPE at Sciences Po Paris and economics at the University of Vienna and the London School of Economics and Political Science before going to Oxford, where he conducts doctoral research on the financial history of the late Habsburg Empire and the 1920s in the US. Kilian is particularly interested in the **co-evolution of banking systems, financial crisis management and regulation**. Having worked in central banking and banking supervision, Kilian believes that a theoretically and empirically grounded understanding of the past has a crucial role to play in informing present economic and financial policy-making."
+    de="Kilian studierte Politik, Philosophie und Wirtschaft in Paris, sowie Wirtschaft an der Universität Wien und an der London School of Economics. Derzeit arbeitet er an der University of Oxford an seiner Dissertation, in deren Rahmen er sich mit der Finanzgeschichte der späten Habsburger Monarchie und den USA um 1920 befasst. Besonders interessiert Kilian hierbei die gemeinsame Entwicklung von Banksystemen, Finanzkrisenmanagement und Regulation. Bevor er an die University of Oxford ging arbeitete er für die österreichische Nationalbank sowie für die Bankenaufsicht. Vor diesem Hintergrund ist er davon überzeugt, dass ein theoretisch und empirisch begründetes Verständnis der Vergangenheit einen grundlegenden Beitrag zu heutigen Wirtschafts- und Finanzpolitischen Entscheidungsprozessen leisten kann."
+  website = "https://kilianrieder.com/"
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ thi-hoang ]
+  name = "Ha Thi Hoang"
+  featured = "/img/person/thi.jpg"
+  thumb = "/img/person/thumb_thi.jpg"
+  [thi-hoang.team]
+    core = ""
+    exhibitions = ""
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [thi-hoang.trained]
+    en = "Neuroscientist, Molecular Biologist, Medical Doctor"
+    de = "Neurowissenschafter, Molekularbiologe, Arzt"
+  [thi-hoang.role]
+    en = "Cofounder"
+    de = "Mitgründer"
+  [ thi-hoang.bio]
+    en= "Thi studied neuroscience and medicine in Berlin. He was a research fellow at Yale University and did his PhD in Molecular Biology on the activation mechanism of molecular motors at the University of Cambridge. His interests include: Cellular transport and motility. Neuropsychiatric diseases. Personalised Medicine. Science and Arts collaborations. Music composition"
+    de="Thi studierte Neurowissenschaften und Medizin in Berlin. Er forschte an der Yale University und schloss daraufhin ein Doktorat in Molekularbiologie über Aktivierungsmechanismen molekularer Motoren an der University of Cambridge ab. Thi interessiert sich für zelluläre Transportmechanismen, neuropsychiatrische Erkrankungen, personalisierte Medizin, Kollaborationen zwischen Wissenschaftern und Künstlern, sowie für Musikkomposition."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ michael-moser ]
+  name = "Michael Moser"
+  featured = "/img/person/michael-moser.jpg"
+  thumb = "/img/person/thumb_michael-moser.jpg"
+  [michael-moser.team]
+    core = ""
+    exhibitions = "Design"
+    barcoding = ""
+    containerlab = "Design Consultant"
+    sciencecomic = ""
+    workshops = ""
+  [michael-moser.trained]
+    en = "Designer"
+    de = "Designer"
+  [michael-moser.role]
+    en = "Cofounder"
+    de = "Mitgründer"
+  [ michael-moser.bio]
+    en= "Michael is part of the design collective [breadedescalope](http://www.breadedescalope.com/)"
+    de="Michael ist Teil der experimentellen Design-Platform [breadedescalope](http://www.breadedescalope.com/)"
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ martin-schnabl ]
+  name = "Martin Schnabl"
+  featured = "/img/person/martin-schnabl.jpg"
+  thumb = "/img/person/thumb_martin-schnabl.jpg"
+  [martin-schnabl.team]
+    core = ""
+    exhibitions = "Design"
+    barcoding = ""
+    containerlab = "Design Consultant"
+    sciencecomic = ""
+    workshops = ""
+  [martin-schnabl.trained]
+    en = "Designer"
+    de = "Designer"
+  [martin-schnabl.role]
+    en = "Cofounder"
+    de = "Mitgründer"
+  [ martin-schnabl.bio]
+    en= "Michael is part of the design collective [breadedescalope](http://www.breadedescalope.com/)"
+    de="Michael ist Teil der experimentellen Design-Platform [breadedescalope](http://www.breadedescalope.com/)"
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ herwig-scherabon ]
+  name = "Herwig Scherabon"
+  featured = "/img/person/herwig-scherabon.jpg"
+  thumb = "/img/person/thumb_herwig-scherabon.jpg"
+  [herwig-scherabon.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [herwig-scherabon.trained]
+    en = "Graphicdesigner"
+    de = "Grafikdesigner"
+  [herwig-scherabon.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ herwig-scherabon.bio]
+    en= "Herwig Scherabon is an award-winning graphic designer from Austria who is currently based in Vienna. He studied architecture but made a u-turn towards graphic design. Data visualization and information design sums up Herwig's journey from architecture to graphic design. He is working across the fields of information design, editorial and motion graphics and enjoys to materialize digitally produced data sets in printed media. Herwig studied graphic design in Vienna and Tallinn and got his master degree from the Glasgow School of Art in 2016."
+    de="Herwig ist ein preisgekrönter Graphikdesigner aus Österreich, der derzeit in Wien abreitet. Er studierte ursprünglich Architektur, legte aber dann eine Kehrtwende in Richtung Graphik-design ein, die ihn zur Daten-visualisierung und zum Informationsdesign brachte. Herwig arbeitet in den Bereichen Informationsdesign, redktionelle und bewegte Graphik und genießt es digital erzeugte Datensätze zu materialisieren. Er studierte Graphikdesign in Wien und Tallinn und erwarb 2016 einen Master von der Glasgow School of Art."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ alexander-erlich ]
+  name = "Alexander Erlich"
+  featured = "/img/person/alex.jpg"
+  thumb = "/img/person/thumb_alex.jpg"
+  [alexander-erlich.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [alexander-erlich.trained]
+    en = "Applied Mathematician"
+    de = "Mathematiker"
+  [alexander-erlich.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ alexander-erlich.bio]
+    en= "Alexander studied physics and mathematics in Bremen and Cambridge, before he went to Oxford to study growth of soft elastic tissues. His research interests include: **continuum mechanics**, **nonlinear elasticity**, **biomechanics**, **biological physics**."
+    de="Alexander studierte Physik und Mathematik in Bremen und Cambridge bevor er nach Oxford ging um im Rahmen seines Doktorats das Wachstum weicher elastischer Gewebe zu untersuchen. Seine Forschungsinteressen beinhalten: Kontinuumsmechanik, nichtlineare Elastizität, Biomechanik und Biophysik."
+  website = "http://airlich.de"
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ ursula-smole ]
+  name = "Ursula Smole"
+  featured = "/img/person/ursula-smole.jpg"
+  thumb = "/img/person/thumb_ursula-smole.jpg"
+  [ursula-smole.team]
+    core = ""
+    exhibitions = ""
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [ursula-smole.trained]
+    en = "Immunologist"
+    de = "Immunologin"
+  [ursula-smole.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ ursula-smole.bio]
+    en= "Ursula studied Genetics/Microbiology at the University of Vienna. During her PhD, she focused on allergy research and the innate immune system. Between 2012 and 2016, she trained as a postdoctoral fellow in the field of allergic airway diseases in the lab of Marsha Wills-Karp at the Johns Hopkins Bloomberg School of Public Health. She currently works at the Medical University of Vienna, where her research focuses on innate immunity and the elucidation of novel mechanisms of allergenicity in susceptible individuals."
+    de="Ursula studierte Genetik/Mikrobiologie an der Universität Wien. Während ihres Doktorats befasste sie sich mit Allergieforschung und dem angeborenen Immunsystem.  Zwischen 2012 und 2016 arbeitete sie als Post-Doc im Bereich allergischer Atemwegserkrankungen im Labor von Marsha Wills-Karp an der Johns Hopkins Bloomberg School of Public Health (Baltimore/USA). Derzeit arbeitet sie an der Medizinischen Universität Wien wo sie ihre Studien über Allergien und den ihnen zugrunde liegenden Mechanismen fort."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ christine-marizzi ]
+  name = "Christine Marizzi"
+  featured = "/img/person/christine-marizzi.jpg"
+  thumb = "/img/person/thumb_christine-marizzi.jpg"
+  [christine-marizzi.team]
+    core = ""
+    exhibitions = ""
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = "Advisor"
+  [christine-marizzi.trained]
+    en = "Geneticist"
+    de = "Genetikerin"
+  [christine-marizzi.role]
+    en = "Scientific Advisor"
+    de = "Scientific Advisor"
+  [ christine-marizzi.bio]
+    en= "Christine graduated from the University of Vienna with a Ph.D. degree in microbiology and genetics for investigating unique stem-cell mutant of the plant model Arabidopsis thaliana. Her current position is Urban Barcode Program Manager at Cold Spring Harbor Laboratory’s DNA Learning Center. With 10+ years in urban and international education, she dedicates her time, energy and intellect to help students realize their greatest potential in STEM fields and provides traditionally under-represented minorities with multiple entry points to academic and professional careers in STEM disciplines. Current interests include DNA barcoding, eDNA, metagenomics, Big Data, Gamification, Bio Art and all things Food."
+    de="Christine studierte Mikrobiologie und Genetik an der Universität Wien, und  untersuchte im Rahmen ihres Doktorats mit einzigartige Stammzellmutanten des pflanzlichen Modellorganismus' Arabidopsis Thaliana. Derzeit arbeitet Christine am DNA Learning Centre des Cold Spring Harbor Labors in New York City, wo sie Programmleiterin des Urban Barcode Programms ist. Christine hat mittlerweile mehr als 10 Jahren Erfahrung im Bereich städtischer und internationaler Bildung. Sie widmet ihre Zeit, Energie und ihren Verstand, um es SchülerInnen zu ermöglichen ihr Potential im Bereich der MINT-Disziplinen voll zu entfalten, und um traditionell unterrepräsentierten Minderheiten vielfache Anknüpfungspunkte zu akademischen Karrieren im Bereich der MINT-Fächer zu bieten. Derzeit interessiert sich Christine besonders für DNA barcoding, eDNA, Metagenomik, Big Data, Gamification, Bio Art und alles was mit Essen zu tun hat."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ danai-dimitropoulou ]
+  name = "Danai Dimitropoulou"
+  featured = "/img/person/danai-dimitropoulou.jpg"
+  thumb = "/img/person/thumb_danai-dimitropoulou.jpg"
+  [danai-dimitropoulou.team]
+    core = ""
+    exhibitions = ""
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [danai-dimitropoulou.trained]
+    en = "Molecular Biologist"
+    de = "Molekularbiologin"
+  [danai-dimitropoulou.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ danai-dimitropoulou.bio]
+    en= "Danai studied Molecular Biology and Genetics in Greece. She continued with her post-graduate studies at the University of Groningen, the Netherlands and unwilling to leave “bench-work”, she kept working as a researcher in various groups, including the Max Planck Institute in Nijmegen, the Netherlands and the University of Cambridge, UK. Fascinated by all fields of Science and constantly curious about breakthroughs in Biomedicine, she has been involved in research projects on microbiology, tissue engineering, regenerative medicine, language genetics and oncology. She believes Inspiration is the key to progress and teamwork is the key to Inspiration."
+    de="Danai studierte Molekularbiologie und Genetik in Griechenland, bevor sie an die Universität Groningen in den Niederlanden ging. Als leidenschaftliche Wissenschaftlerin wollte sie die Arbeit im Labor nicht aufgeben, weshalb sie im Anschluss als Forscherin in verschiedenen Gruppen, unter anderem am Max Planck Institut in Nijmegen, und an der University of Cambridge arbeitete. Danai ist faszininert von der Wissenschaft in all ihren Facetten. Ihr Interesse an neuen Entwicklungen im Bereich der Biomedizin konnte sie in verschiedensten Projekten aus den Bereichen Mikrobiologie, Tissue Engineering, regenerative Medizin, Sprachgenetik und Onkologie ausleben."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ jacob-almagro ]
+  name = "Jacob Almagro-Garcia"
+  featured = "/img/person/jacob_almagro.jpg"
+  thumb = "/img/person/thumb_jacob_almagro.jpg"
+  [jacob-almagro.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [jacob-almagro.trained]
+    en = "Bioinformatician"
+    de = "Bioinformatiker"
+  [jacob-almagro.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ jacob-almagro.bio]
+    en= "Jacob is a computer scientist by training that has transitioned into bioinformatics, population genetics, and finally, statistical genomics. He started working in malaria genetics at the Sanger Institute (Cambridge) and followed this line of research by completing a Ph.D. in statistical genomics at University of Oxford. He works now at the Big Data Institute (Oxford), focusing on the evolution of drug resistance in malaria parasites. His broad research interests include genomics, personalized medicine, statistics, machine learning, artificial intelligence, complexity, networks and intelligent systems. He’s also very keen on applying quantitative methods to open data in order to address social problems."
+    de="Jacob ist Informatiker und hat sich auf Bioinformatik, Populationsgenetik und statistische Genomik spezialisiert. Er begann am Sanger Insititut in Cambridge an der Genetik von Malaria zu forschen und setzte diese Forschungsrichtung im Rahmen seines Doktorats in statistischer Genomik an der Universität Oxford fort. Nun arbeitet er am Big Data Institut in Oxford, und beschäftigt sich dort mit der Entwicklung von Medikamenten-Resistenzen im Malaria Parasiten. Seine weit gestreuten Forschungsinteressen beinhalten Genomik, personalisierte Medizin, Statistik, Machine Learning, künstliche Intelligenz, Komplexität, Netzwerke und intelligente Systeme. Darüber hinaus setzt er sich dafür ein quantitative Methoden auf öffentlich zugängliche Daten anzuwenden, um soziale Problem zu lösen."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ josef-ehgarter ]
+  name = "Josef Ehgarter"
+  featured = "/img/person/josef.jpg"
+  thumb = "/img/person/thumb_josef.jpg"
+  [josef-ehgarter.team]
+    core = ""
+    exhibitions = ""
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [josef-ehgarter.trained]
+    en = "Analytischer Chemiker"
+    de = "Analytical Chemist"
+  [josef-ehgarter.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ josef-ehgarter.bio]
+    en= "Josef studied chemistry in Graz. During his MSc-Thesis he conducted research on how to detect organic arsenic compounds using mass-spectrommety, before he started concentrating on the development of lab-on-a-chip technologies in the course of his PhD. His research interests include: the **development of integrated analytical devices**, and other forms of **chemical sleuthing**."
+    de="Josef studierte Chemie in Graz. Während seiner Masterarbeit entwickelte er Verfahren um organische Arsenverbindungen mittels Massenspektrometrie nachzuweisen, bevor er begann sich im Rahmen seines Doktorats mit der Entwicklung von integrierten Lab-on-a-chip-Technologien zu befassen. Seine Forschungsinteressen beinhalten: die Entwicklung neuer integrierter analytischer Technologien und andere Formen chemischer Detektivarbeit"
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
