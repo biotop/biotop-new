@@ -154,36 +154,36 @@
   linkedin = "niko-popitsch-379b0942/"
 
 
-  [ sebastian-vasquez ]
-    name = "Sebastian Vasquez-Lopez"
-    id = "sebastian-vasquez"
-    featured = "/img/person/sebas.jpg"
-    thumb = "/img/person/thumb_sebas.jpg"
-    [sebastian-vasquez.team]
-      core = ""
-      exhibitions = "Content Creation"
-      barcoding = ""
-      containerlab = ""
-      sciencecomic = ""
-      workshops = ""
-    [sebastian-vasquez.trained]
-      en = "Neuroscientist"
-      de = "Neurowissenschaftler"
-    [sebastian-vasquez.role]
-      en = "Scientific Associate"
-      de = "Wissenschaftliches Mitglied"
-    [ sebastian-vasquez.bio ]
-      en = "Sebastian studied medicine in Medellin (Colombia) before he went to Newcastle to study Genetics. He is now finishing his PhD in Neuroscience at the University of Oxford, where he focusses on the application of novel imaging techniques to study sensory processing in the brain. His research interests include: **auditory neuroscience**, **functional neurophysiology**, and the **development of novel methods to study neuronal circuits**."
-      de = "Sebastian studierte Medizin in Medellin (Kolumbien) bevor er an der University of Newcastle Genetik studierte. Derzeit schließt er an der University of Oxford sein Doktorat im Fach Neurowissenschaften ab, wo er sich mit der Anwendung neuer bildgebender Verfahren beschäftigt um die Reizverarbeitung im Gehirn zu untersuchen. Seine Forschungsinteressen beinhalten: Neurologie des Hörens, funktionale Neurophysiologie und die Entwicklung neuer bildgebender Verfahren um neuronale Schaltkreise zu untersuchen."
-    website = ""
-    email = ""
-    github = ""
-    twitter = ""
-    facebook = ""
-    instagram =""
-    slideshare = ""
-    xing = ""
-    linkedin = ""
+[ sebastian-vasquez ]
+  name = "Sebastian Vasquez-Lopez"
+  id = "sebastian-vasquez"
+  featured = "/img/person/sebas.jpg"
+  thumb = "/img/person/thumb_sebas.jpg"
+  [sebastian-vasquez.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [sebastian-vasquez.trained]
+    en = "Neuroscientist"
+    de = "Neurowissenschaftler"
+  [sebastian-vasquez.role]
+    en = "Scientific Associate"
+    de = "Wissenschaftliches Mitglied"
+  [ sebastian-vasquez.bio ]
+    en = "Sebastian studied medicine in Medellin (Colombia) before he went to Newcastle to study Genetics. He is now finishing his PhD in Neuroscience at the University of Oxford, where he focusses on the application of novel imaging techniques to study sensory processing in the brain. His research interests include: **auditory neuroscience**, **functional neurophysiology**, and the **development of novel methods to study neuronal circuits**."
+    de = "Sebastian studierte Medizin in Medellin (Kolumbien) bevor er an der University of Newcastle Genetik studierte. Derzeit schließt er an der University of Oxford sein Doktorat im Fach Neurowissenschaften ab, wo er sich mit der Anwendung neuer bildgebender Verfahren beschäftigt um die Reizverarbeitung im Gehirn zu untersuchen. Seine Forschungsinteressen beinhalten: Neurologie des Hörens, funktionale Neurophysiologie und die Entwicklung neuer bildgebender Verfahren um neuronale Schaltkreise zu untersuchen."
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
 
 [ andreas-koerner ]
   name = "Andreas Körner"
@@ -423,6 +423,36 @@
     en= "Kilian studied PPE at Sciences Po Paris and economics at the University of Vienna and the London School of Economics and Political Science before going to Oxford, where he conducts doctoral research on the financial history of the late Habsburg Empire and the 1920s in the US. Kilian is particularly interested in the **co-evolution of banking systems, financial crisis management and regulation**. Having worked in central banking and banking supervision, Kilian believes that a theoretically and empirically grounded understanding of the past has a crucial role to play in informing present economic and financial policy-making."
     de="Kilian studierte Politik, Philosophie und Wirtschaft in Paris, sowie Wirtschaft an der Universität Wien und an der London School of Economics. Derzeit arbeitet er an der University of Oxford an seiner Dissertation, in deren Rahmen er sich mit der Finanzgeschichte der späten Habsburger Monarchie und den USA um 1920 befasst. Besonders interessiert Kilian hierbei die gemeinsame Entwicklung von Banksystemen, Finanzkrisenmanagement und Regulation. Bevor er an die University of Oxford ging arbeitete er für die österreichische Nationalbank sowie für die Bankenaufsicht. Vor diesem Hintergrund ist er davon überzeugt, dass ein theoretisch und empirisch begründetes Verständnis der Vergangenheit einen grundlegenden Beitrag zu heutigen Wirtschafts- und Finanzpolitischen Entscheidungsprozessen leisten kann."
   website = "https://kilianrieder.com/"
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
+[ gerhard-dorn ]
+  name = "Gerhard Dorn"
+  featured = "/img/person/gerhard.jpg"
+  thumb = "/img/person/thumb_gerhard.jpg"
+  [gerhard-dorn.team]
+    core = ""
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = "Facilitator"
+  [gerhard-dorn.trained]
+    en = "Physicist"
+    de = "Physiker"
+  [gerhard-dorn.role]
+    en = "Associate"
+    de = "Mitglied"
+  [ gerhard-dorn.bio]
+    en= "Gerhard studied physics and mathematics at the Technical University of Graz. In his doctorate (physics) he examines methods for calculating the transport in strongly correlated electron systems (quantum current). He has a passion for numerical methods and simulations, teaches a lot in this subject and is very interested in quantum technologies.In his spare time he is quite active in foodsharing, plays in the university's theatre group and is involved in many different committees."
+    de="Gerhard studierte Physik und Mathematik an der Technischen Universität Graz. Im Rahmen seines Physikdoktorats untersucht er Methoden zur Berechnung von Transportprozessen in stark korrelierten Elektronensystemen (Quantenstrom). Er interessiert sich für numerische Methoden, Simulation und Quantentechnoligien, und unterrichtet in diesen Fächer auch mit Leidenschaft. In seiner Freizeit engagiert sich Gerhard in vielen Initiativen, betreibt aktiv Foodsharing und spielt in der Theatergruppe der TU Graz."
+  website = ""
   email = ""
   github = ""
   twitter = ""
