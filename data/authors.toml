@@ -372,6 +372,37 @@
   xing = ""
   linkedin = ""
 
+[ dieter-gutschi ]
+  name = "Dieter Gutschi"
+  id = "dieter-gutschi"
+  featured = "/img/person/dieter-gutschi.jpg"
+  thumb = "/img/person/thumb_dieter-gutschi.jpg"
+  [dieter-gutschi.team]
+    core = "Cofounder"
+    exhibitions = "Content Creation"
+    barcoding = ""
+    containerlab = ""
+    sciencecomic = ""
+    workshops = ""
+  [dieter-gutschi.trained]
+    en = "Strategic Management"
+    de = "Strategisches Management"
+  [dieter-gutschi.role]
+    en = "Co-founder"
+    de = "Mitgründer"
+  [ dieter-gutschi.bio]
+    en= "Dieter studied Sustainable Development at the University of Graz, where he focused on social entrepreneurship and the role of smallholder farmers in food systems. His interest in executives’ influence on the direction of their organizations led him to his current PhD studies in strategic management and organization design. His research focus is on the influence of executives' personality in the context of strategic decision-making and organizational change. In particular, he is interested in how CEOs' curiosity helps them to redesign and adapt their organizations. Beyond the research desk, the outdoors are his biggest passion (moutainbiking, alpine touring and climbing). "
+    de="Dieter studierte Umweltsystemwissenschaften an der Universität Graz, wo er sich auf Social Entrepreneurship und die Rolle von Kleinbauern in Nahrungssystemen konzentrierte. Sein Interesse am Einfluss von Managern auf ihre Firmenführte ihn zu seinem aktuellen Doktoratsstudium in den BEreichen strategisches Management und Organisationsentwicklung. Im Rahmen seiner Forschung beschäftigt er sich mit dem Einfluss von Persönlichkeitsattributen auf Management-Ebene auf strategische Entscheidungen und Organisationswandel innerhalb von Firmen. Besonders interessiert ihn die Frage, wie die Neugierde von Managern ihnen dabei hilft ihre Organisationen zu neu zu gestalten und anzupassen. Neben seiner Forschung brennt Dieter für Sport im Freien, insbesondere für Mountainbiken, Bergtouren und Klettern"
+  website = ""
+  email = ""
+  github = ""
+  twitter = ""
+  facebook = ""
+  instagram =""
+  slideshare = ""
+  xing = ""
+  linkedin = ""
+
 [ roberto-maffulli ]
   name = "Roberto Maffulli"
   featured = "/img/person/roberto.jpg"
