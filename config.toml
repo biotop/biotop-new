@@ -1,7 +1,7 @@
 baseURL = "http://biotop.co/"
 languageCode = "en-us"
 theme = "bulma-base"
-publishDir = "biotop.github.io"
+publishDir = "public"
 
 DefaultContentLanguage = "en"
 [languages]
