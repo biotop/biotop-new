@@ -583,36 +583,6 @@
   xing = ""
   linkedin = ""
 
-[ herwig-scherabon ]
-  name = "Herwig Scherabon"
-  featured = "/img/person/herwig-scherabon.jpg"
-  thumb = "/img/person/thumb_herwig-scherabon.jpg"
-  [herwig-scherabon.team]
-    core = ""
-    exhibitions = "Content Creation"
-    barcoding = ""
-    containerlab = ""
-    sciencecomic = ""
-    workshops = ""
-  [herwig-scherabon.trained]
-    en = "Graphicdesigner"
-    de = "Grafikdesigner"
-  [herwig-scherabon.role]
-    en = "Associate"
-    de = "Mitglied"
-  [ herwig-scherabon.bio]
-    en= "Herwig Scherabon is an award-winning graphic designer from Austria who is currently based in Vienna. He studied architecture but made a u-turn towards graphic design. Data visualization and information design sums up Herwig's journey from architecture to graphic design. He is working across the fields of information design, editorial and motion graphics and enjoys to materialize digitally produced data sets in printed media. Herwig studied graphic design in Vienna and Tallinn and got his master degree from the Glasgow School of Art in 2016."
-    de="Herwig ist ein preisgekrönter Graphikdesigner aus Österreich, der derzeit in Wien abreitet. Er studierte ursprünglich Architektur, legte aber dann eine Kehrtwende in Richtung Graphik-design ein, die ihn zur Daten-visualisierung und zum Informationsdesign brachte. Herwig arbeitet in den Bereichen Informationsdesign, redktionelle und bewegte Graphik und genießt es digital erzeugte Datensätze zu materialisieren. Er studierte Graphikdesign in Wien und Tallinn und erwarb 2016 einen Master von der Glasgow School of Art."
-  website = ""
-  email = ""
-  github = ""
-  twitter = ""
-  facebook = ""
-  instagram =""
-  slideshare = ""
-  xing = ""
-  linkedin = ""
-
 [ alexander-erlich ]
   name = "Alexander Erlich"
   featured = "/img/person/alex.jpg"

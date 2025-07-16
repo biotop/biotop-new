@@ -39,6 +39,6 @@ By showing how the complexity of a system unravels in the simple interplay of it
 
 {{<rawhtml>}}
 <iframe src="https://cba.fro.at/436290/embed?" width="100%" height="220" style="border:none; width:100%; height:320px;"></iframe>
-{{<rawhtml>}}
+{{</rawhtml>}}
 
 {{< rel-figure src="/img/event/vortex_poster.jpg">}}
